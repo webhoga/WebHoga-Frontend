@@ -24,7 +24,7 @@
     "serve": "wrangler pages dev ./dist --compatibility-flags=nodejs_als",
     "start": "vite --open --mode ssr",
     "qwik": "qwik",
-    "vercel-build": "npm run build",
+    "vercel-build": "npm run build"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.14.1",
