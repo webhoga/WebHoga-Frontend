@@ -1,12 +1,8 @@
 {
   "version": 2,
   "buildCommand": "npm run vercel-build",
-  "outputDirectory": "build",
+  "outputDirectory": "dist",
   "env": {
     "ESLINT_NO_DEV_ERRORS": "true"
-  },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ],
-  "ignoreCommand": "echo 'Ignoring lint'"
+  }
 }
