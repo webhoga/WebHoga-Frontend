@@ -54,7 +54,7 @@ export default component$(() => {
             <div class="flex items-center gap-2">
               <a href="https://www.youtube.com/@WebHoga" class="transition-colors hover:text-orange-200">
                 <svg
-                  className="h-4 w-4"
+                  class="h-4 w-4"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -63,7 +63,7 @@ export default component$(() => {
               </a>
               <a href="https://www.facebook.com/people/WebHoga/61576908121524/" class="transition-colors hover:text-orange-200">
                 <svg
-                  className="h-4 w-4"
+                  class="h-4 w-4"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -72,7 +72,7 @@ export default component$(() => {
               </a>
               <a href="https://in.pinterest.com/webhogaindia/" class="transition-colors hover:text-orange-200">
                 <svg
-                  className="h-4 w-4"
+                  class="h-4 w-4"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -103,16 +103,16 @@ export default component$(() => {
           <div class="hidden items-center gap-8 lg:flex">
             <a
               href="/"
-              className="group relative font-medium text-slate-700 transition-colors hover:text-orange-600"
+              class="group relative font-medium text-slate-700 transition-colors hover:text-orange-600"
             >
               Home
               <span
-                className="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full"></span>
+                class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <div class="group relative">
               <a
                 href="/services"
-                className="flex items-center gap-1 font-medium text-slate-700 transition-colors hover:text-orange-600"
+                class="flex items-center gap-1 font-medium text-slate-700 transition-colors hover:text-orange-600"
               >
                 Services
               </a>
@@ -121,35 +121,35 @@ export default component$(() => {
             {/* BizAssist */}
             <a
               href="/bizassist"
-              className="group relative font-medium text-slate-700 transition-colors hover:text-emerald-600"
+              class="group relative font-medium text-slate-700 transition-colors hover:text-emerald-600"
             >
-              <span className="flex items-center gap-1">
+              <span class="flex items-center gap-1">
                 <span
-                  className="bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text font-semibold text-transparent">
+                  class="bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text font-semibold text-transparent">
                   BizAssist
                 </span>
               </span>
               <span
-                className="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-emerald-500 to-teal-500 transition-all duration-300 group-hover:w-full"></span>
+                class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-emerald-500 to-teal-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
 
             <a
               href="/contact"
-              className="group relative font-medium text-slate-700 transition-colors hover:text-orange-600"
+              class="group relative font-medium text-slate-700 transition-colors hover:text-orange-600"
             >
               Contact
               <span
-                className="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full"></span>
+                class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
               href="https://blog.webhoga.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative font-medium text-slate-700 transition-colors hover:text-orange-600"
+              class="group relative font-medium text-slate-700 transition-colors hover:text-orange-600"
             >
               Blog
               <span
-                className="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full"></span>
+                class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
           </div>
 
@@ -157,9 +157,9 @@ export default component$(() => {
             <div class="flex items-center gap-4">
               <a
                 href="/contact"
-                className="group relative hidden transform overflow-hidden rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 px-6 py-3 font-semibold text-white no-underline shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl md:block"
+                class="group relative hidden transform overflow-hidden rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 px-6 py-3 font-semibold text-white no-underline shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl md:block"
               >
-              <span className="relative z-10 flex items-center gap-2">
+              <span class="relative z-10 flex items-center gap-2">
                 Get Quote
                 <svg
                   class="h-4 w-4 transition-transform group-hover:translate-x-1"

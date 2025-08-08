@@ -126,7 +126,7 @@ export default component$(() => {
                   <span class="flex items-center gap-2">
                     Get Free Quote
                     <svg
-                      className="h-5 w-5 transition-transform group-hover:rotate-12"
+                      class="h-5 w-5 transition-transform group-hover:rotate-12"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -959,7 +959,7 @@ export default component$(() => {
                 <span class="relative z-10 flex items-center gap-2">
                   See All Services
                   <svg
-                    className="h-5 w-5 transition-transform group-hover:translate-x-1"
+                    class="h-5 w-5 transition-transform group-hover:translate-x-1"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

@@ -1,4 +1,4 @@
-import { component$, useStyles$, useDocumentHead } from '@builder.io/qwik';
+import { component$ } from '@builder.io/qwik';
 import Header from "~/components/Header";
 import Footer from "~/components/Footer";
 import type { DocumentHead } from '@builder.io/qwik-city';
