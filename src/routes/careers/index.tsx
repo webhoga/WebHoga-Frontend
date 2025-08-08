@@ -316,7 +316,7 @@ export default component$(() => {
               class="space-y-6"
               onSubmit$={async (e) => {
                 e.preventDefault();
-                const form = e.target;
+                const form = e.target as HTMLFormElement;
                 const formData = new FormData(form);
 
                 const data = Object.fromEntries(formData.entries());

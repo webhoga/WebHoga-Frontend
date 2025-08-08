@@ -22,6 +22,7 @@
   },
   "include": [
     "src",
+    "src/types/svg.d.ts",
     "adapters/**/*",
     "vite.config.ts",
     "./*.d.ts",

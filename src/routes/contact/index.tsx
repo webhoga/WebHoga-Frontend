@@ -181,6 +181,6 @@ export const head: DocumentHead = {
           "https://www.youtube.com/@WebHoga"
         ]
       }),
-    },
+    } as any,
   ],
 };

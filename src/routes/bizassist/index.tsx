@@ -336,12 +336,12 @@ export const head: DocumentHead = {
           "BizAssist provides affordable and comprehensive business setup services for SMEs and startups.",
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+91-XXXXXXXXXX",
+          "telephone": "+91-9061156535",
           "contactType": "Customer Service",
           "areaServed": "IN",
-          "availableLanguage": ["English", "Hindi"]
+          "availableLanguage": ["English"]
         }
       }),
-    },
+    } as any,
   ],
 };
