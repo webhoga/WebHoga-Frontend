@@ -5,9 +5,8 @@
   "env": {
     "ESLINT_NO_DEV_ERRORS": "true"
   },
-  "routes": [
-    { "src": "/(.*)", "dest": "/" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
   ],
-  "cleanUrls": true,
   "ignoreCommand": "echo 'Ignoring lint'"
 }
