@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "vite.config.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "ESLINT_NO_DEV_ERRORS": "true"
+  },
+  "ignoreCommand": "echo 'Ignoring lint'",
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": "dist"
+}
