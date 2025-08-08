@@ -67,7 +67,7 @@ export default tseslint.config(
     },
     rules: {
       "@typescript-eslint/no-explicit-any": "off",
-      "qwik/no-use-visible-task": "off" 
+      "qwik/no-use-visible-task": "off"
     },
   },
 );

@@ -5,7 +5,6 @@ export default component$(() => {
   const showScrollTop = useSignal(false);
 
 
-  // eslint-disable-next-line qwik/no-use-visible-task
   useVisibleTask$(() => {
     const handleScroll = () => {
       showScrollTop.value = window.pageYOffset > 300;

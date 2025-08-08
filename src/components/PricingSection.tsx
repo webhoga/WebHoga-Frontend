@@ -110,9 +110,9 @@ export const PricingSection = component$(() => {
           {services.map((service) => (
             <div
               key={service.id}
-              class={`bg-gradient-to-br ${service.bgClass} rounded-3xl shadow-xl p-10 flex flex-col lg:flex-row items-center gap-10`}
+              className={`bg-gradient-to-br ${service.bgClass} rounded-3xl shadow-xl p-10 flex flex-col lg:flex-row items-center gap-10`}
             >
-              <div class="flex-1 space-y-4">
+              <div className="flex-1 space-y-4">
                 <h3 class="text-3xl font-bold text-gray-800">
                   {service.title}
                 </h3>
@@ -131,6 +131,8 @@ export const PricingSection = component$(() => {
                 <img
                   src={service.logo}
                   alt={`${service.title} logo`}
+                  width="128"
+                  height="128"
                   class="w-full h-full object-contain"
                 />
               </div>

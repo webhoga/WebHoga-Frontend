@@ -88,6 +88,8 @@ export const CustomApps = component$(() => {
                   <img
                     src={customApp.logo}
                     alt={`${customApp.title} logo`}
+                    width="200"
+                    height="100"
                     class="w-full h-full object-contain"
                   />
                 </div>
