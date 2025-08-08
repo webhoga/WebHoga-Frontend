@@ -52,7 +52,7 @@ export const BeforeAfterSlider = component$(() => {
   });
 
   // Handle dragging events
-  // eslint-disable-next-line qwik/no-use-visible-task
+   
   useVisibleTask$(({ track, cleanup }) => {
     track(() => isDragging.value);
 
@@ -77,7 +77,7 @@ export const BeforeAfterSlider = component$(() => {
   });
 
   // Auto demo animation
-  // eslint-disable-next-line qwik/no-use-visible-task
+   
   useVisibleTask$(() => {
     const timer = setTimeout(() => {
       let progress = 50;

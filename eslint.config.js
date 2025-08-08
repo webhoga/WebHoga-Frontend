@@ -2,48 +2,14 @@ import js from "@eslint/js";
 import globals from "globals";
 import tseslint from "typescript-eslint";
 import { qwikEslint9Plugin } from "eslint-plugin-qwik";
+import { fileURLToPath } from "url";
 
 const ignores = [
-  "**/*.log",
-  "**/.DS_Store",
-  "**/*.",
-  ".vscode/settings.json",
-  "**/.history",
-  "**/.yarn",
-  "**/bazel-*",
-  "**/bazel-bin",
-  "**/bazel-out",
-  "**/bazel-qwik",
-  "**/bazel-testlogs",
-  "**/dist",
-  "**/dist-dev",
-  "**/lib",
-  "**/lib-types",
-  "**/etc",
-  "**/external",
-  "**/node_modules",
-  "**/temp",
-  "**/tsc-out",
-  "**/tsdoc-metadata.json",
-  "**/target",
-  "**/output",
-  "**/rollup.config.js",
-  "**/build",
-  "**/.cache",
-  "**/.vscode",
-  "**/.rollup.cache",
-  "**/tsconfig.tsbuildinfo",
-  "**/vite.config.ts",
-  "**/*.spec.tsx",
-  "**/*.spec.ts",
-  "**/.netlify",
-  "**/pnpm-lock.yaml",
-  "**/package-lock.json",
-  "**/yarn.lock",
-  "**/server",
-  "eslint.config.js",
-  "tailwind.config.js",
 ];
+
+const tsconfigRootDir = fileURLToPath(
+  import.meta.url ? new URL(".", import.meta.url) : process.cwd()
+);
 
 export default tseslint.config(
   js.configs.recommended,
@@ -53,10 +19,8 @@ export default tseslint.config(
     ignores,
     languageOptions: {
       parserOptions: {
-        project: "./tsconfig.json",
-        tsconfigRootDir: import.meta.url
-          ? new URL(".", import.meta.url).pathname
-          : process.cwd(),
+        project: "./tsconfig.eslint.json",
+        tsconfigRootDir,
       },
       globals: {
         ...globals.browser,
@@ -67,7 +31,7 @@ export default tseslint.config(
     },
     rules: {
       "@typescript-eslint/no-explicit-any": "off",
-      "qwik/no-use-visible-task": "off"
+      "qwik/no-use-visible-task": "off",
     },
   },
 );

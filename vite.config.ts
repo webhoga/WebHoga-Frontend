@@ -4,7 +4,8 @@ import { qwikCity } from "@builder.io/qwik-city/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 import tailwindcss from "@tailwindcss/vite";
 
-export default defineConfig(({ command, mode }): UserConfig => {
+// eslint-disable-next-line no-empty-pattern
+export default defineConfig(({}): UserConfig => {
   return {
     plugins: [qwikCity(), qwikVite(), tsconfigPaths(), tailwindcss()],
     optimizeDeps: {
@@ -22,3 +23,5 @@ export default defineConfig(({ command, mode }): UserConfig => {
     },
   };
 });
+
+// command, mode

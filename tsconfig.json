@@ -20,5 +20,11 @@
       "~/*": ["./src/*"]
     }
   },
-  "include": ["src", "./*.d.ts", "./*.config.ts"]
+  "include": [
+    "src",
+    "adapters/**/*",
+    "vite.config.ts",
+    "./*.d.ts",
+    "./*.config.ts"
+  ]
 }
