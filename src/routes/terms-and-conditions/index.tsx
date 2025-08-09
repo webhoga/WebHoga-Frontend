@@ -126,7 +126,7 @@ export default component$(() => {
 
           <h2 style={subHeadingStyle}>Disclaimer</h2>
           <p style={paragraphStyle}>
-            Our Services are provided on an “AS IS” and “AS AVAILABLE” basis. WebHoga, including its subdomains such as bizassist.webhoga.com and support.webhoga.com,
+            Our Services are provided on an “AS IS” and “AS AVAILABLE” basis. WebHoga, including its subdomains such as bizassist.webhoga.com, ads.webhoga.com and support.webhoga.com,
             and its suppliers and licensors hereby disclaim all warranties of any kind, express or implied, including, without limitation, the warranties of merchantability,
             fitness for a particular purpose and non-infringement.
           </p>
