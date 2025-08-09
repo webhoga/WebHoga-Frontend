@@ -74,6 +74,7 @@ export default component$(() => {
           <ul style={listStyle}>
             <li>Web Design & Development</li>
             <li>SEO Services</li>
+            <li>Advertising Services</li>
             <li>Domain & Hosting Setup</li>
             <li>Logo & Branding</li>
             <li>Content Writing & Blog Services</li>
