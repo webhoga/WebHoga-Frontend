@@ -1017,7 +1017,7 @@ export default component$(() => {
             </div>
             <div class="text-left">
               <div class="font-semibold text-slate-800">Rajesh Sharma</div>
-              <div class="text-sm text-slate-600">CEO, Iyers Academy</div>
+              <div class="text-sm text-slate-600">CEO</div>
             </div>
           </div>
         </div>
