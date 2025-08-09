@@ -438,7 +438,7 @@ export default component$(() => {
                 </div>
 
                 {/* Service CTA */}
-                <a href="/pricing/seo-optimization"
+                <a href="/pricing/seo-and-web-optimization"
                    class="group/btn relative overflow-hidden bg-gradient-to-r from-emerald-500 to-green-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 block text-center"
                    aria-label="Get started with SEO optimization">
                   <span class="relative z-10 flex items-center justify-center gap-2">
