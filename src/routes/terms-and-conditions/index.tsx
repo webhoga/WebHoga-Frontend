@@ -68,7 +68,7 @@ export default component$(() => {
           <p style={paragraphStyle}>
             These Terms govern your access to and use of all content, products, and services available at
             <a href="https://webhoga.com" target="_blank"> https://webhoga.com</a> and its subdomains,
-            including <a href="https://bizassist.webhoga.com" target="_blank">https://bizassist.webhoga.com</a> , <a href="https://ads.webhoga.com" target="_blank">https://ads.webhoga.com</a> and
+            including <a href="https://bizassist.webhoga.com" target="_blank">https://bizassist.webhoga.com</a>, <a href="https://ads.webhoga.com" target="_blank">https://ads.webhoga.com</a> and
             <a href="https://support.webhoga.com" target="_blank"> https://support.webhoga.com</a> (collectively, the “Service”),
             operated by WebHoga Digital Services (operating as “WebHoga”, “us”, “we”, or “our”).
           </p>
