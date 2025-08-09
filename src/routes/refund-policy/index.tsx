@@ -69,7 +69,7 @@ export default component$(() => {
           <p style={paragraphStyle}>
             This policy applies to all services offered on <a href="https://webhoga.com" target="_blank">webhoga.com</a>,
             including its subdomains <a href="https://bizassist.webhoga.com" target="_blank">bizassist.webhoga.com</a> and
-            <a href="https://support.webhoga.com" target="_blank">support.webhoga.com</a>. Covered services include:
+            <a href="https://support.webhoga.com" target="_blank"> support.webhoga.com</a>. Covered services include:
           </p>
           <ul style={listStyle}>
             <li>Web Design & Development</li>
