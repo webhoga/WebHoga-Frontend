@@ -57,7 +57,8 @@ export default component$(() => {
 
           <p style={paragraphStyle}>
             Welcome to <a href="https://webhoga.com" target="_blank">https://webhoga.com</a>, including its subdomains such as
-            <a href="https://bizassist.webhoga.com" target="_blank"> bizassist.webhoga.com</a> and
+            <a href="https://bizassist.webhoga.com" target="_blank"> bizassist.webhoga.com</a>, 
+            <a href="https://ads.webhoga.com" target="_blank"> ads.webhoga.com</a> and
             <a href="https://support.webhoga.com" target="_blank"> support.webhoga.com</a> (collectively referred to as the “Site”).
             Operated by WebHoga Digital Services (“WebHoga”, “we”, “our”). We understand that privacy online is important to users of our Site.
           </p>
