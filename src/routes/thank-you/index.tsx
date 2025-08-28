@@ -103,12 +103,6 @@ export default component$(() => {
             >
               Return to Home
             </a>
-            <a
-              href="/portfolio"
-              class="inline-flex items-center justify-center px-6 py-3 border border-blue-300 text-base font-medium rounded-lg text-blue-700 bg-white hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
-            >
-              View Our Portfolio
-            </a>
           </div>
 
           {/* Contact Info */}
@@ -116,10 +110,10 @@ export default component$(() => {
             <p class="text-sm text-gray-500">
               Need immediate assistance? Email us at{" "}
               <a
-                href="mailto:hello@webhoga.com"
+                href="mailto:contact@webhoga.com"
                 class="text-blue-600 hover:text-blue-800 font-medium"
               >
-                hello@webhoga.com
+                contact@webhoga.com
               </a>
             </p>
           </div>
