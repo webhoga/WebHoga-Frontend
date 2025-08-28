@@ -31,6 +31,7 @@ export default component$(() => {
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', 'G-7CFTNQT4SZ');
+                gtag('config', 'AW-17021723875');
               `}
             />
 
@@ -56,11 +57,10 @@ export default component$(() => {
         )}
 
         <RouterHead />
-
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
         <title>WebHoga</title>
       </head>
+
       <body lang="en">
       {!isDev && (
         <noscript>
