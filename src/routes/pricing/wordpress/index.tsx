@@ -59,9 +59,9 @@ export default component$(() => {
             </button>
           </div>
 
-          {/* Standard Plan */}
+          {/* Advanced Growth Plan */}
           <div class="rounded-3xl bg-gradient-to-br from-blue-50 to-cyan-100 p-8 text-left shadow-xl">
-            <h3 class="mb-4 text-2xl font-bold text-gray-800">Standard</h3>
+            <h3 class="mb-4 text-2xl font-bold text-gray-800">Advanced Growth</h3>
             <p class="mb-4 text-gray-600">
               Great for growing businesses with more advanced needs.
             </p>
@@ -92,9 +92,9 @@ export default component$(() => {
             </button>
           </div>
 
-          {/* Premium Plan */}
+          {/* Premium Pro Plan */}
           <div class="rounded-3xl bg-gradient-to-br from-purple-50 to-indigo-100 p-8 text-left shadow-xl">
-            <h3 class="mb-4 text-2xl font-bold text-gray-800">Premium</h3>
+            <h3 class="mb-4 text-2xl font-bold text-gray-800">Premium Pro</h3>
             <p class="mb-4 text-gray-600">
               For enterprises that need full customization and support.
             </p>
