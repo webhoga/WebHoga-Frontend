@@ -80,9 +80,9 @@ export default component$(() => {
             </button>
           </div>
 
-          {/* Premium Landing Page */}
+          {/* Conversion Catalyst Landing Page */}
           <div class="bg-gradient-to-br from-purple-50 to-indigo-100 p-8 rounded-3xl shadow-xl text-left">
-            <h3 class="text-2xl font-bold mb-4 text-gray-800">Premium</h3>
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Conversion Catalyst</h3>
             <p class="text-gray-600 mb-4">Enterprise-grade landing pages with advanced features and automation.</p>
             <ul class="space-y-2 text-sm text-gray-700 mb-6">
               <li>✔ Multi-Page Funnel Design</li>
