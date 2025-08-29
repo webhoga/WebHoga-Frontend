@@ -51,9 +51,9 @@ export default component$(() => {
             </button>
           </div>
 
-          {/* Professional Content Package */}
+          {/* Content Clarity Content Package */}
           <div class="bg-gradient-to-br from-blue-50 to-cyan-100 p-8 rounded-3xl shadow-xl text-left">
-            <h3 class="text-2xl font-bold mb-4 text-gray-800">Professional</h3>
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Content Clarity</h3>
             <p class="text-gray-600 mb-4">Comprehensive content system for growing businesses.</p>
             <ul class="space-y-2 text-sm text-gray-700 mb-6">
               <li>✔ 16 Blog Posts (1200-1500 words)</li>
