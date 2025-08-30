@@ -16,7 +16,7 @@ export default component$(() => {
             </button>
 
             <div class="max-w-6xl mx-auto text-center space-y-10">
-                <h1 class="text-5xl font-bold text-gray-900">Hotel Reservation Booking Engine Pricing</h1>
+                <h1 class="text-5xl font-bold text-gray-900">Hotel Booking Engine Pricing</h1>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                     Build a powerful hotel booking website with integrated reservation systems—designed for seamless guest experiences, secure bookings, and efficient property management.
                 </p>
