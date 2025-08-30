@@ -22,9 +22,9 @@ export default component$(() => {
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-          {/* WooCommerce Basic Starter Plan */}
+          {/* WooCommerce Starter Shop Plan */}
           <div class="bg-gradient-to-br from-orange-50 to-yellow-100 p-8 rounded-3xl shadow-xl text-left">
-            <h3 class="text-2xl font-bold mb-4 text-gray-800">Basic Starter</h3>
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Starter Shop</h3>
             <p class="text-gray-600 mb-4">Perfect for small businesses starting their online journey.</p>
             <ul class="space-y-2 text-sm text-gray-700 mb-6">
               <li>✔ 3-Page Website</li>
@@ -53,9 +53,9 @@ export default component$(() => {
             </button>
           </div>
 
-          {/* WooCommerce Essentials Plan */}
+          {/* WooCommerce Growth Cart Plan */}
           <div class="bg-gradient-to-br from-blue-50 to-cyan-100 p-8 rounded-3xl shadow-xl text-left">
-            <h3 class="text-2xl font-bold mb-4 text-gray-800">Essentials</h3>
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Growth Cart</h3>
             <p class="text-gray-600 mb-4">Complete solution for growing businesses with advanced features.</p>
             <ul class="space-y-2 text-sm text-gray-700 mb-6">
               <li>✔ 5-7 Page Website</li>
@@ -84,9 +84,9 @@ export default component$(() => {
             </button>
           </div>
 
-          {/* Premium Plan */}
+          {/* Scale Commerce Plan */}
           <div class="bg-gradient-to-br from-purple-50 to-indigo-100 p-8 rounded-3xl shadow-xl text-left">
-            <h3 class="text-2xl font-bold mb-4 text-gray-800">Premium</h3>
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Scale Commerce</h3>
             <p class="text-gray-600 mb-4">Advanced eCommerce solution for large businesses and brands.</p>
             <ul class="space-y-2 text-sm text-gray-700 mb-6">
               <li>✔ 8-12 Page Website</li>
