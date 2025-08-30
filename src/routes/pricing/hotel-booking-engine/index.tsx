@@ -41,6 +41,7 @@ export default component$(() => {
                             <li>✔ Regular Security Updates</li>
                             <li>✔ Backup & Restore Features</li>
                             <li>✔ Custom User Roles & Permissions</li>
+                            <li>✔ 200 Photo Gallery</li>
                         </ul>
                         <div class="text-3xl font-bold text-orange-600 mb-4">₹75,000</div>
                         <button
