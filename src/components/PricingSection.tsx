@@ -48,6 +48,14 @@ export const PricingSection = component$(() => {
       bgClass: 'from-pink-50 to-rose-100'
     },
     {
+      id: 'hotel-booking-engine',
+      title: 'Hotel-Booking Engine',
+      description: 'A seamless, mobile-optimized reservation system designed to boost conversions and enhance the guest booking experience.',
+      logo: 'https://www.posease.com/wp-content/uploads/2024/06/Frame-7-1-1024x721.png',
+      link: '/pricing/hotel-booking-engine',
+      bgClass: 'from-green-50 to-teal-100'
+    },
+    {
       id: 'content-writing',
       title: 'Content & Blog Writing',
       description:
