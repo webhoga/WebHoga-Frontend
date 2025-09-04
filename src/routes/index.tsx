@@ -109,11 +109,11 @@ export default component$(() => {
               <div class="flex items-center gap-6 text-sm text-slate-600">
                 <div class="flex items-center gap-2">
                   <div class="h-3 w-3 rounded-full bg-green-500"></div>
-                  <span>Trusted by 500+ Indian Brands</span>
+                  <span>Trusted by 500+ Growing Indian Businesses</span>
                 </div>
                 <div class="flex items-center gap-2">
                   <div class="h-3 w-3 rounded-full bg-blue-500"></div>
-                  <span>99% Client Satisfaction</span>
+                  <span>99% Client Retention Rate</span>
                 </div>
               </div>
 
