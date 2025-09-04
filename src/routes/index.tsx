@@ -124,7 +124,7 @@ export default component$(() => {
                   class="group relative inline-block transform overflow-hidden rounded-xl border-2 border-blue-500 bg-white px-8 py-4 text-lg font-semibold text-blue-600 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-blue-500 hover:text-white"
                 >
                   <span class="flex items-center gap-2">
-                    Get Free Quote
+                    Get Free Proposal
                     <svg
                       class="h-5 w-5 transition-transform group-hover:rotate-12"
                       fill="none"
