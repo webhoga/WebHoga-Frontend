@@ -97,10 +97,10 @@ export default component$(() => {
                 <span class="font-semibold text-orange-600">blazing-fast</span>,
                 <span class="font-semibold text-blue-600"> mobile-first</span>,
                 <span class="font-semibold text-amber-600"> SEO-optimized</span>{" "}
-                websites that don't just look stunning — they generate
+                websites that deliver measurable ROI through increased
                 <span class="font-semibold text-green-600">
                   {" "}
-                  real business results
+                  traffic, leads, and sales
                 </span>
                 .
               </p>
