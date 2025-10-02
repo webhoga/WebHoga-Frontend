@@ -14,38 +14,40 @@ export default component$(() => {
           <>
             {/* Google Tag Manager Head Script */}
             <script
-              dangerouslySetInnerHTML={`
-                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              dangerouslySetInnerHTML={`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','GTM-TJXPXH6F');
-              `}
+                })(window,document,'script','dataLayer','GTM-TJXPXH6F');`}
             />
 
             {/* Google Analytics 4 */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-7CFTNQT4SZ"></script>
             <script
-              dangerouslySetInnerHTML={`
-                window.dataLayer = window.dataLayer || [];
+              dangerouslySetInnerHTML={`window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', 'G-7CFTNQT4SZ');
-                gtag('config', 'AW-17021723875');
-              `}
+                gtag('config', 'AW-17021723875');`}
             />
 
             {/* Hotjar */}
             <script
-              dangerouslySetInnerHTML={`
-                (function(h,o,t,j,a,r){
+              dangerouslySetInnerHTML={`(function(h,o,t,j,a,r){
                     h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
                     h._hjSettings={hjid:6487684,hjsv:6};
                     a=o.getElementsByTagName('head')[0];
                     r=o.createElement('script');r.async=1;
                     r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
                     a.appendChild(r);
-                })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+                })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}
+            />
+
+            {/* Zoho SalesIQ Initialization */}
+            <script
+              dangerouslySetInnerHTML={`
+                window.$zoho=window.$zoho || {};
+                $zoho.salesiq=$zoho.salesiq||{ready:function(){}};
               `}
             />
 
@@ -62,18 +64,28 @@ export default component$(() => {
       </head>
 
       <body lang="en">
-      {!isDev && (
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-TJXPXH6F"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
-      )}
+        {!isDev && (
+          <>
+            {/* Google Tag Manager NoScript Fallback */}
+            <noscript>
+              <iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-TJXPXH6F"
+                height="0"
+                width="0"
+                style={{ display: "none", visibility: "hidden" }}
+              />
+            </noscript>
 
-      <RouterOutlet />
+            {/* Zoho SalesIQ Script */}
+            <script
+              id="zsiqscript"
+              src="https://salesiq.zohopublic.in/widget?wc=siq3804605b74b45dceb25aea7e9526f32463acb44b53eb1573c61a9af787829691218b23454b7839585b93ce03acf271cb"
+              defer
+            ></script>
+          </>
+        )}
+
+        <RouterOutlet />
       </body>
     </QwikCityProvider>
   );
