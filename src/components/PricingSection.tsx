@@ -39,6 +39,15 @@ export const PricingSection = component$(() => {
       bgClass: 'from-purple-50 to-indigo-100'
     },
     {
+      id: 'landing-page',
+      title: 'Landing Page Development',
+      description:
+        'High-converting landing pages designed for product launches, marketing campaigns, and lead generation. Optimized for mobile and performance.',
+      logo: 'https://cdn-icons-png.flaticon.com/512/4053/4053020.png',
+      link: '/pricing/landing-page',
+      bgClass: 'from-pink-50 to-rose-100'
+    },
+    {
       id: 'hotel-booking-engine',
       title: 'Hotel-Booking Engine',
       description: 'A seamless, mobile-optimized reservation system designed to boost conversions and enhance the guest booking experience.',
@@ -47,13 +56,12 @@ export const PricingSection = component$(() => {
       bgClass: 'from-green-50 to-teal-100'
     },
     {
-      id: 'landing-page',
-      title: 'Landing Page Development',
-      description:
-        'High-converting landing pages designed for product launches, marketing campaigns, and lead generation. Optimized for mobile and performance.',
-      logo: 'https://cdn-icons-png.flaticon.com/512/4053/4053020.png',
-      link: '/pricing/landing-page',
-      bgClass: 'from-pink-50 to-rose-100'
+      id: 'hotel-reservation-api',
+      title: 'Hotel Reservation API',
+      description: 'Powerful API solution for integrating hotel booking functionality into your application. Includes real-time availability, booking management, and payment integration.',
+      logo: 'https://cdn-icons-png.flaticon.com/512/2779/2779770.png',
+      link: '/pricing/hotel-reservation-api',
+      bgClass: 'from-emerald-50 to-teal-100'
     },
     {
       id: 'content-writing',
