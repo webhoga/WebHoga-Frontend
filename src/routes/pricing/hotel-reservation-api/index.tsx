@@ -21,8 +21,9 @@ export default component$(() => {
           Integrate powerful hotel booking functionality into your application with our comprehensive API solution—designed for reliability, scalability, and seamless integration.
         </p>
 
-        <div class="flex justify-center mt-12">
-          {/* Hotel Reservation API Plan */}
+        {/* Centered pricing plan + note */}
+        <div class="flex flex-col items-center mt-12 space-y-4">
+          {/* Pricing plan */}
           <div class="bg-gradient-to-br from-emerald-50 to-teal-100 p-10 rounded-3xl shadow-2xl text-left max-w-md w-full">
             <h3 class="text-3xl font-bold mb-4 text-gray-800">Complete API Package</h3>
             <p class="text-gray-600 mb-6">Everything you need to power hotel reservations in your app.</p>
@@ -31,17 +32,12 @@ export default component$(() => {
               <li>✔ Real-Time Availability</li>
               <li>✔ Booking Management</li>
               <li>✔ Payment Gateway Integration</li>
-              <li>✔ Multi-Property Support</li>
-              <li>✔ Room Type Management</li>
-              <li>✔ Pricing & Inventory Control</li>
-              <li>✔ Guest Management System</li>
               <li>✔ Reservation Analytics</li>
               <li>✔ Email Notifications</li>
               <li>✔ API Documentation</li>
               <li>✔ Technical Support</li>
               <li>✔ SSL Security</li>
-              <li>✔ 1 Year Maintenance</li>
-              <li>✔ Delivery in 4 Working Weeks</li>
+              <li>✔ Delivery in 4-6 Working Weeks</li>
             </ul>
             <div class="text-4xl font-bold text-emerald-600 mb-6">49,999</div>
             <button
@@ -51,10 +47,13 @@ export default component$(() => {
               Get Started
             </button>
           </div>
-          <p>Note: The above mentioned price is the one-time setup fee, annual maintenance charge of 20,000 INR applies every year.</p>
+
+          {/* Note */}
+          <p class="max-w-md text-center text-sm italic text-gray-500 px-4">
+            Note: The above mentioned price is the one-time setup fee, annual maintenance charge of INR 20,000 applies every year.
+          </p>
         </div>
       </div>
     </section>
   );
 });
-
