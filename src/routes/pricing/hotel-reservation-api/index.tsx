@@ -39,7 +39,7 @@ export default component$(() => {
               <li>✔ SSL Security</li>
               <li>✔ Delivery in 4-6 Working Weeks</li>
             </ul>
-            <div class="text-4xl font-bold text-emerald-600 mb-6">49,999</div>
+            <div class="text-4xl font-bold text-emerald-600 mb-6">₹49,999</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-4 rounded-xl font-semibold transition-all text-lg"
@@ -57,3 +57,4 @@ export default component$(() => {
     </section>
   );
 });
+
