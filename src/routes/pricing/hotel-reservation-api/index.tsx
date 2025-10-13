@@ -39,7 +39,7 @@ export default component$(() => {
               <li>✔ SSL Security</li>
               <li>✔ Delivery in 4-6 Working Weeks</li>
             </ul>
-            <div class="text-4xl font-bold text-emerald-600 mb-6">₹49,999</div>
+            <div class="text-4xl font-bold text-emerald-600 mb-6">₹24,999</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-4 rounded-xl font-semibold transition-all text-lg"
@@ -50,11 +50,12 @@ export default component$(() => {
 
           {/* Note */}
           <p class="max-w-md text-center text-sm italic text-gray-500 px-4">
-            Note: The above mentioned price is the one-time setup fee, annual maintenance charge of INR 20,000 applies every year.
+            Note: The above mentioned price is the one-time setup fee, annual maintenance charge of INR 10,000 applies every year.
           </p>
         </div>
       </div>
     </section>
   );
 });
+
 
