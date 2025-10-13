@@ -15,15 +15,31 @@ export default component$(() => {
         ×
       </button>
 
-      <div class="max-w-4xl mx-auto text-center space-y-10">
+      <div class="max-w-5xl mx-auto space-y-10 text-center">
+        {/* API Technical Specifications */}
+        <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 p-6 rounded-xl text-left shadow-md">
+          <h2 class="text-2xl font-bold mb-2">Important Note</h2>
+          <p class="mb-2">
+            We provide only the <strong>basic version of the Hotelbeds API</strong>, which is subject to strict rate limits and basic features.
+          </p>
+          <ul class="list-disc list-inside text-sm text-yellow-900 space-y-1">
+            <li><strong>Rate Limit:</strong> 4 requests per 8 seconds</li>
+            <li><strong>Authentication:</strong> Requires API Key and Signature (SHA-256)</li>
+            <li><strong>RESTful API:</strong> Uses JSON format over HTTPS</li>
+            <li><strong>Available Endpoints:</strong> Hotel availability, booking, cancellation</li>
+            <li><strong>Testing:</strong> Includes staging environment for integration testing</li>
+            <li><strong>Documentation:</strong> Full Hotelbeds API docs will be provided upon setup</li>
+          </ul>
+        </div>
+
         <h1 class="text-5xl font-bold text-gray-900">Hotel Reservation API Pricing</h1>
         <p class="text-lg text-gray-600 max-w-3xl mx-auto">
           Integrate powerful hotel booking functionality into your application with our comprehensive API solution—designed for reliability, scalability, and seamless integration.
         </p>
 
-        {/* Centered pricing plan + note */}
+        {/* Pricing */}
         <div class="flex flex-col items-center mt-12 space-y-4">
-          {/* Pricing plan */}
+          {/* Pricing Plan */}
           <div class="bg-gradient-to-br from-emerald-50 to-teal-100 p-10 rounded-3xl shadow-2xl text-left max-w-md w-full">
             <h3 class="text-3xl font-bold mb-4 text-gray-800">Complete API Package</h3>
             <p class="text-gray-600 mb-6">Everything you need to power hotel reservations in your app.</p>
@@ -57,5 +73,3 @@ export default component$(() => {
     </section>
   );
 });
-
-
