@@ -55,7 +55,7 @@ export default component$(() => {
                 };
 
                 try {
-                  const res = await fetch('http://localhost:5000/contact', {
+                  const res = await fetch('https://backend.webhoga.com/contact', {
                     method: 'POST',
                     headers: {
                       'Content-Type': 'application/json',
@@ -64,14 +64,14 @@ export default component$(() => {
                   });
 
                   if (res.ok) {
-                    alert('✅ Message sent successfully!');
+                    alert('Message sent successfully!');
                     form.reset();
                   } else {
                     const result = await res.json();
-                    alert('❌ Failed: ' + (result?.error || 'Unknown error'));
+                    alert('Failed: ' + (result?.error || 'Unknown error'));
                   }
                 } catch (error) {
-                  alert('❌ Failed to send message. Please try again later.');
+                  alert('Failed to send message. Please try again later.');
                   console.error(error);
                 }
               }}
