@@ -1043,7 +1043,7 @@ export default component$(() => {
       {/* Before/After Slider */}
       <BeforeAfterSlider />
 
-      {/* Client Testimonials Slider */}
+     {/* Client Testimonials Slider - FIXED VERSION */}
       <div class="fade-in-up py-20">
         <div class="container mx-auto px-4">
           <div class="mx-auto max-w-4xl">
@@ -1068,18 +1068,19 @@ export default component$(() => {
                 {testimonials.map((testimonial, index) => (
                   <div
                     key={index}
-                    class={`absolute inset-0 transition-all duration-500 ${
+                    class={`absolute inset-0 transition-all duration-500 ease-in-out ${
                       index === currentSlide.value
-                        ? "opacity-100 translate-x-0"
+                        ? "opacity-100 translate-x-0 z-10"
                         : index < currentSlide.value
-                        ? "opacity-0 -translate-x-full"
-                        : "opacity-0 translate-x-full"
+                        ? "opacity-0 -translate-x-full z-0"
+                        : "opacity-0 translate-x-full z-0"
                     }`}
+                    style={{ pointerEvents: index === currentSlide.value ? 'auto' : 'none' }}
                   >
                     <div class="flex h-full flex-col items-center justify-center text-center">
                       {/* Stars */}
                       <div class="mb-6 flex items-center justify-center gap-1">
-                        {Array.from({ length: 5 }).map((_, i) => (
+                        {[...Array(5)].map((_, i) => (
                           <span key={i} class="text-2xl text-yellow-400">
                             ⭐
                           </span>
