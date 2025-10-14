@@ -173,7 +173,7 @@ export default component$(() => {
                 <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-xl mb-6 border border-green-100">
                   <div class="text-center">
                     <div class="text-sm text-green-600 font-medium">Starting from</div>
-                    <div class="text-3xl font-bold text-green-700 mb-1">₹4,999</div>
+                    <div class="text-3xl font-bold text-green-700 mb-1">₹8,999</div>
                     <div class="text-sm text-slate-600">Complete analytics setup</div>
                   </div>
                 </div>
@@ -244,7 +244,7 @@ export default component$(() => {
                 <div class="bg-gradient-to-r from-teal-50 to-cyan-50 p-4 rounded-xl mb-6 border border-teal-100">
                   <div class="text-center">
                     <div class="text-sm text-teal-600 font-medium">Starting from</div>
-                    <div class="text-3xl font-bold text-teal-700 mb-1">₹8,999</div>
+                    <div class="text-3xl font-bold text-teal-700 mb-1">₹14,999</div>
                     <div class="text-sm text-slate-600">Advanced tracking setup</div>
                   </div>
                 </div>
