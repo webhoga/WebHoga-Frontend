@@ -68,7 +68,42 @@ export default component$(() => {
       color: "from-purple-500 to-violet-500",
       quote: "Professional, punctual, and precise. WebHoga delivered our law firm's website on time and within budget. The mobile responsiveness is flawless and we're getting more client inquiries daily.",
     },
-  ];
+    {
+  name: "Anjali Mehta",
+  role: "Marketing Head",
+  initials: "AM",
+  color: "from-teal-500 to-cyan-500",
+  quote: "Working with WebHoga was a game-changer. They revamped our landing pages and our ad campaigns started converting like never before. Their UX insights are spot on!"
+   },
+   {
+  name: "Rohan Desai",
+  role: "CTO",
+  initials: "RD",
+  color: "from-red-500 to-rose-600",
+  quote: "The technical expertise WebHoga brought to the table was impressive. Our site’s performance metrics improved across the board, and load times are now under 2 seconds."
+  },
+  {
+  name: "Neha Kapoor",
+  role: "Product Manager",
+  initials: "NK",
+  color: "from-yellow-500 to-lime-500",
+  quote: "WebHoga’s team worked like an extension of ours. They were collaborative, transparent, and always ready with creative solutions. Our product launch went smoother thanks to them!"
+  },
+  {
+  name: "Siddharth Iyer",
+  role: "COO",
+  initials: "SI",
+  color: "from-sky-500 to-blue-600",
+  quote: "From wireframes to deployment, WebHoga handled everything with professionalism and attention to detail. We’ve had zero downtime since launch and the feedback has been phenomenal."
+  },
+  {
+  name: "Tanvi Joshi",
+  role: "Head of Design",
+  initials: "TJ",
+  color: "from-indigo-500 to-purple-600",
+  quote: "Creative, communicative, and committed. WebHoga didn’t just build us a website — they built a digital experience that aligns perfectly with our brand."
+  },
+ ];
 
   useVisibleTask$(() => {
     const interval = setInterval(() => {
