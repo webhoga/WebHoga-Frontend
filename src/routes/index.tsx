@@ -31,6 +31,53 @@ export const head: DocumentHead = {
 export default component$(() => {
   useScrollAnimate('.fade-in-up');
 
+  const currentSlide = useSignal(0);
+  const testimonials = [
+    {
+      name: "Rajesh Sharma",
+      role: "CEO, TechStart India",
+      initials: "RS",
+      color: "from-blue-500 to-indigo-500",
+      quote: "WebHoga completely transformed our online presence. Our website went from looking outdated to absolutely stunning, and our conversions increased by 300% within the first month!",
+    },
+    {
+      name: "Priya Patel",
+      role: "Founder, StyleHub Fashion",
+      initials: "PP",
+      color: "from-pink-500 to-rose-500",
+      quote: "The team at WebHoga delivered beyond our expectations. Our e-commerce site is not only beautiful but also incredibly fast. Sales have doubled since the redesign!",
+    },
+    {
+      name: "Amit Kumar",
+      role: "Director, EduTech Solutions",
+      initials: "AK",
+      color: "from-green-500 to-emerald-500",
+      quote: "Best decision we made was hiring WebHoga. Their SEO expertise got us ranking #1 for our main keywords within 3 months. Highly professional and results-driven team!",
+    },
+    {
+      name: "Sneha Reddy",
+      role: "Owner, Organic Foods Co.",
+      initials: "SR",
+      color: "from-orange-500 to-amber-500",
+      quote: "WebHoga understood our vision perfectly. They created a website that truly represents our brand values. The ongoing support has been exceptional. Couldn't ask for better partners!",
+    },
+    {
+      name: "Vikram Singh",
+      role: "Managing Partner, Legal Associates",
+      initials: "VS",
+      color: "from-purple-500 to-violet-500",
+      quote: "Professional, punctual, and precise. WebHoga delivered our law firm's website on time and within budget. The mobile responsiveness is flawless and we're getting more client inquiries daily.",
+    },
+  ];
+
+  useVisibleTask$(() => {
+    const interval = setInterval(() => {
+      currentSlide.value = (currentSlide.value + 1) % testimonials.length;
+    }, 5000);
+
+    return () => clearInterval(interval);
+  });
+
   return (
     <>
       <Header />
@@ -996,28 +1043,142 @@ export default component$(() => {
       {/* Before/After Slider */}
       <BeforeAfterSlider />
 
-      {/* Client Testimonial */}
-      <div class="fade-in-up mt-12 text-center">
-        <div class="mx-auto max-w-3xl rounded-2xl border border-slate-100 bg-white p-8 shadow-lg">
-          <div class="mb-4 flex items-center justify-center gap-1">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <span key={i} class="text-xl text-yellow-400">
-                ⭐
-              </span>
-            ))}
-          </div>
-          <blockquote class="mb-6 text-xl leading-relaxed text-slate-700 italic">
-            "WebHoga completely transformed our online presence. Our website
-            went from looking outdated to absolutely stunning, and our
-            conversions increased by 300% within the first month!"
-          </blockquote>
-          <div class="flex items-center justify-center gap-4">
-            <div class="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-indigo-500 font-bold text-white">
-              RS
+      {/* Client Testimonials Slider */}
+      <div class="fade-in-up py-20">
+        <div class="container mx-auto px-4">
+          <div class="mx-auto max-w-4xl">
+            {/* Testimonials Header */}
+            <div class="mb-8 text-center">
+              <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 px-4 py-2 text-sm font-medium text-white shadow-lg">
+                <span class="h-2 w-2 animate-pulse rounded-full bg-white"></span>
+                What Our Clients Say
+              </div>
+              <h3 class="text-3xl font-bold text-slate-800 lg:text-4xl">
+                Trusted by{" "}
+                <span class="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+                  500+ Happy Clients
+                </span>
+              </h3>
             </div>
-            <div class="text-left">
-              <div class="font-semibold text-slate-800">Rajesh Sharma</div>
-              <div class="text-sm text-slate-600">CEO</div>
+
+            {/* Testimonial Slider */}
+            <div class="relative overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-2xl lg:p-12">
+              {/* Testimonials Container */}
+              <div class="relative min-h-[280px]">
+                {testimonials.map((testimonial, index) => (
+                  <div
+                    key={index}
+                    class={`absolute inset-0 transition-all duration-500 ${
+                      index === currentSlide.value
+                        ? "opacity-100 translate-x-0"
+                        : index < currentSlide.value
+                        ? "opacity-0 -translate-x-full"
+                        : "opacity-0 translate-x-full"
+                    }`}
+                  >
+                    <div class="flex h-full flex-col items-center justify-center text-center">
+                      {/* Stars */}
+                      <div class="mb-6 flex items-center justify-center gap-1">
+                        {Array.from({ length: 5 }).map((_, i) => (
+                          <span key={i} class="text-2xl text-yellow-400">
+                            ⭐
+                          </span>
+                        ))}
+                      </div>
+
+                      {/* Quote */}
+                      <blockquote class="mb-8 text-xl leading-relaxed text-slate-700 italic lg:text-2xl">
+                        "{testimonial.quote}"
+                      </blockquote>
+
+                      {/* Author */}
+                      <div class="flex items-center justify-center gap-4">
+                        <div
+                          class={`flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br ${testimonial.color} text-xl font-bold text-white shadow-lg`}
+                        >
+                          {testimonial.initials}
+                        </div>
+                        <div class="text-left">
+                          <div class="text-lg font-semibold text-slate-800">
+                            {testimonial.name}
+                          </div>
+                          <div class="text-sm text-slate-600">
+                            {testimonial.role}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Navigation Dots */}
+              <div class="mt-8 flex items-center justify-center gap-2">
+                {testimonials.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick$={() => (currentSlide.value = index)}
+                    class={`h-3 rounded-full transition-all duration-300 ${
+                      index === currentSlide.value
+                        ? "w-8 bg-gradient-to-r from-orange-500 to-amber-500"
+                        : "w-3 bg-slate-300 hover:bg-slate-400"
+                    }`}
+                    aria-label={`Go to testimonial ${index + 1}`}
+                  />
+                ))}
+              </div>
+
+              {/* Navigation Arrows */}
+              <button
+                onClick$={() =>
+                  (currentSlide.value =
+                    (currentSlide.value - 1 + testimonials.length) %
+                    testimonials.length)
+                }
+                class="absolute left-2 top-1/2 -translate-y-1/2 transform rounded-full bg-white p-3 shadow-lg transition-all hover:scale-110 hover:bg-slate-50 lg:left-4"
+                aria-label="Previous testimonial"
+              >
+                <svg
+                  class="h-6 w-6 text-slate-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  />
+                </svg>
+              </button>
+
+              <button
+                onClick$={() =>
+                  (currentSlide.value =
+                    (currentSlide.value + 1) % testimonials.length)
+                }
+                class="absolute right-2 top-1/2 -translate-y-1/2 transform rounded-full bg-white p-3 shadow-lg transition-all hover:scale-110 hover:bg-slate-50 lg:right-4"
+                aria-label="Next testimonial"
+              >
+                <svg
+                  class="h-6 w-6 text-slate-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
+
+              {/* Decorative Elements */}
+              <div class="absolute -top-4 -left-4 h-24 w-24 rounded-full bg-gradient-to-br from-orange-300/20 to-amber-300/20 blur-2xl"></div>
+              <div class="absolute -bottom-4 -right-4 h-24 w-24 rounded-full bg-gradient-to-br from-blue-300/20 to-cyan-300/20 blur-2xl"></div>
             </div>
           </div>
         </div>
