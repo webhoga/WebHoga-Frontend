@@ -1,4 +1,4 @@
-import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
+.import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { useScrollAnimate } from "~/hooks/useScrollAnimate";
 import Header from "~/components/Header";
@@ -1043,7 +1043,7 @@ export default component$(() => {
       {/* Before/After Slider */}
       <BeforeAfterSlider />
 
-     {/* Client Testimonials Slider */}
+     {/* Client Testimonials */}
       <div class="fade-in-up py-20">
         <div class="container mx-auto px-4">
           <div class="mx-auto max-w-4xl">
