@@ -1043,7 +1043,7 @@ export default component$(() => {
       {/* Before/After Slider */}
       <BeforeAfterSlider />
 
-     {/* Client Testimonials Slider - FIXED VERSION */}
+     {/* Client Testimonials Slider */}
       <div class="fade-in-up py-20">
         <div class="container mx-auto px-4">
           <div class="mx-auto max-w-4xl">
