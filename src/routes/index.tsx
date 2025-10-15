@@ -97,7 +97,7 @@ export default component$(() => {
   quote: "From wireframes to deployment, WebHoga handled everything with professionalism and attention to detail. We’ve had zero downtime since launch and the feedback has been phenomenal."
   },
   {
-  name: "Tanvi Joshi",
+  name: "Antony Rossario",
   role: "Head of Design",
   initials: "TJ",
   color: "from-indigo-500 to-purple-600",
