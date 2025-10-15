@@ -191,7 +191,7 @@ export default component$(() => {
               <div class="flex items-center gap-6 text-sm text-slate-600">
                 <div class="flex items-center gap-2">
                   <div class="h-3 w-3 rounded-full bg-green-500"></div>
-                  <span>Trusted by 500+ Growing Indian Businesses</span>
+                  <span>Trusted by 100+ Growing Indian Businesses</span>
                 </div>
                 <div class="flex items-center gap-2">
                   <div class="h-3 w-3 rounded-full bg-blue-500"></div>
@@ -227,7 +227,7 @@ export default component$(() => {
               {/* Quick Stats */}
               <div class="grid grid-cols-3 gap-6 border-t border-slate-200 pt-8">
                 <div class="text-center">
-                  <div class="text-3xl font-bold text-orange-600">500+</div>
+                  <div class="text-3xl font-bold text-orange-600">100+</div>
                   <div class="text-sm text-slate-600">Projects Delivered</div>
                 </div>
                 <div class="text-center">
@@ -1091,7 +1091,7 @@ export default component$(() => {
               <h3 class="text-3xl font-bold text-slate-800 lg:text-4xl">
                 Trusted by{" "}
                 <span class="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                  500+ Happy Clients
+                  100+ Happy Clients
                 </span>
               </h3>
             </div>
