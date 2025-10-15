@@ -99,7 +99,7 @@ export default component$(() => {
   {
   name: "Antony Rossario",
   role: "Head of Design",
-  initials: "TJ",
+  initials: "AR",
   color: "from-indigo-500 to-purple-600",
   quote: "Creative, communicative, and committed. WebHoga didn’t just build us a website — they built a digital experience that aligns perfectly with our brand."
   },
