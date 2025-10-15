@@ -21,16 +21,6 @@ export default component$(() => {
                 })(window,document,'script','dataLayer','GTM-TJXPXH6F');`}
             />
 
-            {/* Google Analytics 4 */}
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-7CFTNQT4SZ"></script>
-            <script
-              dangerouslySetInnerHTML={`window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-7CFTNQT4SZ');
-                gtag('config', 'AW-17021723875');`}
-            />
-
             {/* Hotjar */}
             <script
               dangerouslySetInnerHTML={`(function(h,o,t,j,a,r){
