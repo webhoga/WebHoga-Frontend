@@ -129,7 +129,7 @@ export default component$(() => {
             {/* Quick Stats */}
             <div class="fade-in-up mt-16 grid grid-cols-3 gap-8 border-t border-slate-200 pt-8">
               <div class="text-center">
-                <div class="text-3xl font-bold text-orange-600">500+</div>
+                <div class="text-3xl font-bold text-orange-600">100+</div>
                 <div class="text-sm text-slate-600">Projects Delivered</div>
               </div>
               <div class="text-center">
