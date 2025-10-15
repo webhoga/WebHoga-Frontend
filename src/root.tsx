@@ -33,7 +33,7 @@ export default component$(() => {
                 })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}
             />
 
-            {/* Zoho SalesIQ Initialization */}
+            {/* Zoho SalesIQ */}
             <script
               dangerouslySetInnerHTML={`
                 window.$zoho=window.$zoho || {};
