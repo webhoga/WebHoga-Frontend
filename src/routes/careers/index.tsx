@@ -133,7 +133,7 @@ export default component$(() => {
                 <div class="text-sm text-slate-600">Projects Delivered</div>
               </div>
               <div class="text-center">
-                <div class="text-3xl font-bold text-blue-600">5+</div>
+                <div class="text-3xl font-bold text-blue-600">1+</div>
                 <div class="text-sm text-slate-600">Years Experience</div>
               </div>
               <div class="text-center">
