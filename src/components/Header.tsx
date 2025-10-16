@@ -1,5 +1,5 @@
 import { component$, useSignal, $, useVisibleTask$ } from "@builder.io/qwik";
-import WebHogaLogo from "./WebHoga Logo.png";
+import WebHogaLogo from "./WebHoga Logo.jpg";
 
 export default component$(() => {
   const isMenuOpen = useSignal(false);
