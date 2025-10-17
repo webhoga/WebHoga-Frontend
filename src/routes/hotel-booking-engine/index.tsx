@@ -180,7 +180,7 @@ export default component$(() => {
                 </div>
 
                 {/* CTA Button */}
-                <a href="/pricing/hotel-booking"
+                <a href="/pricing/hotel-booking-engine"
                    class="group/btn relative overflow-hidden bg-gradient-to-r from-orange-500 to-amber-500 text-white px-6 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 block text-center">
                   <span class="relative z-10 flex items-center justify-center gap-2">
                     🏨 View Full Details
@@ -259,7 +259,7 @@ export default component$(() => {
                 </div>
 
                 {/* CTA Button */}
-                <a href="/pricing/hotel-booking"
+                <a href="/pricing/hotel-booking-engine"
                    class="group/btn relative overflow-hidden bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-6 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 block text-center">
                   <span class="relative z-10 flex items-center justify-center gap-2">
                     🏰 View Full Details
