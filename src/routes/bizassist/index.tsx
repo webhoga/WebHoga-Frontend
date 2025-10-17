@@ -248,7 +248,7 @@ export default component$(() => {
                         <div class="flex items-center justify-center gap-6 text-sm text-slate-600">
                           <div class="flex items-center gap-2">
                             <div class="w-3 h-3 bg-emerald-500 rounded-full"></div>
-                            <span>100+ Businesses Setup</span>
+                            <span>50+ Businesses Setup</span>
                           </div>
                           <div class="flex items-center gap-2">
                             <div class="w-3 h-3 bg-teal-500 rounded-full"></div>
