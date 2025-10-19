@@ -68,7 +68,7 @@ export const PricingSection = component$(() => {
       title: 'White Label Travel Portal Development',
       description:
         'Complete white label travel booking platform with flight, hotel, and car rental integrations. Multi-currency support, GDS connectivity, payment gateway integration, and customizable branding. Launch your travel agency online with a fully-featured B2B/B2C portal.',
-      logo: 'https://www.svgrepo.com/show/4199/airplane.svg',
+      logo: 'https://www.oneclickitsolution.com/_next/image/?url=https%3A%2F%2Fd1rdz15x9x7c4f.cloudfront.net%2Fassets%2Fpayload-images%2Ftravel-intro.png&w=1920&q=75',
       link: '/pricing/white-label-travel-booking-portal-development',
       bgClass: 'from-sky-50 to-blue-100'
     },
