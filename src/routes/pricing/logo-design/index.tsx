@@ -42,7 +42,7 @@ export default component$(() => {
               <li>✔ 100% Original Design</li>
               <li>✔ Delivery in 3-5 Days</li>
             </ul>
-            <div class="text-3xl font-bold text-orange-600 mb-4">₹14,999</div>
+            <div class="text-3xl font-bold text-orange-600 mb-4">₹9,999</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-xl font-semibold transition-all"
@@ -71,7 +71,7 @@ export default component$(() => {
               <li>✔ Brand Strategy Consultation</li>
               <li>✔ Delivery in 5-7 Days</li>
             </ul>
-            <div class="text-3xl font-bold text-cyan-700 mb-4">₹22,999</div>
+            <div class="text-3xl font-bold text-cyan-700 mb-4">₹16,999</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-xl font-semibold transition-all"
