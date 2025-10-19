@@ -38,7 +38,11 @@ export default component$(() => {
                                 <li>✔ Amadeus Self-Service API Integration</li>
                                 <li>✔ Domestic & International Flights</li>
                                 <li>✔ Real-time Fare Search</li>
+                                <li>✔ One-way & Round Trip Booking</li>
                                 <li>✔ Basic Booking Management</li>
+                                <li>✔ Flight Status Tracking</li>
+                                <li>✔ Price Alerts</li>
+                                <li>✔ E-ticket Generation</li>
                             </ul>
                         </div>
 
@@ -49,6 +53,20 @@ export default component$(() => {
                                 <li>✔ 500K+ Properties Worldwide</li>
                                 <li>✔ Hotel Search & Filters</li>
                                 <li>✔ Commission-based Model</li>
+                                <li>✔ Guest Reviews Display</li>
+                                <li>✔ Photo Gallery Integration</li>
+                                <li>✔ Location Maps</li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-4">
+                            <h4 class="font-bold text-gray-800 mb-2">Additional Services</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>✔ Basic Holiday Packages</li>
+                                <li>✔ Tour Itinerary Builder</li>
+                                <li>✔ Travel Blog Module</li>
+                                <li>✔ Contact Form Integration</li>
+                                <li>✔ Newsletter Subscription</li>
                             </ul>
                         </div>
 
@@ -64,7 +82,22 @@ export default component$(() => {
                                 <li>✔ Email Notifications</li>
                                 <li>✔ Google Maps Integration</li>
                                 <li>✔ Social Media Integration</li>
+                                <li>✔ WhatsApp Chat Widget</li>
+                                <li>✔ Contact Form Builder</li>
+                                <li>✔ Gallery & Portfolio</li>
+                                <li>✔ Testimonials Section</li>
+                                <li>✔ FAQ Management</li>
+                                <li>✔ Basic Analytics Dashboard</li>
+                                <li>✔ Search Engine Friendly URLs</li>
+                                <li>✔ XML Sitemap Generation</li>
+                                <li>✔ Image Optimization</li>
+                                <li>✔ Caching Setup</li>
+                                <li>✔ Speed Optimization</li>
                                 <li>✔ SSL Certificate</li>
+                                <li>✔ Spam Protection</li>
+                                <li>✔ Cookie Consent Banner</li>
+                                <li>✔ Privacy Policy Generator</li>
+                                <li>✔ Terms & Conditions Template</li>
                                 <li>✔ 1 Year Free Hosting</li>
                                 <li>✔ 1 Year Free Domain</li>
                                 <li>✔ 2 Months Free Support</li>
@@ -101,8 +134,12 @@ export default component$(() => {
                                 <li>✔ Multi-airline Comparison</li>
                                 <li>✔ Fare Rules & Baggage Info</li>
                                 <li>✔ Seat Selection</li>
+                                <li>✔ Meal Preferences</li>
+                                <li>✔ Multi-city Booking</li>
                                 <li>✔ PNR Management</li>
                                 <li>✔ Ticketing & Cancellation</li>
+                                <li>✔ Booking Modification</li>
+                                <li>✔ Flight Schedule Updates</li>
                             </ul>
                         </div>
 
@@ -116,6 +153,9 @@ export default component$(() => {
                                 <li>✔ Meal Plans & Amenities</li>
                                 <li>✔ Instant Confirmation</li>
                                 <li>✔ Modification & Cancellation</li>
+                                <li>✔ Virtual Hotel Tours</li>
+                                <li>✔ Price Match Guarantee</li>
+                                <li>✔ Special Offers Display</li>
                             </ul>
                         </div>
 
@@ -123,8 +163,12 @@ export default component$(() => {
                             <h4 class="font-bold text-gray-800 mb-2">Additional Services</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
                                 <li>✔ Holiday Package Builder</li>
+                                <li>✔ Custom Package Creation</li>
                                 <li>✔ Visa Processing Module</li>
                                 <li>✔ Travel Insurance Integration</li>
+                                <li>✔ Airport Transfer Booking</li>
+                                <li>✔ Travel Guide Content</li>
+                                <li>✔ Destination Information</li>
                             </ul>
                         </div>
 
@@ -146,13 +190,25 @@ export default component$(() => {
                                 <li>✔ Coupon & Discount Engine</li>
                                 <li>✔ Review & Rating System</li>
                                 <li>✔ Blog & Content Marketing</li>
+                                <li>✔ Social Media Marketing Tools</li>
+                                <li>✔ Customer Feedback System</li>
+                                <li>✔ Booking Invoice Generator</li>
+                                <li>✔ Automated Email Campaigns</li>
+                                <li>✔ Lead Management System</li>
+                                <li>✔ Quote Request Module</li>
+                                <li>✔ Wishlist & Saved Searches</li>
+                                <li>✔ Price Comparison Tools</li>
+                                <li>✔ Booking Calendar View</li>
                                 <li>✔ SSL Certificate & Security</li>
                                 <li>✔ Firewall & DDoS Protection</li>
                                 <li>✔ Daily Automated Backups</li>
+                                <li>✔ Two-Factor Authentication</li>
+                                <li>✔ Activity Logs & Monitoring</li>
                                 <li>✔ 1 Year Free Premium Hosting</li>
                                 <li>✔ 1 Year Free Domain</li>
                                 <li>✔ 4 Months Free Support</li>
                                 <li>✔ Comprehensive Admin Training</li>
+                                <li>✔ Video Tutorial Library</li>
                                 <li>✔ Unlimited Pages/Products</li>
                             </ul>
                         </div>
@@ -185,10 +241,15 @@ export default component$(() => {
                                 <li>✔ Travelport GDS Integration</li>
                                 <li>✔ Multi-GDS Aggregation</li>
                                 <li>✔ Low Fare Calendar</li>
+                                <li>✔ Flexible Date Search</li>
                                 <li>✔ Multi-city & Round Trip</li>
                                 <li>✔ Group Booking Management</li>
+                                <li>✔ Corporate Travel Module</li>
                                 <li>✔ Ancillary Services</li>
+                                <li>✔ Seat Map Visualization</li>
+                                <li>✔ Special Assistance Requests</li>
                                 <li>✔ API Rate Negotiation Support</li>
+                                <li>✔ Fare Prediction Engine</li>
                             </ul>
                         </div>
 
@@ -204,6 +265,9 @@ export default component$(() => {
                                 <li>✔ Dynamic Pricing Engine</li>
                                 <li>✔ Inventory Management</li>
                                 <li>✔ Contract Rate Management</li>
+                                <li>✔ Virtual Reality Tours</li>
+                                <li>✔ AI-powered Recommendations</li>
+                                <li>✔ Property Comparison Tool</li>
                             </ul>
                         </div>
 
@@ -211,13 +275,17 @@ export default component$(() => {
                             <h4 class="font-bold text-gray-800 mb-2">Additional Services</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
                                 <li>✔ Bus Booking Integration</li>
+                                <li>✔ Train Booking Module</li>
                                 <li>✔ Car Rental Services</li>
                                 <li>✔ Holiday Package Builder</li>
                                 <li>✔ Cruise Booking Module</li>
                                 <li>✔ Activities & Experiences</li>
+                                <li>✔ Event Ticketing</li>
                                 <li>✔ Visa Processing</li>
                                 <li>✔ Travel Insurance</li>
                                 <li>✔ Airport Transfer</li>
+                                <li>✔ Travel SIM Cards</li>
+                                <li>✔ Forex Exchange</li>
                             </ul>
                         </div>
 
@@ -229,6 +297,8 @@ export default component$(() => {
                                 <li>✔ Native Mobile Apps (iOS & Android)</li>
                                 <li>✔ Unlimited Payment Gateways</li>
                                 <li>✔ Advanced AI-powered Search</li>
+                                <li>✔ Machine Learning Price Optimization</li>
+                                <li>✔ Chatbot & Virtual Assistant</li>
                                 <li>✔ Multi-level Agent Hierarchy</li>
                                 <li>✔ White-label Branding</li>
                                 <li>✔ B2B, B2C, B2E Portals</li>
@@ -236,25 +306,41 @@ export default component$(() => {
                                 <li>✔ Custom Report Generation</li>
                                 <li>✔ Automated Invoice System</li>
                                 <li>✔ GST & Tax Management</li>
+                                <li>✔ Accounting Software Integration</li>
                                 <li>✔ Wallet & Credit System</li>
                                 <li>✔ Loyalty & Rewards Program</li>
+                                <li>✔ Referral Program Module</li>
                                 <li>✔ CRM Integration</li>
+                                <li>✔ ERP Integration</li>
                                 <li>✔ Live Chat Support System</li>
+                                <li>✔ Video Call Support</li>
                                 <li>✔ Email Marketing Integration</li>
                                 <li>✔ SMS Gateway Integration</li>
+                                <li>✔ Push Notifications</li>
                                 <li>✔ Multi-currency & Multi-language</li>
                                 <li>✔ API Documentation Portal</li>
+                                <li>✔ Third-party API Access</li>
+                                <li>✔ Webhook Integration</li>
                                 <li>✔ Microservices Architecture</li>
                                 <li>✔ Load Balancing & CDN</li>
+                                <li>✔ Auto-scaling Infrastructure</li>
                                 <li>✔ Enterprise Security Suite</li>
                                 <li>✔ PCI DSS Compliance</li>
+                                <li>✔ Fraud Detection System</li>
                                 <li>✔ Real-time Backup & Disaster Recovery</li>
+                                <li>✔ 99.9% Uptime SLA</li>
+                                <li>✔ Penetration Testing</li>
+                                <li>✔ GDPR Compliance Tools</li>
                                 <li>✔ 2 Years Premium Cloud Hosting</li>
                                 <li>✔ 2 Years Free Domain</li>
                                 <li>✔ 6 Months Free Priority Support</li>
+                                <li>✔ 24/7 Technical Support</li>
                                 <li>✔ Dedicated Account Manager</li>
+                                <li>✔ Quarterly Strategy Reviews</li>
                                 <li>✔ Unlimited Scaling Capacity</li>
                                 <li>✔ Source Code Ownership</li>
+                                <li>✔ White-label Rights</li>
+                                <li>✔ Custom Feature Development</li>
                             </ul>
                         </div>
 
@@ -281,6 +367,8 @@ export default component$(() => {
                                 <li>✔ GDPR Compliance Tools</li>
                                 <li>✔ Regular Security Audits</li>
                                 <li>✔ Malware Protection</li>
+                                <li>✔ Data Encryption</li>
+                                <li>✔ Secure Payment Processing</li>
                             </ul>
                         </div>
                         <div>
@@ -291,6 +379,8 @@ export default component$(() => {
                                 <li>✔ ADA Accessibility Standards</li>
                                 <li>✔ Fast Loading Speed</li>
                                 <li>✔ Intuitive User Interface</li>
+                                <li>✔ Modern UI/UX Design</li>
+                                <li>✔ Brand Customization</li>
                             </ul>
                         </div>
                         <div>
@@ -301,6 +391,8 @@ export default component$(() => {
                                 <li>✔ API Monitoring</li>
                                 <li>✔ Performance Optimization</li>
                                 <li>✔ Technical Documentation</li>
+                                <li>✔ Knowledge Base Access</li>
+                                <li>✔ Ticket Support System</li>
                             </ul>
                         </div>
                     </div>
