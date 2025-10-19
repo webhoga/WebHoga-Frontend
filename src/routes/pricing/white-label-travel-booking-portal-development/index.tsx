@@ -5,7 +5,7 @@ export default component$(() => {
     const nav = useNavigate();
 
     return (
-        <section class="py-20 px-6 bg-gradient-to-br from-gray-50 to-blue-50 min-h-screen relative">
+        <section class="py-20 px-6 bg-white min-h-screen relative">
             {/* Close Button */}
             <button
                 onClick$={() => nav('/')}
@@ -23,43 +23,32 @@ export default component$(() => {
 
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
                     {/* Starter Plan - WordPress */}
-                    <div class="bg-white p-8 rounded-3xl shadow-2xl text-left hover:shadow-3xl transition-all border-2 border-gray-200 hover:border-blue-400">
-                        <div class="bg-gradient-to-r from-green-400 to-emerald-500 text-white py-2 px-4 rounded-full inline-block text-sm font-semibold mb-4">
-                            STARTER PLAN
-                        </div>
-                        <h3 class="text-3xl font-bold mb-2 text-gray-800">WordPress Travel Lite</h3>
-                        <p class="text-gray-600 mb-6">Perfect for travel startups and small agencies entering the online booking market.</p>
-                        
-                        <div class="text-4xl font-bold text-green-600 mb-6">₹1,50,000</div>
+                    <div class="bg-gradient-to-br from-orange-50 to-yellow-100 p-8 rounded-3xl shadow-xl text-left">
+                        <h3 class="text-2xl font-bold mb-4 text-gray-800">WordPress Travel Lite</h3>
+                        <p class="text-gray-600 mb-4">Perfect for travel startups and small agencies entering the online booking market.</p>
                         
                         <div class="mb-4">
-                            <h4 class="font-bold text-gray-800 mb-2 flex items-center">
-                                <span class="text-blue-600 mr-2">🖥️</span> CMS Platform
-                            </h4>
-                            <p class="text-sm text-gray-700 ml-6">WordPress with WP Travel Engine</p>
+                            <h4 class="font-bold text-gray-800 mb-2">CMS Platform</h4>
+                            <p class="text-sm text-gray-700">WordPress with WP Travel Engine</p>
                         </div>
 
                         <div class="mb-4">
-                            <h4 class="font-bold text-gray-800 mb-2 flex items-center">
-                                <span class="text-blue-600 mr-2">✈️</span> Flight Booking
-                            </h4>
-                            <ul class="text-sm text-gray-700 ml-6 space-y-1">
-                                <li>• Amadeus Self-Service API Integration</li>
-                                <li>• Domestic & International Flights</li>
-                                <li>• Real-time Fare Search</li>
-                                <li>• Basic Booking Management</li>
+                            <h4 class="font-bold text-gray-800 mb-2">Flight Booking</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>✔ Amadeus Self-Service API Integration</li>
+                                <li>✔ Domestic & International Flights</li>
+                                <li>✔ Real-time Fare Search</li>
+                                <li>✔ Basic Booking Management</li>
                             </ul>
                         </div>
 
                         <div class="mb-4">
-                            <h4 class="font-bold text-gray-800 mb-2 flex items-center">
-                                <span class="text-blue-600 mr-2">🏨</span> Hotel Booking
-                            </h4>
-                            <ul class="text-sm text-gray-700 ml-6 space-y-1">
-                                <li>• Booking.com Affiliate API</li>
-                                <li>• 500K+ Properties Worldwide</li>
-                                <li>• Hotel Search & Filters</li>
-                                <li>• Commission-based Model</li>
+                            <h4 class="font-bold text-gray-800 mb-2">Hotel Booking</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>✔ Booking.com Affiliate API</li>
+                                <li>✔ 500K+ Properties Worldwide</li>
+                                <li>✔ Hotel Search & Filters</li>
+                                <li>✔ Commission-based Model</li>
                             </ul>
                         </div>
 
@@ -84,72 +73,58 @@ export default component$(() => {
                             </ul>
                         </div>
 
+                        <div class="text-3xl font-bold text-orange-600 mb-4">₹1,50,000</div>
+                        
                         <button
                             onClick$={() => nav("/contact")}
-                            class="w-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white py-3 rounded-xl font-semibold transition-all shadow-lg"
+                            class="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-xl font-semibold transition-all"
                         >
                             Get Started
                         </button>
                     </div>
 
                     {/* Professional Plan - Drupal */}
-                    <div class="bg-white p-8 rounded-3xl shadow-2xl text-left hover:shadow-3xl transition-all border-4 border-blue-500 relative">
-                        <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-blue-500 to-purple-600 text-white py-2 px-6 rounded-full text-sm font-bold shadow-lg">
-                            MOST POPULAR
-                        </div>
-                        <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-2 px-4 rounded-full inline-block text-sm font-semibold mb-4 mt-4">
-                            PROFESSIONAL PLAN
-                        </div>
-                        <h3 class="text-3xl font-bold mb-2 text-gray-800">Drupal Travel Pro</h3>
-                        <p class="text-gray-600 mb-6">Advanced solution for established travel agencies requiring comprehensive booking capabilities.</p>
-                        
-                        <div class="text-4xl font-bold text-blue-600 mb-6">₹2,75,000</div>
+                    <div class="bg-gradient-to-br from-blue-50 to-cyan-100 p-8 rounded-3xl shadow-xl text-left">
+                        <h3 class="text-2xl font-bold mb-4 text-gray-800">Drupal Travel Pro</h3>
+                        <p class="text-gray-600 mb-4">Advanced solution for established travel agencies requiring comprehensive booking capabilities.</p>
                         
                         <div class="mb-4">
-                            <h4 class="font-bold text-gray-800 mb-2 flex items-center">
-                                <span class="text-blue-600 mr-2">🖥️</span> CMS Platform
-                            </h4>
-                            <p class="text-sm text-gray-700 ml-6">Drupal 10 with Custom Travel Module</p>
+                            <h4 class="font-bold text-gray-800 mb-2">CMS Platform</h4>
+                            <p class="text-sm text-gray-700">Drupal 10 with Custom Travel Module</p>
                         </div>
 
                         <div class="mb-4">
-                            <h4 class="font-bold text-gray-800 mb-2 flex items-center">
-                                <span class="text-blue-600 mr-2">✈️</span> Flight Booking
-                            </h4>
-                            <ul class="text-sm text-gray-700 ml-6 space-y-1">
-                                <li>• Amadeus Enterprise API</li>
-                                <li>• Sabre GDS Integration</li>
-                                <li>• Multi-airline Comparison</li>
-                                <li>• Fare Rules & Baggage Info</li>
-                                <li>• Seat Selection</li>
-                                <li>• PNR Management</li>
-                                <li>• Ticketing & Cancellation</li>
+                            <h4 class="font-bold text-gray-800 mb-2">Flight Booking</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>✔ Amadeus Enterprise API</li>
+                                <li>✔ Sabre GDS Integration</li>
+                                <li>✔ Multi-airline Comparison</li>
+                                <li>✔ Fare Rules & Baggage Info</li>
+                                <li>✔ Seat Selection</li>
+                                <li>✔ PNR Management</li>
+                                <li>✔ Ticketing & Cancellation</li>
                             </ul>
                         </div>
 
                         <div class="mb-4">
-                            <h4 class="font-bold text-gray-800 mb-2 flex items-center">
-                                <span class="text-blue-600 mr-2">🏨</span> Hotel Booking
-                            </h4>
-                            <ul class="text-sm text-gray-700 ml-6 space-y-1">
-                                <li>• Expedia Rapid API</li>
-                                <li>• TBO Holidays API</li>
-                                <li>• 1M+ Properties Worldwide</li>
-                                <li>• Room Type Selection</li>
-                                <li>• Meal Plans & Amenities</li>
-                                <li>• Instant Confirmation</li>
-                                <li>• Modification & Cancellation</li>
+                            <h4 class="font-bold text-gray-800 mb-2">Hotel Booking</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>✔ Expedia Rapid API</li>
+                                <li>✔ TBO Holidays API</li>
+                                <li>✔ 1M+ Properties Worldwide</li>
+                                <li>✔ Room Type Selection</li>
+                                <li>✔ Meal Plans & Amenities</li>
+                                <li>✔ Instant Confirmation</li>
+                                <li>✔ Modification & Cancellation</li>
                             </ul>
                         </div>
 
                         <div class="mb-4">
-                            <h4 class="font-bold text-gray-800 mb-2 flex items-center">
-                                <span class="text-blue-600 mr-2">🎫</span> Additional Services
-                            </h4>
-                            <ul class="text-sm text-gray-700 ml-6 space-y-1">
-                                <li>• Holiday Package Builder</li>
-                                <li>• Visa Processing Module</li>
-                                <li>• Travel Insurance Integration</li>
+                            <h4 class="font-bold text-gray-800 mb-2">Additional Services</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>✔ Holiday Package Builder</li>
+                                <li>✔ Visa Processing Module</li>
+                                <li>✔ Travel Insurance Integration</li>
                             </ul>
                         </div>
 
@@ -182,78 +157,67 @@ export default component$(() => {
                             </ul>
                         </div>
 
+                        <div class="text-3xl font-bold text-cyan-700 mb-4">₹2,75,000</div>
+                        
                         <button
                             onClick$={() => nav("/contact")}
-                            class="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white py-3 rounded-xl font-semibold transition-all shadow-lg"
+                            class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-xl font-semibold transition-all"
                         >
                             Get Started
                         </button>
                     </div>
 
                     {/* Enterprise Plan - Laravel */}
-                    <div class="bg-white p-8 rounded-3xl shadow-2xl text-left hover:shadow-3xl transition-all border-2 border-gray-200 hover:border-purple-400">
-                        <div class="bg-gradient-to-r from-purple-500 to-pink-600 text-white py-2 px-4 rounded-full inline-block text-sm font-semibold mb-4">
-                            ENTERPRISE PLAN
-                        </div>
-                        <h3 class="text-3xl font-bold mb-2 text-gray-800">Laravel Travel Enterprise</h3>
-                        <p class="text-gray-600 mb-6">Complete white-label solution with custom API integration and unlimited scalability for large agencies.</p>
-                        
-                        <div class="text-4xl font-bold text-purple-600 mb-6">₹4,50,000</div>
+                    <div class="bg-gradient-to-br from-purple-50 to-indigo-100 p-8 rounded-3xl shadow-xl text-left">
+                        <h3 class="text-2xl font-bold mb-4 text-gray-800">Laravel Travel Enterprise</h3>
+                        <p class="text-gray-600 mb-4">Complete white-label solution with custom API integration and unlimited scalability for large agencies.</p>
                         
                         <div class="mb-4">
-                            <h4 class="font-bold text-gray-800 mb-2 flex items-center">
-                                <span class="text-purple-600 mr-2">🖥️</span> CMS Platform
-                            </h4>
-                            <p class="text-sm text-gray-700 ml-6">Custom Laravel 11 Framework with Vue.js Frontend</p>
+                            <h4 class="font-bold text-gray-800 mb-2">CMS Platform</h4>
+                            <p class="text-sm text-gray-700">Custom Laravel 11 Framework with Vue.js Frontend</p>
                         </div>
 
                         <div class="mb-4">
-                            <h4 class="font-bold text-gray-800 mb-2 flex items-center">
-                                <span class="text-purple-600 mr-2">✈️</span> Flight Booking
-                            </h4>
-                            <ul class="text-sm text-gray-700 ml-6 space-y-1">
-                                <li>• Amadeus Enterprise API</li>
-                                <li>• Sabre GDS Integration</li>
-                                <li>• Travelport GDS Integration</li>
-                                <li>• Multi-GDS Aggregation</li>
-                                <li>• Low Fare Calendar</li>
-                                <li>• Multi-city & Round Trip</li>
-                                <li>• Group Booking Management</li>
-                                <li>• Ancillary Services</li>
-                                <li>• API Rate Negotiation Support</li>
+                            <h4 class="font-bold text-gray-800 mb-2">Flight Booking</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>✔ Amadeus Enterprise API</li>
+                                <li>✔ Sabre GDS Integration</li>
+                                <li>✔ Travelport GDS Integration</li>
+                                <li>✔ Multi-GDS Aggregation</li>
+                                <li>✔ Low Fare Calendar</li>
+                                <li>✔ Multi-city & Round Trip</li>
+                                <li>✔ Group Booking Management</li>
+                                <li>✔ Ancillary Services</li>
+                                <li>✔ API Rate Negotiation Support</li>
                             </ul>
                         </div>
 
                         <div class="mb-4">
-                            <h4 class="font-bold text-gray-800 mb-2 flex items-center">
-                                <span class="text-purple-600 mr-2">🏨</span> Hotel Booking
-                            </h4>
-                            <ul class="text-sm text-gray-700 ml-6 space-y-1">
-                                <li>• Expedia Rapid API</li>
-                                <li>• TBO Holidays API</li>
-                                <li>• Agoda Partner API</li>
-                                <li>• HotelBeds API</li>
-                                <li>• 2M+ Properties Worldwide</li>
-                                <li>• Multi-supplier Aggregation</li>
-                                <li>• Dynamic Pricing Engine</li>
-                                <li>• Inventory Management</li>
-                                <li>• Contract Rate Management</li>
+                            <h4 class="font-bold text-gray-800 mb-2">Hotel Booking</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>✔ Expedia Rapid API</li>
+                                <li>✔ TBO Holidays API</li>
+                                <li>✔ Agoda Partner API</li>
+                                <li>✔ HotelBeds API</li>
+                                <li>✔ 2M+ Properties Worldwide</li>
+                                <li>✔ Multi-supplier Aggregation</li>
+                                <li>✔ Dynamic Pricing Engine</li>
+                                <li>✔ Inventory Management</li>
+                                <li>✔ Contract Rate Management</li>
                             </ul>
                         </div>
 
                         <div class="mb-4">
-                            <h4 class="font-bold text-gray-800 mb-2 flex items-center">
-                                <span class="text-purple-600 mr-2">🎫</span> Additional Services
-                            </h4>
-                            <ul class="text-sm text-gray-700 ml-6 space-y-1">
-                                <li>• Bus Booking Integration</li>
-                                <li>• Car Rental Services</li>
-                                <li>• Holiday Package Builder</li>
-                                <li>• Cruise Booking Module</li>
-                                <li>• Activities & Experiences</li>
-                                <li>• Visa Processing</li>
-                                <li>• Travel Insurance</li>
-                                <li>• Airport Transfer</li>
+                            <h4 class="font-bold text-gray-800 mb-2">Additional Services</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>✔ Bus Booking Integration</li>
+                                <li>✔ Car Rental Services</li>
+                                <li>✔ Holiday Package Builder</li>
+                                <li>✔ Cruise Booking Module</li>
+                                <li>✔ Activities & Experiences</li>
+                                <li>✔ Visa Processing</li>
+                                <li>✔ Travel Insurance</li>
+                                <li>✔ Airport Transfer</li>
                             </ul>
                         </div>
 
@@ -294,9 +258,11 @@ export default component$(() => {
                             </ul>
                         </div>
 
+                        <div class="text-3xl font-bold text-indigo-600 mb-4">₹4,50,000</div>
+                        
                         <button
                             onClick$={() => nav("/contact")}
-                            class="w-full bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white py-3 rounded-xl font-semibold transition-all shadow-lg"
+                            class="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-xl font-semibold transition-all"
                         >
                             Get Started
                         </button>
@@ -304,37 +270,37 @@ export default component$(() => {
                 </div>
 
                 {/* Additional Info Section */}
-                <div class="mt-16 bg-white p-8 rounded-3xl shadow-xl">
+                <div class="mt-16 bg-gradient-to-br from-gray-50 to-gray-100 p-8 rounded-3xl shadow-xl">
                     <h2 class="text-3xl font-bold text-gray-900 mb-6">What's Included in All Plans</h2>
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
                         <div>
-                            <h3 class="font-bold text-lg text-blue-600 mb-3">🔒 Security & Compliance</h3>
+                            <h3 class="font-bold text-lg text-gray-800 mb-3">Security & Compliance</h3>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>• SSL/TLS Encryption</li>
-                                <li>• PCI DSS Ready Infrastructure</li>
-                                <li>• GDPR Compliance Tools</li>
-                                <li>• Regular Security Audits</li>
-                                <li>• Malware Protection</li>
+                                <li>✔ SSL/TLS Encryption</li>
+                                <li>✔ PCI DSS Ready Infrastructure</li>
+                                <li>✔ GDPR Compliance Tools</li>
+                                <li>✔ Regular Security Audits</li>
+                                <li>✔ Malware Protection</li>
                             </ul>
                         </div>
                         <div>
-                            <h3 class="font-bold text-lg text-blue-600 mb-3">📱 Design & UX</h3>
+                            <h3 class="font-bold text-lg text-gray-800 mb-3">Design & UX</h3>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>• Mobile-First Design</li>
-                                <li>• Cross-browser Compatible</li>
-                                <li>• ADA Accessibility Standards</li>
-                                <li>• Fast Loading Speed</li>
-                                <li>• Intuitive User Interface</li>
+                                <li>✔ Mobile-First Design</li>
+                                <li>✔ Cross-browser Compatible</li>
+                                <li>✔ ADA Accessibility Standards</li>
+                                <li>✔ Fast Loading Speed</li>
+                                <li>✔ Intuitive User Interface</li>
                             </ul>
                         </div>
                         <div>
-                            <h3 class="font-bold text-lg text-blue-600 mb-3">🛠️ Support & Maintenance</h3>
+                            <h3 class="font-bold text-lg text-gray-800 mb-3">Support & Maintenance</h3>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>• Regular Platform Updates</li>
-                                <li>• Bug Fixes & Patches</li>
-                                <li>• API Monitoring</li>
-                                <li>• Performance Optimization</li>
-                                <li>• Technical Documentation</li>
+                                <li>✔ Regular Platform Updates</li>
+                                <li>✔ Bug Fixes & Patches</li>
+                                <li>✔ API Monitoring</li>
+                                <li>✔ Performance Optimization</li>
+                                <li>✔ Technical Documentation</li>
                             </ul>
                         </div>
                     </div>
