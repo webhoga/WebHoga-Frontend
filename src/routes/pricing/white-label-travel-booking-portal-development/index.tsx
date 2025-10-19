@@ -35,7 +35,7 @@ export default component$(() => {
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Flight Booking</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Amadeus Self-Service API Integration</li>
+                                <li>✔ Third-party Affiliate Integration</li>
                                 <li>✔ Domestic & International Flights</li>
                                 <li>✔ Real-time Fare Search</li>
                                 <li>✔ One-way & Round Trip Booking</li>
@@ -108,6 +108,11 @@ export default component$(() => {
 
                         <div class="text-3xl font-bold text-orange-600 mb-4 mt-auto">₹1,50,000</div>
                         
+                        <div class="bg-orange-50 border-l-4 border-orange-500 p-4 mb-4 text-sm text-gray-700">
+                            <p class="font-semibold mb-1">Note:</p>
+                            <p>This plan uses affiliate integrations. No additional API costs included.</p>
+                        </div>
+                        
                         <button
                             onClick$={() => nav("/contact")}
                             class="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-xl font-semibold transition-all"
@@ -129,8 +134,7 @@ export default component$(() => {
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Flight Booking</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Amadeus Enterprise API</li>
-                                <li>✔ Sabre GDS Integration</li>
+                                <li>✔ Ezulix Flight API Integration</li>
                                 <li>✔ Multi-airline Comparison</li>
                                 <li>✔ Fare Rules & Baggage Info</li>
                                 <li>✔ Seat Selection</li>
@@ -146,8 +150,7 @@ export default component$(() => {
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Hotel Booking</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Expedia Rapid API</li>
-                                <li>✔ TBO Holidays API</li>
+                                <li>✔ Ezulix Hotel API Integration</li>
                                 <li>✔ 1M+ Properties Worldwide</li>
                                 <li>✔ Room Type Selection</li>
                                 <li>✔ Meal Plans & Amenities</li>
@@ -160,16 +163,28 @@ export default component$(() => {
                         </div>
 
                         <div class="mb-4">
+                            <h4 class="font-bold text-gray-800 mb-2">Bus Booking</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>✔ Ezulix Bus API Integration</li>
+                                <li>✔ Interstate & Intercity Routes</li>
+                                <li>✔ Seat Selection & Layout</li>
+                                <li>✔ Live Bus Tracking</li>
+                                <li>✔ Instant Booking Confirmation</li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Additional Services</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
                                 <li>✔ Holiday Package Builder</li>
                                 <li>✔ Custom Package Creation</li>
-                                <li>✔ Visa Processing Module</li>
-                                <li>✔ Travel Insurance Integration</li>
-                                <li>✔ Airport Transfer Booking</li>
+                                <li>✔ Visa Processing Module*</li>
+                                <li>✔ Travel Insurance Integration*</li>
+                                <li>✔ Airport Transfer Booking*</li>
                                 <li>✔ Travel Guide Content</li>
                                 <li>✔ Destination Information</li>
                             </ul>
+                            <p class="text-xs text-gray-600 mt-2 italic">*Additional charges apply</p>
                         </div>
 
                         <div class="mb-6">
@@ -215,6 +230,15 @@ export default component$(() => {
 
                         <div class="text-3xl font-bold text-cyan-700 mb-4 mt-auto">₹2,75,000</div>
                         
+                        <div class="bg-cyan-50 border-l-4 border-cyan-600 p-4 mb-4 text-sm text-gray-700">
+                            <p class="font-semibold mb-2">Note:</p>
+                            <ul class="space-y-1">
+                                <li>• Flight, Hotel & Bus API integration (Ezulix) covered in this price</li>
+                                <li>• Additional modules (Visa, Car Rentals, Insurance, etc.) require separate payments</li>
+                                <li>• Ezulix API annual maintenance charges must be paid to Ezulix from 2nd year onwards</li>
+                            </ul>
+                        </div>
+                        
                         <button
                             onClick$={() => nav("/contact")}
                             class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-xl font-semibold transition-all"
@@ -236,9 +260,7 @@ export default component$(() => {
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Flight Booking</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Amadeus Enterprise API</li>
-                                <li>✔ Sabre GDS Integration</li>
-                                <li>✔ Travelport GDS Integration</li>
+                                <li>✔ Ezulix Flight API Integration</li>
                                 <li>✔ Multi-GDS Aggregation</li>
                                 <li>✔ Low Fare Calendar</li>
                                 <li>✔ Flexible Date Search</li>
@@ -256,10 +278,7 @@ export default component$(() => {
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Hotel Booking</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Expedia Rapid API</li>
-                                <li>✔ TBO Holidays API</li>
-                                <li>✔ Agoda Partner API</li>
-                                <li>✔ HotelBeds API</li>
+                                <li>✔ Ezulix Hotel API Integration</li>
                                 <li>✔ 2M+ Properties Worldwide</li>
                                 <li>✔ Multi-supplier Aggregation</li>
                                 <li>✔ Dynamic Pricing Engine</li>
@@ -272,21 +291,34 @@ export default component$(() => {
                         </div>
 
                         <div class="mb-4">
+                            <h4 class="font-bold text-gray-800 mb-2">Bus Booking</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>✔ Ezulix Bus API Integration</li>
+                                <li>✔ Pan-India Route Coverage</li>
+                                <li>✔ Real-time Seat Availability</li>
+                                <li>✔ Dynamic Seat Pricing</li>
+                                <li>✔ Boarding Point Selection</li>
+                                <li>✔ GPS-based Bus Tracking</li>
+                                <li>✔ Operator Rating System</li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Additional Services</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Bus Booking Integration</li>
-                                <li>✔ Train Booking Module</li>
-                                <li>✔ Car Rental Services</li>
+                                <li>✔ Train Booking Module*</li>
+                                <li>✔ Car Rental Services*</li>
                                 <li>✔ Holiday Package Builder</li>
-                                <li>✔ Cruise Booking Module</li>
-                                <li>✔ Activities & Experiences</li>
-                                <li>✔ Event Ticketing</li>
-                                <li>✔ Visa Processing</li>
-                                <li>✔ Travel Insurance</li>
-                                <li>✔ Airport Transfer</li>
-                                <li>✔ Travel SIM Cards</li>
-                                <li>✔ Forex Exchange</li>
+                                <li>✔ Cruise Booking Module*</li>
+                                <li>✔ Activities & Experiences*</li>
+                                <li>✔ Event Ticketing*</li>
+                                <li>✔ Visa Processing*</li>
+                                <li>✔ Travel Insurance*</li>
+                                <li>✔ Airport Transfer*</li>
+                                <li>✔ Travel SIM Cards*</li>
+                                <li>✔ Forex Exchange*</li>
                             </ul>
+                            <p class="text-xs text-gray-600 mt-2 italic">*Additional charges apply</p>
                         </div>
 
                         <div class="mb-6">
@@ -345,6 +377,15 @@ export default component$(() => {
                         </div>
 
                         <div class="text-3xl font-bold text-indigo-600 mb-4 mt-auto">₹4,50,000</div>
+                        
+                        <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 mb-4 text-sm text-gray-700">
+                            <p class="font-semibold mb-2">Note:</p>
+                            <ul class="space-y-1">
+                                <li>• Flight, Hotel & Bus API integration (Ezulix) covered in this price</li>
+                                <li>• Additional modules (Train, Car Rentals, Visa, Insurance, Cruise, Activities, etc.) require separate payments</li>
+                                <li>• Ezulix API annual maintenance charges must be paid to Ezulix from 2nd year onwards</li>
+                            </ul>
+                        </div>
                         
                         <button
                             onClick$={() => nav("/contact")}
