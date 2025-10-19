@@ -64,6 +64,15 @@ export const PricingSection = component$(() => {
       bgClass: 'from-emerald-50 to-teal-100'
     },
     {
+      id: 'white-label-travel-portal',
+      title: 'White Label Travel Portal Development',
+      description:
+        'Complete white label travel booking platform with flight, hotel, and car rental integrations. Multi-currency support, GDS connectivity, payment gateway integration, and customizable branding. Launch your travel agency online with a fully-featured B2B/B2C portal.',
+      logo: 'https://www.svgrepo.com/show/4199/airplane.svg',
+      link: '/pricing/white-label-travel-portal',
+      bgClass: 'from-sky-50 to-blue-100'
+    },
+    {
       id: 'content-writing',
       title: 'Content & Blog Writing',
       description:
