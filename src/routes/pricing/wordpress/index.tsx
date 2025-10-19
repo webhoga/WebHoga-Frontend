@@ -50,7 +50,7 @@ export default component$(() => {
               <li>✔ Mobile-Responsive Design</li>
               <li>✔ Delivery in 72 Working Hours</li>
             </ul>
-            <div class="mb-4 text-3xl font-bold text-orange-600">₹8,799</div>
+            <div class="mb-4 text-3xl font-bold text-orange-600">₹9,999</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full rounded-xl bg-orange-500 py-3 font-semibold text-white transition-all hover:bg-orange-600"
@@ -83,7 +83,7 @@ export default component$(() => {
               <li>✔ Mobile-Responsive Design</li>
               <li>✔ Delivery in 98 Working Hours</li>
             </ul>
-            <div class="mb-4 text-3xl font-bold text-blue-600">₹14,860</div>
+            <div class="mb-4 text-3xl font-bold text-blue-600">₹17,860</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full rounded-xl bg-blue-500 py-3 font-semibold text-white transition-all hover:bg-blue-600"
@@ -116,7 +116,7 @@ export default component$(() => {
               <li>✔ Mobile-Responsive Design</li>
               <li>✔ Delivery in 15 Working Days</li>
             </ul>
-            <div class="mb-4 text-3xl font-bold text-indigo-600">₹23,999</div>
+            <div class="mb-4 text-3xl font-bold text-indigo-600">₹24,999</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full rounded-xl bg-indigo-500 py-3 font-semibold text-white transition-all hover:bg-indigo-600"
