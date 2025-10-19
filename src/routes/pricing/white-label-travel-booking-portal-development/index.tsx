@@ -21,9 +21,9 @@ export default component$(() => {
                     Launch your own branded travel agency platform with integrated flight, hotel, and holiday package booking systems. Powered by industry-leading APIs and built on robust CMS platforms.
                 </p>
 
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12 lg:items-stretch">
                     {/* Starter Plan - WordPress */}
-                    <div class="bg-gradient-to-br from-orange-50 to-yellow-100 p-8 rounded-3xl shadow-xl text-left">
+                    <div class="bg-gradient-to-br from-orange-50 to-yellow-100 p-8 rounded-3xl shadow-xl text-left flex flex-col">
                         <h3 class="text-2xl font-bold mb-4 text-gray-800">WordPress Travel Lite</h3>
                         <p class="text-gray-600 mb-4">Perfect for travel startups and small agencies entering the online booking market.</p>
                         
@@ -70,7 +70,7 @@ export default component$(() => {
                             </ul>
                         </div>
 
-                        <div class="mb-6">
+                        <div class="mb-6 flex-grow">
                             <h4 class="font-bold text-gray-800 mb-2">Core Features</h4>
                             <ul class="space-y-2 text-sm text-gray-700">
                                 <li>✔ Custom WordPress Theme</li>
@@ -106,7 +106,7 @@ export default component$(() => {
                             </ul>
                         </div>
 
-                        <div class="text-3xl font-bold text-orange-600 mb-4">₹1,50,000</div>
+                        <div class="text-3xl font-bold text-orange-600 mb-4 mt-auto">₹1,50,000</div>
                         
                         <button
                             onClick$={() => nav("/contact")}
@@ -117,7 +117,7 @@ export default component$(() => {
                     </div>
 
                     {/* Professional Plan - Drupal */}
-                    <div class="bg-gradient-to-br from-blue-50 to-cyan-100 p-8 rounded-3xl shadow-xl text-left">
+                    <div class="bg-gradient-to-br from-blue-50 to-cyan-100 p-8 rounded-3xl shadow-xl text-left flex flex-col">
                         <h3 class="text-2xl font-bold mb-4 text-gray-800">Drupal Travel Pro</h3>
                         <p class="text-gray-600 mb-4">Advanced solution for established travel agencies requiring comprehensive booking capabilities.</p>
                         
@@ -213,7 +213,7 @@ export default component$(() => {
                             </ul>
                         </div>
 
-                        <div class="text-3xl font-bold text-cyan-700 mb-4">₹2,75,000</div>
+                        <div class="text-3xl font-bold text-cyan-700 mb-4 mt-auto">₹2,75,000</div>
                         
                         <button
                             onClick$={() => nav("/contact")}
@@ -224,7 +224,7 @@ export default component$(() => {
                     </div>
 
                     {/* Enterprise Plan - Laravel */}
-                    <div class="bg-gradient-to-br from-purple-50 to-indigo-100 p-8 rounded-3xl shadow-xl text-left">
+                    <div class="bg-gradient-to-br from-purple-50 to-indigo-100 p-8 rounded-3xl shadow-xl text-left flex flex-col">
                         <h3 class="text-2xl font-bold mb-4 text-gray-800">Laravel Travel Enterprise</h3>
                         <p class="text-gray-600 mb-4">Complete white-label solution with custom API integration and unlimited scalability for large agencies.</p>
                         
@@ -344,7 +344,7 @@ export default component$(() => {
                             </ul>
                         </div>
 
-                        <div class="text-3xl font-bold text-indigo-600 mb-4">₹4,50,000</div>
+                        <div class="text-3xl font-bold text-indigo-600 mb-4 mt-auto">₹4,50,000</div>
                         
                         <button
                             onClick$={() => nav("/contact")}
