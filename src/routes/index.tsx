@@ -13,7 +13,7 @@ export const head: DocumentHead = {
     {
       name: "description",
       content:
-      "WebHoga builds SEO-ready, high-performance websites — custom-coded, WordPress, and eCommerce — for Indian and global businesses.",
+      "WebHoga delivers SEO-optimized, high-performance websites for Indian and global businesses — including custom-coded platforms, WordPress sites, and eCommerce solutions.",
     },
     {
       name: "viewport",
