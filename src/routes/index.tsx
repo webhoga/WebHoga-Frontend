@@ -13,11 +13,51 @@ export const head: DocumentHead = {
     {
       name: "description",
       content:
-      "WebHoga delivers SEO-optimized, high-performance websites for Indian and global businesses — including custom-coded platforms, WordPress sites, and eCommerce solutions.",
+        "WebHoga delivers SEO-optimized, high-performance websites for Indian and global businesses — including custom-coded platforms, WordPress sites, and eCommerce solutions.",
     },
     {
       name: "viewport",
       content: "width=device-width, initial-scale=1",
+    },
+
+    {
+      property: "og:title",
+      content: "WebHoga – Premium Web Design Agency in India",
+    },
+    {
+      property: "og:description",
+      content:
+        "SEO-ready, high-performance websites — custom-coded, WordPress, and eCommerce — for Indian and global businesses.",
+    },
+    {
+      property: "og:type",
+      content: "website",
+    },
+    {
+      property: "og:url",
+      content: "https://www.webhoga.com", 
+    },
+    {
+      property: "og:image",
+      content: "https://webhoga.com/assets/DuEqx7Yt-WebHoga%20Logo.png", 
+    },
+
+    {
+      name: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      name: "twitter:title",
+      content: "WebHoga – Premium Web Design Agency in India",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "SEO-ready, high-performance websites — custom-coded, WordPress, and eCommerce — for Indian and global businesses.",
+    },
+    {
+      name: "twitter:image",
+      content: "https://webhoga.com/assets/DuEqx7Yt-WebHoga%20Logo.png", 
     },
   ],
   links: [
