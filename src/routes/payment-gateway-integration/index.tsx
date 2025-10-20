@@ -324,7 +324,7 @@ export default component$(() => {
       {/* Left: Logo */}
       <div class="flex-shrink-0">
         <img 
-          src="https://www.zoho.com/sites/default/files/zoho_general_page/images/logo-zoho.svg" 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfA8JRHaiz2HK3XZpsZuIkQlq7CKefUmBnrg&s" 
           alt="Zoho Payments Logo" 
           class="w-32 md:w-40"
         />
