@@ -433,7 +433,9 @@ export default component$(() => {
                     <div class="text-sm text-emerald-600 font-medium">Starting from</div>
                     <div class="text-4xl font-bold text-emerald-700 mb-2">₹18,999</div>
                     <div class="text-sm text-slate-600">SEO & Web Optimization</div>
-                    <div class="text-xs text-slate-500 mt-2">One-time setup + Monthly optimization</div>
+                    <div class="text-xs text-slate-500 mt-2">One-time setup + Monthly optimization*</div>
+                    <div class="text-xs text-slate-500 mt-1 italic">
+                      *Monthly optimization is provided only if you subscribe to our SEO add-on at ₹4,999/month.</div>
                   </div>
                 </div>
 
