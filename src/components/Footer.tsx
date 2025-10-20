@@ -122,7 +122,7 @@ export default component$(() => {
           {/* Products Section */}
           <div>
             <h3 class="mb-6 bg-gradient-to-r from-orange-400 to-amber-400 bg-clip-text text-xl font-bold text-transparent">
-              Product
+              Products
             </h3>
             <div class="space-y-4">
               <a
