@@ -427,13 +427,13 @@ export default component$(() => {
                         <div>
                             <h3 class="font-bold text-lg text-gray-800 mb-3">Support & Maintenance</h3>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Regular Platform Updates</li>
-                                <li>✔ Bug Fixes & Patches</li>
-                                <li>✔ API Monitoring</li>
-                                <li>✔ Performance Optimization</li>
-                                <li>✔ Technical Documentation</li>
-                                <li>✔ Knowledge Base Access</li>
-                                <li>✔ Ticket Support System</li>
+                                <li>✔ Regular Platform Updates by API Provider</li>
+                                <li>✔ Bug Fixes & Patches by API Provider</li>
+                                <li>✔ API Monitoring & Support by API Provider</li>
+                                <li>✔ Performance Optimization by API Provider</li>
+                                <li>✔ Technical Documentation & API Docs by API Provider</li>
+                                <li>✔ Knowledge Base Access by API Provider</li>
+                                <li>✔ Ticket Support System by API Provider</li>
                             </ul>
                         </div>
                     </div>
