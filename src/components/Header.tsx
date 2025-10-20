@@ -135,7 +135,7 @@ export default component$(() => {
             >
               <span class="flex items-center gap-1">
                 <span class="bg-gradient-to-r from-red-600 to-rose-600 bg-clip-text font-semibold text-transparent">
-                  Advertisement Services
+                  Ad Services
                 </span>
               </span>
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-red-500 to-rose-500 transition-all duration-300 group-hover:w-full"></span>
