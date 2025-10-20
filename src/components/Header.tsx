@@ -130,7 +130,7 @@ export default component$(() => {
 
             {/* Ads */}
             <a
-              href="/ads"
+              href="https://ads.webhoga.com"
               class="group relative font-medium text-slate-700 transition-colors hover:text-red-600"
             >
               <span class="flex items-center gap-1">
@@ -248,7 +248,7 @@ export default component$(() => {
             </a>
 
             <a
-              href="/ads"
+              href="https://ads.webhoga.com"
               onClick$={closeMenu}
               class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-red-50 hover:text-red-600"
             >
