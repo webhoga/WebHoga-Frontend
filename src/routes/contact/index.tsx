@@ -1,9 +1,91 @@
-import { component$ } from '@builder.io/qwik';
+import { component$, useVisibleTask$ } from '@builder.io/qwik';
 import Header from "~/components/Header";
 import Footer from "~/components/Footer";
 import type { DocumentHead } from '@builder.io/qwik-city';
 
 export default component$(() => {
+  useVisibleTask$(() => {
+    try {
+      var f = document.createElement("iframe");
+      var ifrmSrc = 'https://forms.zohopublic.in/contactweb1/form/ContactUs/formperma/8dihu-s37eCQ9h1oixC_ibCEdOwVzCDBOMwj1bvmaR8?zf_rszfm=1';
+      
+      try {
+        if (typeof (window as any).ZFAdvLead != "undefined" && typeof (window as any).zfutm_zfAdvLead != "undefined") {
+          for (var prmIdx = 0; prmIdx < (window as any).ZFAdvLead.utmPNameArr.length; prmIdx++) {
+            var utmPm = (window as any).ZFAdvLead.utmPNameArr[prmIdx];
+            utmPm = ((window as any).ZFAdvLead.isSameDomian && ((window as any).ZFAdvLead.utmcustPNameArr.indexOf(utmPm) == -1)) ? "zf_" + utmPm : utmPm;
+            var utmVal = (window as any).zfutm_zfAdvLead.zfautm_gC_enc((window as any).ZFAdvLead.utmPNameArr[prmIdx]);
+            if (typeof utmVal !== "undefined") {
+              if (utmVal != "") {
+                if (ifrmSrc.indexOf('?') > 0) {
+                  ifrmSrc = ifrmSrc + '&' + utmPm + '=' + utmVal;
+                } else {
+                  ifrmSrc = ifrmSrc + '?' + utmPm + '=' + utmVal;
+                }
+              }
+            }
+          }
+        }
+        if (typeof (window as any).ZFLead !== "undefined" && typeof (window as any).zfutm_zfLead !== "undefined") {
+          for (var prmIdx = 0; prmIdx < (window as any).ZFLead.utmPNameArr.length; prmIdx++) {
+            var utmPm = (window as any).ZFLead.utmPNameArr[prmIdx];
+            var utmVal = (window as any).zfutm_zfLead.zfutm_gC_enc((window as any).ZFLead.utmPNameArr[prmIdx]);
+            if (typeof utmVal !== "undefined") {
+              if (utmVal != "") {
+                if (ifrmSrc.indexOf('?') > 0) {
+                  ifrmSrc = ifrmSrc + '&' + utmPm + '=' + utmVal;
+                } else {
+                  ifrmSrc = ifrmSrc + '?' + utmPm + '=' + utmVal;
+                }
+              }
+            }
+          }
+        }
+      } catch (e) {}
+      
+      f.src = ifrmSrc;
+      f.style.border = "none";
+      f.style.height = "993px";
+      f.style.width = "90%";
+      f.style.transition = "all 0.5s ease";
+      f.setAttribute("aria-label", 'Contact Us');
+      
+      var d = document.getElementById("zf_div_8dihu-s37eCQ9h1oixC_ibCEdOwVzCDBOMwj1bvmaR8");
+      if (d) {
+        d.appendChild(f);
+      }
+      
+      window.addEventListener('message', function (event) {
+        var evntData = event.data;
+        if (evntData && evntData.constructor == String) {
+          var zf_ifrm_data = evntData.split("|");
+          if (zf_ifrm_data.length == 2 || zf_ifrm_data.length == 3) {
+            var zf_perma = zf_ifrm_data[0];
+            var zf_ifrm_ht_nw = (parseInt(zf_ifrm_data[1], 10) + 15) + "px";
+            var iframe = document.getElementById("zf_div_8dihu-s37eCQ9h1oixC_ibCEdOwVzCDBOMwj1bvmaR8")?.getElementsByTagName("iframe")[0];
+            if (iframe && (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0) {
+              var prevIframeHeight = iframe.style.height;
+              var zf_tout = false;
+              if (zf_ifrm_data.length == 3) {
+                iframe.scrollIntoView();
+                zf_tout = true;
+              }
+              if (prevIframeHeight != zf_ifrm_ht_nw) {
+                if (zf_tout) {
+                  setTimeout(function () {
+                    iframe.style.height = zf_ifrm_ht_nw;
+                  }, 500);
+                } else {
+                  iframe.style.height = zf_ifrm_ht_nw;
+                }
+              }
+            }
+          }
+        }
+      }, false);
+    } catch (e) {}
+  });
+
   return (
     <>
       <Header />
@@ -41,78 +123,7 @@ export default component$(() => {
             </div>
 
             {/* Contact Form */}
-            <form
-              class="space-y-4"
-              preventdefault:submit
-              onSubmit$={async (event) => {
-                const form = event.target as HTMLFormElement;
-                const formData = new FormData(form);
-
-                const data = {
-                  name: formData.get('name'),
-                  email: formData.get('email'),
-                  message: formData.get('message'),
-                };
-
-                try {
-                  const res = await fetch('https://backend.webhoga.com/contact', {
-                    method: 'POST',
-                    headers: {
-                      'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(data),
-                  });
-
-                  if (res.ok) {
-                    alert('Message sent successfully!');
-                    form.reset();
-                  } else {
-                    const result = await res.json();
-                    alert('Failed: ' + (result?.error || 'Unknown error'));
-                  }
-                } catch (error) {
-                  alert('Failed to send message. Please try again later.');
-                  console.error(error);
-                }
-              }}
-            >
-              <div>
-                <label class="block text-sm font-medium text-slate-600 mb-1">Name</label>
-                <input
-                  name="name"
-                  type="text"
-                  class="w-full border border-slate-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
-                  placeholder="Your Name"
-                  required
-                />
-              </div>
-              <div>
-                <label class="block text-sm font-medium text-slate-600 mb-1">Email</label>
-                <input
-                  name="email"
-                  type="email"
-                  class="w-full border border-slate-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
-                  placeholder="you@example.com"
-                  required
-                />
-              </div>
-              <div>
-                <label class="block text-sm font-medium text-slate-600 mb-1">Message</label>
-                <textarea
-                  name="message"
-                  rows={4}
-                  class="w-full border border-slate-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
-                  placeholder="How can we help you?"
-                  required
-                />
-              </div>
-              <button
-                type="submit"
-                class="bg-gradient-to-r from-orange-500 to-amber-500 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-xl transition-all"
-              >
-                Send Message
-              </button>
-            </form>
+            <div id="zf_div_8dihu-s37eCQ9h1oixC_ibCEdOwVzCDBOMwj1bvmaR8"></div>
           </div>
         </div>
       </section>
