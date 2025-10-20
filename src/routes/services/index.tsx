@@ -6,7 +6,7 @@ const ServicesPage = () => {
   const services = [
     {
       id: 'web-designing',
-      icon: '🎨',
+      icon: 'https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/svg/line/browser.svg',
       title: 'Web Designing',
       description: 'Custom, responsive websites that captivate visitors and convert them into customers. Modern designs that work perfectly on all devices.',
       gradient: 'from-blue-500 to-cyan-500',
@@ -16,7 +16,7 @@ const ServicesPage = () => {
     },
     {
       id: 'domain-hosting',
-      icon: '🌐',
+      icon: 'https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/svg/line/server-network.svg',
       title: 'Domain + Hosting',
       description: 'Secure, fast hosting solutions with free SSL certificates. We handle domain registration and management so you can focus on your business.',
       gradient: 'from-green-500 to-emerald-500',
@@ -26,7 +26,7 @@ const ServicesPage = () => {
     },
     {
       id: 'logo-brand',
-      icon: '🎯',
+      icon: 'https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/svg/line/palette.svg',
       title: 'Logo & Brand Identity',
       description: 'Memorable brand identities that stand out from the competition. Professional logos and complete brand guidelines for consistent growth.',
       gradient: 'from-purple-500 to-violet-500',
@@ -36,7 +36,7 @@ const ServicesPage = () => {
     },
     {
       id: 'seo-optimization',
-      icon: '📈',
+      icon: 'https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/svg/line/chart-line.svg',
       title: 'SEO & Web Optimization',
       description: 'Get found on Google with our proven SEO strategies. Lightning-fast websites that rank higher and convert better than your competitors.',
       gradient: 'from-orange-500 to-amber-500',
@@ -46,7 +46,7 @@ const ServicesPage = () => {
     },
     {
       id: 'content-writing',
-      icon: '✍️',
+      icon: 'https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/svg/line/edit-alt.svg',
       title: 'Content & Blog Writing',
       description: 'Engaging, SEO-optimized content that attracts your ideal customers. Professional blog posts and website copy that drives conversions.',
       gradient: 'from-pink-500 to-rose-500',
@@ -56,7 +56,7 @@ const ServicesPage = () => {
     },
     {
       id: 'ecommerce',
-      icon: '🛒',
+      icon: 'https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/svg/line/shopping-cart.svg',
       title: 'Ecommerce Web Designing',
       description: 'High-converting online stores that maximize sales. User-friendly shopping experiences with secure checkout and inventory management.',
       gradient: 'from-indigo-500 to-blue-500',
@@ -66,7 +66,7 @@ const ServicesPage = () => {
     },
     {
       id: 'analytics',
-      icon: '📊',
+      icon: 'https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/svg/line/analytics.svg',
       title: 'Google Analytics & Tracking',
       description: 'Data-driven insights to grow your business. Complete analytics setup with detailed reporting and performance tracking.',
       gradient: 'from-teal-500 to-cyan-500',
@@ -76,7 +76,7 @@ const ServicesPage = () => {
     },
     {
       id: 'landing-page',
-      icon: '⚡',
+      icon: 'https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/svg/line/bolt.svg',
       title: 'Landing Page Design',
       description: 'High-converting landing pages that turn visitors into customers. Optimized for maximum conversions and lead generation.',
       gradient: 'from-yellow-500 to-orange-500',
@@ -86,7 +86,7 @@ const ServicesPage = () => {
     },
     {
       id: 'payment-gateway',
-      icon: '💳',
+      icon: 'https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/svg/line/credit-card.svg',
       title: 'Payment Gateway Integration',
       description: 'Secure payment processing for your online business. Multiple payment options with fraud protection and seamless checkout experience.',
       gradient: 'from-red-500 to-pink-500',
@@ -206,14 +206,20 @@ const ServicesPage = () => {
           display: flex;
           align-items: center;
           justify-content: center;
-          color: white;
-          font-size: 1.5rem;
+          padding: 0.75rem;
           margin-bottom: 1.5rem;
           transition: transform 0.3s ease;
         }
 
+        .service-icon img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          filter: brightness(0) invert(1);
+        }
+
         .service-card:hover .service-icon {
-          transform: scale(1.1);
+          transform: scale(1.1) rotate(5deg);
         }
 
         .learn-more-link {
@@ -294,7 +300,7 @@ const ServicesPage = () => {
                         background: `linear-gradient(135deg, ${service.gradient.replace('from-', '').replace(' to-', ', ')})`
                       }}
                     >
-                      {service.icon}
+                      <img src={service.icon} alt={`${service.title} icon`} />
                     </div>
 
                     {/* Content */}
