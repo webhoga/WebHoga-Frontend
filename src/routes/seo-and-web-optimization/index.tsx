@@ -444,7 +444,7 @@ export default component$(() => {
                    class="group/btn relative overflow-hidden bg-gradient-to-r from-emerald-500 to-green-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 block text-center"
                    aria-label="Get started with SEO optimization">
                   <span class="relative z-10 flex items-center justify-center gap-2">
-                    <span role="img" aria-label="rocket">🚀</span> Get Started with SEO
+                    <span role="img" aria-label="rocket"></span> Get Started with SEO
                     <svg class="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" fill="none"
                          stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
