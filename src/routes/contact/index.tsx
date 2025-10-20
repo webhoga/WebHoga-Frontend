@@ -6,15 +6,15 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 export default component$(() => {
   useVisibleTask$(() => {
     try {
-      var f = document.createElement("iframe");
-      var ifrmSrc = 'https://forms.zohopublic.in/contactweb1/form/ContactUs/formperma/8dihu-s37eCQ9h1oixC_ibCEdOwVzCDBOMwj1bvmaR8?zf_rszfm=1';
+      const f = document.createElement("iframe");
+      let ifrmSrc = 'https://forms.zohopublic.in/contactweb1/form/ContactUs/formperma/8dihu-s37eCQ9h1oixC_ibCEdOwVzCDBOMwj1bvmaR8?zf_rszfm=1';
       
       try {
         if (typeof (window as any).ZFAdvLead != "undefined" && typeof (window as any).zfutm_zfAdvLead != "undefined") {
-          for (var prmIdx = 0; prmIdx < (window as any).ZFAdvLead.utmPNameArr.length; prmIdx++) {
-            var utmPm = (window as any).ZFAdvLead.utmPNameArr[prmIdx];
+          for (let prmIdx = 0; prmIdx < (window as any).ZFAdvLead.utmPNameArr.length; prmIdx++) {
+            let utmPm = (window as any).ZFAdvLead.utmPNameArr[prmIdx];
             utmPm = ((window as any).ZFAdvLead.isSameDomian && ((window as any).ZFAdvLead.utmcustPNameArr.indexOf(utmPm) == -1)) ? "zf_" + utmPm : utmPm;
-            var utmVal = (window as any).zfutm_zfAdvLead.zfautm_gC_enc((window as any).ZFAdvLead.utmPNameArr[prmIdx]);
+            const utmVal = (window as any).zfutm_zfAdvLead.zfautm_gC_enc((window as any).ZFAdvLead.utmPNameArr[prmIdx]);
             if (typeof utmVal !== "undefined") {
               if (utmVal != "") {
                 if (ifrmSrc.indexOf('?') > 0) {
@@ -27,9 +27,9 @@ export default component$(() => {
           }
         }
         if (typeof (window as any).ZFLead !== "undefined" && typeof (window as any).zfutm_zfLead !== "undefined") {
-          for (var prmIdx = 0; prmIdx < (window as any).ZFLead.utmPNameArr.length; prmIdx++) {
-            var utmPm = (window as any).ZFLead.utmPNameArr[prmIdx];
-            var utmVal = (window as any).zfutm_zfLead.zfutm_gC_enc((window as any).ZFLead.utmPNameArr[prmIdx]);
+          for (let prmIdx = 0; prmIdx < (window as any).ZFLead.utmPNameArr.length; prmIdx++) {
+            const utmPm = (window as any).ZFLead.utmPNameArr[prmIdx];
+            const utmVal = (window as any).zfutm_zfLead.zfutm_gC_enc((window as any).ZFLead.utmPNameArr[prmIdx]);
             if (typeof utmVal !== "undefined") {
               if (utmVal != "") {
                 if (ifrmSrc.indexOf('?') > 0) {
@@ -41,7 +41,8 @@ export default component$(() => {
             }
           }
         }
-      } catch (e) {}
+      } catch {
+      }
       
       f.src = ifrmSrc;
       f.style.border = "none";
@@ -50,22 +51,22 @@ export default component$(() => {
       f.style.transition = "all 0.5s ease";
       f.setAttribute("aria-label", 'Contact Us');
       
-      var d = document.getElementById("zf_div_8dihu-s37eCQ9h1oixC_ibCEdOwVzCDBOMwj1bvmaR8");
+      const d = document.getElementById("zf_div_8dihu-s37eCQ9h1oixC_ibCEdOwVzCDBOMwj1bvmaR8");
       if (d) {
         d.appendChild(f);
       }
       
       window.addEventListener('message', function (event) {
-        var evntData = event.data;
+        const evntData = event.data;
         if (evntData && evntData.constructor == String) {
-          var zf_ifrm_data = evntData.split("|");
+          const zf_ifrm_data = evntData.split("|");
           if (zf_ifrm_data.length == 2 || zf_ifrm_data.length == 3) {
-            var zf_perma = zf_ifrm_data[0];
-            var zf_ifrm_ht_nw = (parseInt(zf_ifrm_data[1], 10) + 15) + "px";
-            var iframe = document.getElementById("zf_div_8dihu-s37eCQ9h1oixC_ibCEdOwVzCDBOMwj1bvmaR8")?.getElementsByTagName("iframe")[0];
+            const zf_perma = zf_ifrm_data[0];
+            const zf_ifrm_ht_nw = (parseInt(zf_ifrm_data[1], 10) + 15) + "px";
+            const iframe = document.getElementById("zf_div_8dihu-s37eCQ9h1oixC_ibCEdOwVzCDBOMwj1bvmaR8")?.getElementsByTagName("iframe")[0];
             if (iframe && (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0) {
-              var prevIframeHeight = iframe.style.height;
-              var zf_tout = false;
+              const prevIframeHeight = iframe.style.height;
+              let zf_tout = false;
               if (zf_ifrm_data.length == 3) {
                 iframe.scrollIntoView();
                 zf_tout = true;
@@ -83,7 +84,8 @@ export default component$(() => {
           }
         }
       }, false);
-    } catch (e) {}
+    } catch {
+    }
   });
 
   return (
