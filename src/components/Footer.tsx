@@ -206,7 +206,7 @@ export default component$(() => {
                 <span class="text-xs font-bold text-white">RuPay</span>
               </div>
               <div class="flex items-center justify-center rounded-lg bg-red-600 p-2">
-                <span class="text-xs font-bold text-white">CARD</span>
+                <span class="text-xs font-bold text-white">UPI</span>
               </div>
             </div>
 
