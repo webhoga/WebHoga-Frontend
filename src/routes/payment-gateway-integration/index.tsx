@@ -305,59 +305,41 @@ export default component$(() => {
         </div>
       </section>
 
-      {/* Payment Gateways Section */}
-      <section class="relative py-20 bg-gradient-to-br from-slate-100 via-white to-blue-50 overflow-hidden">
-        <div class="container mx-auto px-4">
-          <div class="text-center max-w-3xl mx-auto mb-16 fade-in-up">
-            <h2 class="text-4xl lg:text-5xl font-bold leading-tight mb-6">
-              <span class="text-blue-600">Payment Gateways</span>
-              <br />
-              <span class="text-orange-500">We Integrate</span>
-            </h2>
-            <p class="text-xl text-slate-600 leading-relaxed">
-              Seamless integration with leading payment providers for secure and reliable transactions.
-            </p>
-          </div>
+{/* Payment Gateway Section */}
+<section class="relative py-20 bg-gradient-to-br from-slate-100 via-white to-blue-50 overflow-hidden">
+  <div class="container mx-auto px-4">
+    <div class="text-center max-w-3xl mx-auto mb-16 fade-in-up">
+      <h2 class="text-4xl lg:text-5xl font-bold leading-tight mb-6">
+        <span class="text-blue-600">Payment Gateway</span>
+        <br />
+        <span class="text-orange-500">We Integrate</span>
+      </h2>
+      <p class="text-xl text-slate-600 leading-relaxed">
+        Seamless integration with <strong>Zoho Payments</strong> for secure and reliable transactions.
+      </p>
+    </div>
 
-          <div class="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto fade-in-up">
-            {/* Razorpay */}
-            <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center text-white text-xl mx-auto mb-4">
-                💎
-              </div>
-              <h4 class="font-bold text-slate-800 mb-2">Razorpay</h4>
-              <p class="text-sm text-slate-600">Indian payment gateway</p>
-            </div>
+    {/* Zoho Payments Card */}
+    <div class="max-w-5xl mx-auto bg-white rounded-3xl shadow-xl p-10 flex flex-col md:flex-row items-center md:items-start gap-8 fade-in-up">
+      {/* Left: Logo */}
+      <div class="flex-shrink-0">
+        <img 
+          src="https://www.zoho.com/sites/default/files/zoho_general_page/images/logo-zoho.svg" 
+          alt="Zoho Payments Logo" 
+          class="w-32 md:w-40"
+        />
+      </div>
 
-            {/* Stripe */}
-            <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-500 rounded-xl flex items-center justify-center text-white text-xl mx-auto mb-4">
-                💳
-              </div>
-              <h4 class="font-bold text-slate-800 mb-2">Stripe</h4>
-              <p class="text-sm text-slate-600">Global payment processing</p>
-            </div>
-
-            {/* PayPal */}
-            <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-white text-xl mx-auto mb-4">
-                💰
-              </div>
-              <h4 class="font-bold text-slate-800 mb-2">PayPal</h4>
-              <p class="text-sm text-slate-600">Digital wallet payments</p>
-            </div>
-
-            {/* Payu */}
-            <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl flex items-center justify-center text-white text-xl mx-auto mb-4">
-                🏦
-              </div>
-              <h4 class="font-bold text-slate-800 mb-2">PayU</h4>
-              <p class="text-sm text-slate-600">Multi-region support</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Right: Description */}
+      <div>
+        <h3 class="text-2xl font-bold text-slate-800 mb-3">Zoho Payments</h3>
+        <p class="text-slate-600 text-lg leading-relaxed">
+          We seamlessly integrate <strong>Zoho Payments</strong> to offer a unified and secure payment experience across your business applications. Manage transactions, invoices, and subscriptions within the Zoho ecosystem with ease and efficiency.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Consultation Section */}
       <section class="relative py-20 bg-gradient-to-br from-slate-100 via-white to-blue-50 overflow-hidden">
