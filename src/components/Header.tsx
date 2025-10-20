@@ -128,6 +128,19 @@ export default component$(() => {
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-emerald-500 to-teal-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
 
+            {/* Ads */}
+            <a
+              href="/ads"
+              class="group relative font-medium text-slate-700 transition-colors hover:text-red-600"
+            >
+              <span class="flex items-center gap-1">
+                <span class="bg-gradient-to-r from-red-600 to-rose-600 bg-clip-text font-semibold text-transparent">
+                  Ads
+                </span>
+              </span>
+              <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-red-500 to-rose-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+
             <a
               href="/contact"
               class="group relative font-medium text-slate-700 transition-colors hover:text-orange-600"
@@ -231,6 +244,16 @@ export default component$(() => {
             >
               <span class="flex items-center gap-2">
                 <span class="font-semibold text-emerald-600">BizAssist</span>
+              </span>
+            </a>
+
+            <a
+              href="/ads"
+              onClick$={closeMenu}
+              class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-red-50 hover:text-red-600"
+            >
+              <span class="flex items-center gap-2">
+                <span class="font-semibold text-red-600">Ads</span>
               </span>
             </a>
 
