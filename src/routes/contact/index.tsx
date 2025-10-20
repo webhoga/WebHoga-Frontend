@@ -41,7 +41,8 @@ export default component$(() => {
             }
           }
         }
-      } catch {
+      } catch (error) {
+        console.error('Error processing UTM parameters:', error);
       }
       
       f.src = ifrmSrc;
@@ -84,7 +85,8 @@ export default component$(() => {
           }
         }
       }, false);
-    } catch {
+    } catch (error) {
+      console.error('Error initializing contact form:', error);
     }
   });
 
