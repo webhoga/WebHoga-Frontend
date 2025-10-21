@@ -130,11 +130,6 @@ export default component$(() => {
               <div
                 class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div class="relative z-10">
-                {/* Icon */}
-                <div
-                  class="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-3xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300 mx-auto">
-                  ✍️
-                </div>
 
                 {/* Badge */}
                 <div
@@ -173,7 +168,7 @@ export default component$(() => {
                 <div class="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-xl mb-8 border border-purple-100">
                   <div class="text-center">
                     <div class="text-sm text-purple-600 font-medium">Starting from</div>
-                    <div class="text-4xl font-bold text-purple-700 mb-2">₹1999</div>
+                    <div class="text-4xl font-bold text-purple-700 mb-2">₹2499</div>
                     <div class="text-sm text-slate-600">Per 1000-word article</div>
                   </div>
                 </div>
@@ -182,7 +177,7 @@ export default component$(() => {
                 <a href="/pricing/content-and-blog-writing"
                    class="group/btn relative overflow-hidden bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 block text-center">
                   <span class="relative z-10 flex items-center justify-center gap-2">
-                    ✍️ View Writing Packages
+                    View Writing Packages
                     <svg class="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" fill="none"
                          stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
