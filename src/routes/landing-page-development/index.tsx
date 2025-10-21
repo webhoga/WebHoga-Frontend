@@ -130,11 +130,6 @@ export default component$(() => {
               <div
                 class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div class="relative z-10">
-                {/* Icon */}
-                <div
-                  class="w-20 h-20 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-3xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300 mx-auto">
-                  📱
-                </div>
 
                 {/* Badge */}
                 <div
@@ -182,7 +177,7 @@ export default component$(() => {
                 <a href="/pricing/landing-page"
                    class="group/btn relative overflow-hidden bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 block text-center">
                   <span class="relative z-10 flex items-center justify-center gap-2">
-                    💻 View Development Pricing
+                    View Development Pricing
                     <svg class="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" fill="none"
                          stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -216,27 +211,18 @@ export default component$(() => {
           <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto fade-in-up">
             {/* Feature 1 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                ⚡
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Lightning Fast</h3>
               <p class="text-slate-600">Optimized for speed with 90+ PageSpeed scores, ensuring your visitors stay engaged.</p>
             </div>
 
             {/* Feature 2 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                📱
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Mobile First</h3>
               <p class="text-slate-600">Responsive designs that look perfect on all devices, from phones to desktops.</p>
             </div>
 
             {/* Feature 3 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                🎯
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Conversion Focused</h3>
               <p class="text-slate-600">Built with conversion optimization in mind to turn visitors into customers.</p>
             </div>
@@ -290,7 +276,7 @@ export default component$(() => {
                 <div class="text-center">
                   <div
                     class="w-32 h-32 bg-gradient-to-br from-orange-400 to-red-400 rounded-full flex items-center justify-center text-white text-4xl mx-auto mb-6">
-                    🚀
+                    
                   </div>
                   <a
                     href="https://bizassist.webhoga.com/business-consultation-2/"
