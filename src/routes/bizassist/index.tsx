@@ -77,7 +77,6 @@ export default component$(() => {
 
                   <div class="bg-gradient-to-r from-emerald-50 to-teal-50 p-6 rounded-xl border border-emerald-100">
                     <h3 class="text-xl font-bold text-emerald-800 mb-3 flex items-center gap-2">
-                      <span class="text-2xl">🎯</span>
                       Our Fully Managed Approach
                     </h3>
                     <p class="text-slate-700 leading-relaxed">
@@ -100,7 +99,6 @@ export default component$(() => {
                   <div class="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm border border-emerald-100">
                     <div
                       class="w-10 h-10 bg-gradient-to-br from-emerald-500 to-green-500 rounded-full flex items-center justify-center text-white">
-                      ⚡
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800">Faster Launch</div>
@@ -111,7 +109,6 @@ export default component$(() => {
                   <div class="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm border border-teal-100">
                     <div
                       class="w-10 h-10 bg-gradient-to-br from-teal-500 to-cyan-500 rounded-full flex items-center justify-center text-white">
-                      🛡️
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800">Stay Compliant</div>
@@ -122,7 +119,6 @@ export default component$(() => {
                   <div class="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm border border-emerald-100">
                     <div
                       class="w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center text-white">
-                      💼
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800">Focus on Growth</div>
@@ -133,7 +129,6 @@ export default component$(() => {
                   <div class="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm border border-teal-100">
                     <div
                       class="w-10 h-10 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-full flex items-center justify-center text-white">
-                      🎯
                     </div>
                     <div>
                       <div class="font-semibold text-slate-800">Expert Guidance</div>
