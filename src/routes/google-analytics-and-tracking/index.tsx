@@ -277,27 +277,18 @@ export default component$(() => {
           <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto fade-in-up">
             {/* Feature 1 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                📈
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Real-Time Insights</h3>
               <p class="text-slate-600">Monitor your website performance, user behavior, and conversions in real-time with custom dashboards.</p>
             </div>
 
             {/* Feature 2 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-teal-500 to-cyan-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                🎯
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Goal Tracking</h3>
               <p class="text-slate-600">Track important business goals, conversions, and ROI with precise measurement and reporting.</p>
             </div>
 
             {/* Feature 3 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                🔍
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Custom Reports</h3>
               <p class="text-slate-600">Get customized analytics reports that focus on metrics that matter most to your business.</p>
             </div>
@@ -322,36 +313,24 @@ export default component$(() => {
           <div class="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto fade-in-up">
             {/* Google Analytics */}
             <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl flex items-center justify-center text-white text-xl mx-auto mb-4">
-                📊
-              </div>
               <h4 class="font-bold text-slate-800 mb-2">Google Analytics</h4>
               <p class="text-sm text-slate-600">GA4 & Universal Analytics</p>
             </div>
 
             {/* Google Tag Manager */}
             <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-xl flex items-center justify-center text-white text-xl mx-auto mb-4">
-                🏷️
-              </div>
               <h4 class="font-bold text-slate-800 mb-2">Tag Manager</h4>
               <p class="text-sm text-slate-600">Advanced tag management</p>
             </div>
 
             {/* Facebook Pixel */}
             <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center text-white text-xl mx-auto mb-4">
-                📘
-              </div>
               <h4 class="font-bold text-slate-800 mb-2">Facebook Pixel</h4>
               <p class="text-sm text-slate-600">Social media tracking</p>
             </div>
 
             {/* Google Ads */}
             <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl flex items-center justify-center text-white text-xl mx-auto mb-4">
-                🎯
-              </div>
               <h4 class="font-bold text-slate-800 mb-2">Google Ads</h4>
               <p class="text-sm text-slate-600">Conversion tracking</p>
             </div>
