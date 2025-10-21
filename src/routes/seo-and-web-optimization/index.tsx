@@ -66,9 +66,9 @@ export const head: DocumentHead = {
     },
     {
       property: "og:locale",
-      content: "en_US",
+      content: "en_IN",
     },
-    // Twitter Card Tags
+
     {
       name: "twitter:card",
       content: "summary_large_image",
@@ -114,7 +114,7 @@ export const head: DocumentHead = {
       name: "apple-mobile-web-app-status-bar-style",
       content: "black-translucent",
     },
-    // Geo Tags
+
     {
       name: "geo.region",
       content: "IN",
