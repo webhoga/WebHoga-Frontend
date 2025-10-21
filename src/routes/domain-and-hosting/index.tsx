@@ -95,7 +95,7 @@ export default component$(() => {
                 rel="noopener noreferrer"
                 class="group relative overflow-hidden bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 inline-flex items-center justify-center">
         <span class="relative z-10 flex items-center gap-2">
-          🌐 Check Domain Availability
+          Check Domain Availability
           <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor"
                viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -110,7 +110,7 @@ export default component$(() => {
                 href="/pricing/wordpress"
                 class="group relative overflow-hidden bg-white border-2 border-orange-500 text-orange-600 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-orange-500 hover:text-white transform hover:-translate-y-1 transition-all duration-300 shadow-lg inline-flex items-center justify-center">
         <span class="flex items-center gap-2">
-          🚀 View Web Design Plans
+          View Web Design Plans
           <svg class="w-5 h-5 group-hover:rotate-12 transition-transform" fill="none" stroke="currentColor"
                viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -163,11 +163,6 @@ export default component$(() => {
               <div
                 class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-indigo-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div class="relative z-10">
-                {/* Icon */}
-                <div
-                  class="w-20 h-20 bg-gradient-to-br from-purple-500 to-indigo-500 rounded-3xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
-                  🌐
-                </div>
 
                 {/* Badge */}
                 <div
@@ -205,7 +200,7 @@ export default component$(() => {
                 {/* Pricing */}
                 <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-xl mb-6 border border-green-100">
                   <div class="text-center">
-                    <div class="text-lg font-bold text-green-700 mb-2">✅ INCLUDED FREE</div>
+                    <div class="text-lg font-bold text-green-700 mb-2">INCLUDED FREE</div>
                     <div class="text-sm text-slate-600">In all web designing and</div>
                     <div class="text-sm text-slate-600">eCommerce web designing plans</div>
                   </div>
@@ -215,7 +210,7 @@ export default component$(() => {
                 <a href="/pricing/wordpress"
                    class="group/btn relative overflow-hidden bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-6 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 block text-center">
                   <span class="relative z-10 flex items-center justify-center gap-2">
-                    🌐 View Web Design Plans
+                    View Web Design Plans
                     <svg class="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" fill="none"
                          stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -234,11 +229,6 @@ export default component$(() => {
               <div
                 class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div class="relative z-10">
-                {/* Icon */}
-                <div
-                  class="w-20 h-20 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-3xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
-                  🚀
-                </div>
 
                 {/* Badge */}
                 <div
@@ -276,7 +266,7 @@ export default component$(() => {
                 {/* Pricing */}
                 <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-xl mb-6 border border-green-100">
                   <div class="text-center">
-                    <div class="text-lg font-bold text-green-700 mb-2">✅ INCLUDED FREE</div>
+                    <div class="text-lg font-bold text-green-700 mb-2">INCLUDED FREE</div>
                     <div class="text-sm text-slate-600">In all web designing and</div>
                     <div class="text-sm text-slate-600">eCommerce web designing plans</div>
                   </div>
@@ -286,7 +276,7 @@ export default component$(() => {
                 <a href="/pricing/woocommerce"
                    class="group/btn relative overflow-hidden bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-6 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 block text-center">
                   <span class="relative z-10 flex items-center justify-center gap-2">
-                    🚀 View eCommerce Plans
+                    View eCommerce Plans
                     <svg class="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" fill="none"
                          stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -322,9 +312,6 @@ export default component$(() => {
 
             {/* Feature 1 */}
             <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                ✅
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">All-Inclusive Packages</h3>
               <p class="text-slate-600 leading-relaxed">
                 Domain, hosting, and website design - everything bundled together for maximum convenience and savings.
@@ -333,9 +320,6 @@ export default component$(() => {
 
             {/* Feature 2 */}
             <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                🔒
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Premium Security</h3>
               <p class="text-slate-600 leading-relaxed">
                 Free SSL certificates, daily backups, and advanced security monitoring to keep your website protected.
@@ -344,9 +328,6 @@ export default component$(() => {
 
             {/* Feature 3 */}
             <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                ⚡
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Lightning Fast Performance</h3>
               <p class="text-slate-600 leading-relaxed">
                 SSD storage, CDN integration, and optimized servers ensure your website loads incredibly fast.
@@ -355,9 +336,6 @@ export default component$(() => {
 
             {/* Feature 4 */}
             <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                🎯
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Expert Support</h3>
               <p class="text-slate-600 leading-relaxed">
                 24/7 technical support from our experienced team to help you with any hosting or domain issues.
@@ -366,9 +344,6 @@ export default component$(() => {
 
             {/* Feature 5 */}
             <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div class="w-12 h-12 bg-gradient-to-br from-emerald-500 to-green-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                📊
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Easy Management</h3>
               <p class="text-slate-600 leading-relaxed">
                 User-friendly control panel and management tools to handle domains, hosting, and email accounts.
@@ -377,9 +352,6 @@ export default component$(() => {
 
             {/* Feature 6 */}
             <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div class="w-12 h-12 bg-gradient-to-br from-rose-500 to-pink-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                💰
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Best Value</h3>
               <p class="text-slate-600 leading-relaxed">
                 Premium features at competitive prices - get more value than standalone domain and hosting providers.
@@ -434,16 +406,12 @@ export default component$(() => {
                   </div>
                 </div>
                 <div class="text-center">
-                  <div
-                    class="w-32 h-32 bg-gradient-to-br from-purple-400 to-indigo-400 rounded-full flex items-center justify-center text-white text-4xl mx-auto mb-6">
-                    🌟
-                  </div>
                   <div class="flex flex-col gap-3">
                     <a href="/pricing/wordpress">
                       <button
                         class="group relative overflow-hidden bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-6 py-3 rounded-xl font-semibold shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300">
                         <span class="relative z-10 flex items-center justify-center gap-2">
-                          🌐 View Web Design Plans
+                          View Web Design Plans
                           <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                           </svg>
