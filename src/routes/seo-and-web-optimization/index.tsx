@@ -215,16 +215,6 @@ export default component$(() => {
             "https://www.youtube.com/@WebHoga",
             "https://in.pinterest.com/webhogaindia/",
           ],
-          "offers": {
-            "@type": "Offer",
-            "name": "SEO & Web Optimization Service",
-            "description": "Complete SEO and web optimization service including keyword research, on-page optimization, technical SEO, and performance monitoring",
-            "price": "18999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "validFrom": "2024-01-01",
-            "priceValidUntil": "2024-12-31"
-          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.9",
