@@ -97,7 +97,7 @@ export default component$(() => {
               <a href="/payment-gateway-integration" class="block text-slate-300 transition-colors hover:text-orange-400">Payment Gateway Integration</a>
               <a href="/hotel-booking-engine" class="block text-slate-300 transition-colors hover:text-orange-400">Hotel Booking Engine</a>
               <a href="/hotel-reservation-api" class="block text-slate-300 transition-colors hover:text-orange-400">Hotel Reservation API</a>
-              <a href="/white-label-travel-portal" class="block text-slate-300 transition-colors hover:text-orange-400">White Label Travel Portal</a>
+              <a href="/white-label-travel-portal-development" class="block text-slate-300 transition-colors hover:text-orange-400">White Label Travel Portal</a>
             </div>
           </div>
 
