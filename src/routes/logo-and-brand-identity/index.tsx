@@ -132,10 +132,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-3xl border border-slate-100 bg-white p-8 shadow-xl transition-all duration-500 hover:-translate-y-3 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
               <div class="relative z-10">
-                {/* Icon */}
-                <div class="mb-6 flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-to-br from-purple-500 to-pink-500 text-3xl text-white transition-transform duration-300 group-hover:scale-110">
-                  ✨
-                </div>
 
                 {/* Badge */}
                 <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-purple-100 to-pink-100 px-3 py-1 text-sm font-medium text-purple-700">
@@ -194,7 +190,7 @@ export default component$(() => {
                   class="group/btn relative block transform overflow-hidden rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-4 text-center text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                 >
                   <span class="relative z-10 flex items-center justify-center gap-2">
-                    ✨ View Logo Pricing
+                    View Logo Pricing
                     <svg
                       class="h-5 w-5 transition-transform group-hover/btn:translate-x-1"
                       fill="none"
@@ -218,10 +214,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-3xl border border-slate-100 bg-white p-8 shadow-xl transition-all duration-500 hover:-translate-y-3 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-purple-500/5 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
               <div class="relative z-10">
-                {/* Icon */}
-                <div class="mb-6 flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-to-br from-indigo-500 to-purple-500 text-3xl text-white transition-transform duration-300 group-hover:scale-110">
-                  🎨
-                </div>
 
                 {/* Badge */}
                 <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-100 to-purple-100 px-3 py-1 text-sm font-medium text-indigo-700">
@@ -284,7 +276,7 @@ export default component$(() => {
                   class="group/btn relative block transform overflow-hidden rounded-xl bg-gradient-to-r from-indigo-500 to-purple-500 px-6 py-4 text-center text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                 >
                   <span class="relative z-10 flex items-center justify-center gap-2">
-                    🎯 View Brand Identity Pricing
+                    View Brand Identity Pricing
                     <svg
                       class="h-5 w-5 transition-transform group-hover/btn:translate-x-1"
                       fill="none"
