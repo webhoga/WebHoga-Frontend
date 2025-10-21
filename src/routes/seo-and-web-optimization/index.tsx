@@ -27,7 +27,7 @@ export const head: DocumentHead = {
       name: "viewport",
       content: "width=device-width, initial-scale=1",
     },
-    // Open Graph Tags
+
     {
       property: "og:title",
       content: "SEO & Web Optimization Services - WebHoga | Professional SEO Solutions",
@@ -97,7 +97,7 @@ export const head: DocumentHead = {
       name: "twitter:creator",
       content: "@WebHoga",
     },
-    // Additional SEO Tags
+
     {
       name: "theme-color",
       content: "#059669",
@@ -123,23 +123,7 @@ export const head: DocumentHead = {
       name: "geo.placename",
       content: "India",
     },
-    // Business Tags
-    {
-      name: "business:contact_data:street_address",
-      content: "Your Business Address",
-    },
-    {
-      name: "business:contact_data:locality",
-      content: "Your City",
-    },
-    {
-      name: "business:contact_data:region",
-      content: "Your State",
-    },
-    {
-      name: "business:contact_data:postal_code",
-      content: "Your Postal Code",
-    },
+
     {
       name: "business:contact_data:country_name",
       content: "India",
@@ -216,31 +200,20 @@ export default component$(() => {
           "name": "WebHoga SEO & Web Optimization Services",
           "image": "https://webhoga.com/images/seo-optimization-hero-image.jpg",
           "url": "https://webhoga.com/seo-web-optimization",
-          "telephone": "+91-XXXXXXXXXX",
+          "telephone": "+91-9061156535",
           "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Your Business Address",
-            "addressLocality": "Your City",
-            "addressRegion": "Your State",
-            "postalCode": "Your Postal Code",
             "addressCountry": "IN"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "YOUR_LATITUDE",
-            "longitude": "YOUR_LONGITUDE"
           },
           "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
             "opens": "09:00",
-            "closes": "18:00"
+            "closes": "17:00"
           },
           "sameAs": [
-            "https://www.facebook.com/webhoga",
-            "https://www.instagram.com/webhoga",
-            "https://www.linkedin.com/company/webhoga",
-            "https://twitter.com/webhoga"
+            "https://www.facebook.com/people/WebHoga/61576908121524/",
+            "https://www.youtube.com/@WebHoga",
+            "https://in.pinterest.com/webhogaindia/",
           ],
           "offers": {
             "@type": "Offer",
@@ -358,21 +331,15 @@ export default component$(() => {
             </p>
           </div>
 
-          {/* Service Package */}
+          {/* Package */}
           <div class="max-w-2xl mx-auto fade-in-up">
             <article
               class="group relative bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transform hover:-translate-y-3 transition-all duration-500 border border-slate-100 overflow-hidden">
               <div
                 class="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-green-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div class="relative z-10">
-                {/* Service Icon */}
-                <div
-                  class="w-20 h-20 bg-gradient-to-br from-emerald-500 to-green-500 rounded-3xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300 mx-auto"
-                  aria-hidden="true">
-                  <span role="img" aria-label="rocket">🚀</span>
-                </div>
 
-                {/* Service Badge */}
+                {/* Badge */}
                 <div class="text-center mb-6">
                   <div
                     class="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-100 to-green-100 text-emerald-700 px-3 py-1 rounded-full text-sm font-medium">
@@ -387,7 +354,7 @@ export default component$(() => {
                   Comprehensive SEO and web optimization service that includes keyword research, on-page optimization, technical SEO, performance optimization, and ongoing monitoring to boost your search rankings.
                 </p>
 
-                {/* Service Features */}
+                {/* Features */}
                 <div class="grid md:grid-cols-2 gap-4 mb-8">
                   <ul class="space-y-4" role="list">
                     <li class="flex items-center gap-3">
@@ -439,7 +406,7 @@ export default component$(() => {
                   </div>
                 </div>
 
-                {/* Service CTA */}
+                {/* CTA */}
                 <a href="/pricing/seo-and-web-optimization"
                    class="group/btn relative overflow-hidden bg-gradient-to-r from-emerald-500 to-green-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 block text-center"
                    aria-label="Get started with SEO optimization">
