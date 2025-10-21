@@ -181,7 +181,6 @@ export default component$(() => {
                         <div
                           class="bg-gradient-to-br from-emerald-50 to-green-50 p-4 rounded-lg border border-emerald-100">
                           <div class="text-center">
-                            <div class="text-2xl mb-2">📋</div>
                             <div class="font-semibold text-sm text-slate-800">GST Registration</div>
                             <div class="text-xs text-slate-600">Complete setup</div>
                           </div>
@@ -189,7 +188,6 @@ export default component$(() => {
 
                         <div class="bg-gradient-to-br from-teal-50 to-cyan-50 p-4 rounded-lg border border-teal-100">
                           <div class="text-center">
-                            <div class="text-2xl mb-2">🏭</div>
                             <div class="font-semibold text-sm text-slate-800">UDYAM Registration</div>
                             <div class="text-xs text-slate-600">MSME certification</div>
                           </div>
@@ -198,7 +196,6 @@ export default component$(() => {
                         <div
                           class="bg-gradient-to-br from-green-50 to-emerald-50 p-4 rounded-lg border border-green-100">
                           <div class="text-center">
-                            <div class="text-2xl mb-2">🏦</div>
                             <div class="font-semibold text-sm text-slate-800">Current Account</div>
                             <div class="text-xs text-slate-600">Business banking</div>
                           </div>
@@ -206,7 +203,6 @@ export default component$(() => {
 
                         <div class="bg-gradient-to-br from-cyan-50 to-teal-50 p-4 rounded-lg border border-cyan-100">
                           <div class="text-center">
-                            <div class="text-2xl mb-2">💡</div>
                             <div class="font-semibold text-sm text-slate-800">Expert Consultation</div>
                             <div class="text-xs text-slate-600">Strategic guidance</div>
                           </div>
