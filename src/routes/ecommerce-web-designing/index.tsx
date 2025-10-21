@@ -134,7 +134,7 @@ export default component$(() => {
                 <h3 class="text-3xl font-bold text-slate-800 mb-6">Shopify Development</h3>
 
                 <p class="text-slate-600 mb-8 leading-relaxed text-lg">
-                  Launch your online store quickly with Shopify's powerful platform. Perfect for businesses that want to start selling fast with minimal technical complexity.
+                  Launch your online store quickly with Shopify's powerful platform — perfect for businesses that want to start selling fast with minimal technical complexity and maximum growth potential.
                 </p>
 
                 {/* Features */}
