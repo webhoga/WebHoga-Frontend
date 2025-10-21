@@ -130,11 +130,6 @@ export default component$(() => {
               <div
                 class="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div class="relative z-10">
-                {/* Icon */}
-                <div
-                  class="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-500 rounded-3xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300 mx-auto">
-                  📊
-                </div>
 
                 {/* Badge */}
                 <div
@@ -182,7 +177,7 @@ export default component$(() => {
                 <a href="/pricing/google-analytics-and-tracking"
                    class="group/btn relative overflow-hidden bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 block text-center">
                   <span class="relative z-10 flex items-center justify-center gap-2">
-                    📊 View Analytics Pricing
+                    View Analytics Pricing
                     <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                          stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -201,11 +196,6 @@ export default component$(() => {
               <div
                 class="absolute inset-0 bg-gradient-to-br from-teal-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div class="relative z-10">
-                {/* Icon */}
-                <div
-                  class="w-20 h-20 bg-gradient-to-br from-teal-500 to-cyan-500 rounded-3xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300 mx-auto">
-                  🎯
-                </div>
 
                 {/* Badge */}
                 <div
@@ -253,7 +243,7 @@ export default component$(() => {
                 <a href="/contact"
                    class="group/btn relative overflow-hidden bg-gradient-to-r from-teal-500 to-cyan-500 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 block text-center">
                   <span class="relative z-10 flex items-center justify-center gap-2">
-                    🎯 View Tracking Pricing
+                    View Tracking Pricing
                     <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none"
                          stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
