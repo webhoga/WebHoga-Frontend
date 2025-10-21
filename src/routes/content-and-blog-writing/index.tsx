@@ -211,27 +211,18 @@ export default component$(() => {
           <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto fade-in-up">
             {/* Feature 1 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                🔍
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">SEO Optimized</h3>
               <p class="text-slate-600">Research-driven keyword optimization to boost your search engine rankings and organic traffic.</p>
             </div>
 
             {/* Feature 2 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                📚
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Research-Backed</h3>
               <p class="text-slate-600">Thoroughly researched content that provides real value and establishes your authority in your niche.</p>
             </div>
 
             {/* Feature 3 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                💬
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Engaging Style</h3>
               <p class="text-slate-600">Compelling writing that keeps readers engaged and encourages them to take action on your content.</p>
             </div>
@@ -256,36 +247,24 @@ export default component$(() => {
           <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto fade-in-up">
             {/* Content Type 1 */}
             <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-slate-100">
-              <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                📝
-              </div>
               <h3 class="text-lg font-bold text-slate-800 mb-2">Blog Posts</h3>
               <p class="text-slate-600 text-sm">SEO-optimized blog articles that drive organic traffic and engage your audience.</p>
             </div>
 
             {/* Content Type 2 */}
             <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-slate-100">
-              <div class="w-12 h-12 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                🌐
-              </div>
               <h3 class="text-lg font-bold text-slate-800 mb-2">Web Copy</h3>
               <p class="text-slate-600 text-sm">Compelling website copy that converts visitors into customers and clients.</p>
             </div>
 
             {/* Content Type 3 */}
             <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-slate-100">
-              <div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                📧
-              </div>
               <h3 class="text-lg font-bold text-slate-800 mb-2">Email Content</h3>
               <p class="text-slate-600 text-sm">Engaging email newsletters and marketing campaigns that drive conversions.</p>
             </div>
 
             {/* Content Type 4 */}
             <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-slate-100">
-              <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                📱
-              </div>
               <h3 class="text-lg font-bold text-slate-800 mb-2">Social Media</h3>
               <p class="text-slate-600 text-sm">Social media content that builds brand awareness and drives engagement.</p>
             </div>
