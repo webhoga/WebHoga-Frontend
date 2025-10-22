@@ -835,6 +835,7 @@ export default component$(() => {
         </div>
       </section>
     </div>
+        
     <Footer />
   );
 });
