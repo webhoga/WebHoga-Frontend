@@ -24,14 +24,6 @@ export default component$(() => {
           <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-r from-sky-300/10 to-blue-300/10 rounded-full blur-2xl animate-bounce"></div>
         </div>
 
-        <div class="relative z-10 container mx-auto px-4 py-20">
-          <div class="text-center max-w-5xl mx-auto min-h-[80vh] flex flex-col justify-center">
-            {/* Badge */}
-            <div class="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-4 py-2 rounded-full text-sm font-medium shadow-lg mb-8 mx-auto">
-              <span class="w-2 h-2 bg-white rounded-full animate-pulse"></span>
-              Launch Your Travel Business in 30 Days
-            </div>
-
             {/* Main Headline */}
             <h1 class="text-5xl lg:text-7xl font-bold leading-tight mb-8">
               <span class="text-blue-600">White-Label</span>
