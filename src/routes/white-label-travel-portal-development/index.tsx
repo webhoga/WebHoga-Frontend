@@ -25,8 +25,8 @@ export default component$(() => {
             <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-r from-sky-300/10 to-blue-300/10 rounded-full blur-2xl animate-bounce"></div>
           </div>
 
-          <div class="relative z-10 container mx-auto px-4 flex items-center justify-center min-h-screen">
-            <div class="text-center max-w-5xl">
+          <div class="relative z-10 container mx-auto px-4 pt-32 pb-20 flex items-center justify-center min-h-screen">
+            <div class="text-center max-w-5xl mt-16">
               {/* Main Headline */}
               <h1 class="text-5xl lg:text-7xl font-bold leading-tight mb-8">
                 <span class="text-blue-600">White-Label</span>
