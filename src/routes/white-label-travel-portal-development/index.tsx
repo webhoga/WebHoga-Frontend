@@ -24,6 +24,8 @@ export default component$(() => {
           <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-r from-sky-300/10 to-blue-300/10 rounded-full blur-2xl animate-bounce"></div>
         </div>
 
+        <div class="relative z-10 container mx-auto px-4 flex items-center justify-center min-h-screen">
+          <div class="text-center max-w-5xl">
             {/* Main Headline */}
             <h1 class="text-5xl lg:text-7xl font-bold leading-tight mb-8">
               <span class="text-blue-600">White-Label</span>
@@ -158,6 +160,313 @@ export default component$(() => {
                     <h4 class="font-bold text-slate-800 mb-3 text-lg">Flight Booking</h4>
                     <ul class="space-y-2 text-sm text-slate-600">
                       <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>PCI DSS Ready Infrastructure</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>GDPR Compliance Tools</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Regular Security Audits</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Malware Protection</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Data Encryption</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Secure Payment Processing</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-2xl shadow-lg">
+              <h3 class="text-2xl font-bold text-slate-800 mb-4">Design & UX</h3>
+              <ul class="space-y-3 text-slate-600">
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Mobile-First Design</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Cross-browser Compatible</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>ADA Accessibility Standards</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Fast Loading Speed</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Intuitive User Interface</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Modern UI/UX Design</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Brand Customization</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-2xl shadow-lg">
+              <h3 class="text-2xl font-bold text-slate-800 mb-4">Support & Maintenance</h3>
+              <ul class="space-y-3 text-slate-600">
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Regular Platform Updates by API Provider</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Bug Fixes & Patches by API Provider</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>API Monitoring & Support by API Provider</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Performance Optimization by API Provider</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Technical Documentation & API Docs by API Provider</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Knowledge Base Access by API Provider</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-500 mt-1">✓</span>
+                  <span>Ticket Support System by API Provider</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comparison Table */}
+      <section class="py-20 bg-gradient-to-br from-slate-50 via-white to-blue-50">
+        <div class="container mx-auto px-4">
+          <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+              <span class="text-blue-600">Compare Plans</span>
+              <br />
+              <span class="text-orange-500">Side by Side</span>
+            </h2>
+            <p class="text-xl text-slate-600">
+              Find the perfect fit for your travel business needs
+            </p>
+          </div>
+
+          <div class="max-w-6xl mx-auto overflow-x-auto">
+            <table class="w-full bg-white rounded-2xl shadow-2xl overflow-hidden">
+              <thead class="bg-gradient-to-r from-blue-600 to-cyan-500 text-white">
+                <tr>
+                  <th class="p-6 text-left text-lg font-bold">Feature</th>
+                  <th class="p-6 text-center text-lg font-bold">WordPress Lite</th>
+                  <th class="p-6 text-center text-lg font-bold">Drupal Pro</th>
+                  <th class="p-6 text-center text-lg font-bold">Laravel Enterprise</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-200">
+                <tr class="hover:bg-slate-50">
+                  <td class="p-6 font-semibold text-slate-800">Platform</td>
+                  <td class="p-6 text-center text-slate-600">WordPress</td>
+                  <td class="p-6 text-center text-slate-600">Drupal 10</td>
+                  <td class="p-6 text-center text-slate-600">Laravel 11 + Vue.js</td>
+                </tr>
+                <tr class="hover:bg-slate-50">
+                  <td class="p-6 font-semibold text-slate-800">Flight Booking API</td>
+                  <td class="p-6 text-center text-slate-600">Affiliate</td>
+                  <td class="p-6 text-center text-slate-600">Ezulix</td>
+                  <td class="p-6 text-center text-slate-600">Ezulix</td>
+                </tr>
+                <tr class="hover:bg-slate-50">
+                  <td class="p-6 font-semibold text-slate-800">Hotel Booking API</td>
+                  <td class="p-6 text-center text-slate-600">Booking.com</td>
+                  <td class="p-6 text-center text-slate-600">Ezulix</td>
+                  <td class="p-6 text-center text-slate-600">Ezulix</td>
+                </tr>
+                <tr class="hover:bg-slate-50">
+                  <td class="p-6 font-semibold text-slate-800">Bus Booking</td>
+                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
+                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
+                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
+                </tr>
+                <tr class="hover:bg-slate-50">
+                  <td class="p-6 font-semibold text-slate-800">Payment Gateways</td>
+                  <td class="p-6 text-center text-slate-600">2</td>
+                  <td class="p-6 text-center text-slate-600">4</td>
+                  <td class="p-6 text-center text-slate-600">Unlimited</td>
+                </tr>
+                <tr class="hover:bg-slate-50">
+                  <td class="p-6 font-semibold text-slate-800">B2B Portal</td>
+                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
+                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
+                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
+                </tr>
+                <tr class="hover:bg-slate-50">
+                  <td class="p-6 font-semibold text-slate-800">Mobile Apps</td>
+                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
+                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
+                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
+                </tr>
+                <tr class="hover:bg-slate-50">
+                  <td class="p-6 font-semibold text-slate-800">AI Features</td>
+                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
+                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
+                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
+                </tr>
+                <tr class="hover:bg-slate-50">
+                  <td class="p-6 font-semibold text-slate-800">Multi-currency</td>
+                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
+                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
+                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
+                </tr>
+                <tr class="hover:bg-slate-50">
+                  <td class="p-6 font-semibold text-slate-800">White-label Rights</td>
+                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
+                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
+                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
+                </tr>
+                <tr class="hover:bg-slate-50">
+                  <td class="p-6 font-semibold text-slate-800">Source Code</td>
+                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
+                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
+                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
+                </tr>
+                <tr class="hover:bg-slate-50 bg-blue-50">
+                  <td class="p-6 font-bold text-slate-800 text-lg">Price</td>
+                  <td class="p-6 text-center font-bold text-orange-600 text-2xl">₹1,50,000</td>
+                  <td class="p-6 text-center font-bold text-cyan-600 text-2xl">₹2,75,000</td>
+                  <td class="p-6 text-center font-bold text-indigo-600 text-2xl">₹4,50,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+          <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+              <span class="text-blue-600">Frequently Asked</span>
+              <br />
+              <span class="text-orange-500">Questions</span>
+            </h2>
+          </div>
+
+          <div class="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                q: "What is the difference between the three plans?",
+                a: "WordPress Lite uses affiliate APIs (ideal for startups with minimal upfront costs). Drupal Pro includes Ezulix APIs with full booking capabilities for flights, hotels, and buses. Laravel Enterprise adds mobile apps, AI features, white-label rights, and complete source code ownership."
+              },
+              {
+                q: "Are there any recurring costs?",
+                a: "Yes. From the 2nd year onwards, you'll need to pay API maintenance charges directly to Ezulix (for Pro and Enterprise plans). You'll also need to renew hosting, domain, and support after the free period ends."
+              },
+              {
+                q: "Can I add more features later?",
+                a: "Absolutely! You can add modules like train booking, car rentals, visa processing, travel insurance, and more. These require separate payments and can be integrated as your business grows."
+              },
+              {
+                q: "Do you provide training?",
+                a: "Yes! All plans include admin training sessions. The number of sessions varies by plan - 2 sessions for WordPress, comprehensive training for Drupal, and ongoing support for Laravel Enterprise."
+              },
+              {
+                q: "How long does development take?",
+                a: "WordPress Lite: 20-25 days, Drupal Pro: 30-40 days, Laravel Enterprise: 60-90 days. Timeline depends on customization requirements and your response time for approvals."
+              },
+              {
+                q: "Can I migrate from one plan to another?",
+                a: "Yes, you can upgrade from WordPress to Drupal or Laravel by paying the price difference plus migration costs. However, downgrading is not feasible due to technical architecture differences."
+              }
+            ].map((faq, idx) => (
+              <div key={idx} class="bg-gradient-to-br from-slate-50 to-white p-8 rounded-2xl shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300">
+                <h3 class="text-xl font-bold text-slate-800 mb-4">{faq.q}</h3>
+                <p class="text-slate-600 leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section class="py-20 bg-gradient-to-br from-blue-600 via-cyan-500 to-indigo-600 text-white relative overflow-hidden">
+        <div class="absolute inset-0 overflow-hidden">
+          <div class="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+          <div class="absolute bottom-0 left-0 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+        </div>
+
+        <div class="relative z-10 container mx-auto px-4 text-center">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl lg:text-6xl font-bold mb-6">
+              Ready to Launch Your<br />Travel Business?
+            </h2>
+            <p class="text-xl lg:text-2xl mb-12 text-white/90">
+              Schedule a free consultation with our travel tech experts and get started today
+            </p>
+            
+            <div class="flex flex-wrap gap-6 justify-center">
+              <a
+                href="https://bizassist.webhoga.com/business-consultation-2/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bg-white text-blue-600 px-10 py-5 rounded-xl font-bold text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 transition-all duration-300 inline-flex items-center gap-3"
+              >
+                📞 Book Free Consultation
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                </svg>
+              </a>
+              
+              <button
+                onClick$={scrollToPlans}
+                class="bg-transparent border-3 border-white text-white px-10 py-5 rounded-xl font-bold text-xl hover:bg-white hover:text-blue-600 transform hover:-translate-y-2 transition-all duration-300"
+              >
+                View Pricing Again
+              </button>
+            </div>
+
+            <div class="mt-12 flex flex-wrap gap-8 justify-center text-sm text-white/90">
+              <div class="flex items-center gap-2">
+                <span class="text-2xl">✓</span>
+                <span>No Hidden Charges</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-2xl">✓</span>
+                <span>100% Customizable</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-2xl">✓</span>
+                <span>Expert Support</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+        
+    <Footer />
+    </>
+  );
+});start gap-2">
                         <span class="text-green-500 mt-0.5">✓</span>
                         <span>Third-party Affiliate Integration</span>
                       </li>
@@ -533,303 +842,4 @@ export default component$(() => {
                   <span class="text-green-500 mt-1">✓</span>
                   <span>SSL/TLS Encryption</span>
                 </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>PCI DSS Ready Infrastructure</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>GDPR Compliance Tools</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Regular Security Audits</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Malware Protection</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Data Encryption</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Secure Payment Processing</span>
-                </li>
-              </ul>
-            </div>
-
-            <div class="bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-2xl shadow-lg">
-              <h3 class="text-2xl font-bold text-slate-800 mb-4">Design & UX</h3>
-              <ul class="space-y-3 text-slate-600">
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Mobile-First Design</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Cross-browser Compatible</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>ADA Accessibility Standards</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Fast Loading Speed</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Intuitive User Interface</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Modern UI/UX Design</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Brand Customization</span>
-                </li>
-              </ul>
-            </div>
-
-            <div class="bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-2xl shadow-lg">
-              <h3 class="text-2xl font-bold text-slate-800 mb-4">Support & Maintenance</h3>
-              <ul class="space-y-3 text-slate-600">
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Regular Platform Updates by API Provider</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Bug Fixes & Patches by API Provider</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>API Monitoring & Support by API Provider</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Performance Optimization by API Provider</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Technical Documentation & API Docs by API Provider</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Knowledge Base Access by API Provider</span>
-                </li>
-                <li class="flex items-start gap-2">
-                  <span class="text-green-500 mt-1">✓</span>
-                  <span>Ticket Support System by API Provider</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Comparison Table */}
-      <section class="py-20 bg-gradient-to-br from-slate-50 via-white to-blue-50">
-        <div class="container mx-auto px-4">
-          <div class="text-center max-w-3xl mx-auto mb-16">
-            <h2 class="text-4xl lg:text-5xl font-bold mb-6">
-              <span class="text-blue-600">Compare Plans</span>
-              <br />
-              <span class="text-orange-500">Side by Side</span>
-            </h2>
-            <p class="text-xl text-slate-600">
-              Find the perfect fit for your travel business needs
-            </p>
-          </div>
-
-          <div class="max-w-6xl mx-auto overflow-x-auto">
-            <table class="w-full bg-white rounded-2xl shadow-2xl overflow-hidden">
-              <thead class="bg-gradient-to-r from-blue-600 to-cyan-500 text-white">
-                <tr>
-                  <th class="p-6 text-left text-lg font-bold">Feature</th>
-                  <th class="p-6 text-center text-lg font-bold">WordPress Lite</th>
-                  <th class="p-6 text-center text-lg font-bold">Drupal Pro</th>
-                  <th class="p-6 text-center text-lg font-bold">Laravel Enterprise</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-slate-200">
-                <tr class="hover:bg-slate-50">
-                  <td class="p-6 font-semibold text-slate-800">Platform</td>
-                  <td class="p-6 text-center text-slate-600">WordPress</td>
-                  <td class="p-6 text-center text-slate-600">Drupal 10</td>
-                  <td class="p-6 text-center text-slate-600">Laravel 11 + Vue.js</td>
-                </tr>
-                <tr class="hover:bg-slate-50">
-                  <td class="p-6 font-semibold text-slate-800">Flight Booking API</td>
-                  <td class="p-6 text-center text-slate-600">Affiliate</td>
-                  <td class="p-6 text-center text-slate-600">Ezulix</td>
-                  <td class="p-6 text-center text-slate-600">Ezulix</td>
-                </tr>
-                <tr class="hover:bg-slate-50">
-                  <td class="p-6 font-semibold text-slate-800">Hotel Booking API</td>
-                  <td class="p-6 text-center text-slate-600">Booking.com</td>
-                  <td class="p-6 text-center text-slate-600">Ezulix</td>
-                  <td class="p-6 text-center text-slate-600">Ezulix</td>
-                </tr>
-                <tr class="hover:bg-slate-50">
-                  <td class="p-6 font-semibold text-slate-800">Bus Booking</td>
-                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
-                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
-                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
-                </tr>
-                <tr class="hover:bg-slate-50">
-                  <td class="p-6 font-semibold text-slate-800">Payment Gateways</td>
-                  <td class="p-6 text-center text-slate-600">2</td>
-                  <td class="p-6 text-center text-slate-600">4</td>
-                  <td class="p-6 text-center text-slate-600">Unlimited</td>
-                </tr>
-                <tr class="hover:bg-slate-50">
-                  <td class="p-6 font-semibold text-slate-800">B2B Portal</td>
-                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
-                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
-                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
-                </tr>
-                <tr class="hover:bg-slate-50">
-                  <td class="p-6 font-semibold text-slate-800">Mobile Apps</td>
-                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
-                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
-                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
-                </tr>
-                <tr class="hover:bg-slate-50">
-                  <td class="p-6 font-semibold text-slate-800">AI Features</td>
-                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
-                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
-                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
-                </tr>
-                <tr class="hover:bg-slate-50">
-                  <td class="p-6 font-semibold text-slate-800">Multi-currency</td>
-                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
-                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
-                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
-                </tr>
-                <tr class="hover:bg-slate-50">
-                  <td class="p-6 font-semibold text-slate-800">White-label Rights</td>
-                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
-                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
-                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
-                </tr>
-                <tr class="hover:bg-slate-50">
-                  <td class="p-6 font-semibold text-slate-800">Source Code</td>
-                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
-                  <td class="p-6 text-center"><span class="text-red-500 text-xl">✗</span></td>
-                  <td class="p-6 text-center"><span class="text-green-500 text-xl">✓</span></td>
-                </tr>
-                <tr class="hover:bg-slate-50 bg-blue-50">
-                  <td class="p-6 font-bold text-slate-800 text-lg">Price</td>
-                  <td class="p-6 text-center font-bold text-orange-600 text-2xl">₹1,50,000</td>
-                  <td class="p-6 text-center font-bold text-cyan-600 text-2xl">₹2,75,000</td>
-                  <td class="p-6 text-center font-bold text-indigo-600 text-2xl">₹4,50,000</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section class="py-20 bg-white">
-        <div class="container mx-auto px-4">
-          <div class="text-center max-w-3xl mx-auto mb-16">
-            <h2 class="text-4xl lg:text-5xl font-bold mb-6">
-              <span class="text-blue-600">Frequently Asked</span>
-              <br />
-              <span class="text-orange-500">Questions</span>
-            </h2>
-          </div>
-
-          <div class="max-w-4xl mx-auto space-y-6">
-            {[
-              {
-                q: "What is the difference between the three plans?",
-                a: "WordPress Lite uses affiliate APIs (ideal for startups with minimal upfront costs). Drupal Pro includes Ezulix APIs with full booking capabilities for flights, hotels, and buses. Laravel Enterprise adds mobile apps, AI features, white-label rights, and complete source code ownership."
-              },
-              {
-                q: "Are there any recurring costs?",
-                a: "Yes. From the 2nd year onwards, you'll need to pay API maintenance charges directly to Ezulix (for Pro and Enterprise plans). You'll also need to renew hosting, domain, and support after the free period ends."
-              },
-              {
-                q: "Can I add more features later?",
-                a: "Absolutely! You can add modules like train booking, car rentals, visa processing, travel insurance, and more. These require separate payments and can be integrated as your business grows."
-              },
-              {
-                q: "Do you provide training?",
-                a: "Yes! All plans include admin training sessions. The number of sessions varies by plan - 2 sessions for WordPress, comprehensive training for Drupal, and ongoing support for Laravel Enterprise."
-              },
-              {
-                q: "How long does development take?",
-                a: "WordPress Lite: 20-25 days, Drupal Pro: 30-40 days, Laravel Enterprise: 60-90 days. Timeline depends on customization requirements and your response time for approvals."
-              },
-              {
-                q: "Can I migrate from one plan to another?",
-                a: "Yes, you can upgrade from WordPress to Drupal or Laravel by paying the price difference plus migration costs. However, downgrading is not feasible due to technical architecture differences."
-              }
-            ].map((faq, idx) => (
-              <div key={idx} class="bg-gradient-to-br from-slate-50 to-white p-8 rounded-2xl shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300">
-                <h3 class="text-xl font-bold text-slate-800 mb-4">{faq.q}</h3>
-                <p class="text-slate-600 leading-relaxed">{faq.a}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section class="py-20 bg-gradient-to-br from-blue-600 via-cyan-500 to-indigo-600 text-white relative overflow-hidden">
-        <div class="absolute inset-0 overflow-hidden">
-          <div class="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
-          <div class="absolute bottom-0 left-0 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
-        </div>
-
-        <div class="relative z-10 container mx-auto px-4 text-center">
-          <div class="max-w-4xl mx-auto">
-            <h2 class="text-4xl lg:text-6xl font-bold mb-6">
-              Ready to Launch Your<br />Travel Business?
-            </h2>
-            <p class="text-xl lg:text-2xl mb-12 text-white/90">
-              Schedule a free consultation with our travel tech experts and get started today
-            </p>
-            
-            <div class="flex flex-wrap gap-6 justify-center">
-              <a
-                href="https://bizassist.webhoga.com/business-consultation-2/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="bg-white text-blue-600 px-10 py-5 rounded-xl font-bold text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 transition-all duration-300 inline-flex items-center gap-3"
-              >
-                📞 Book Free Consultation
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                </svg>
-              </a>
-              
-              <button
-                onClick$={scrollToPlans}
-                class="bg-transparent border-3 border-white text-white px-10 py-5 rounded-xl font-bold text-xl hover:bg-white hover:text-blue-600 transform hover:-translate-y-2 transition-all duration-300"
-              >
-                View Pricing Again
-              </button>
-            </div>
-
-            <div class="mt-12 flex flex-wrap gap-8 justify-center text-sm text-white/90">
-              <div class="flex items-center gap-2">
-                <span class="text-2xl">✓</span>
-                <span>No Hidden Charges</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-        
-    <Footer />
-    </>
-  );
-});
+                <li class="flex items-
