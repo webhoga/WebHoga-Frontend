@@ -1,4 +1,6 @@
 import { component$, $ } from '@builder.io/qwik';
+import Header from "~/components/Header";
+import Footer from "~/components/Footer";
 
 export default component$(() => {
   const scrollToPlans = $(() => {
