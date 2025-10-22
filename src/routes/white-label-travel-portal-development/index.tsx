@@ -11,6 +11,8 @@ export default component$(() => {
   });
 
   return (
+    <Header />
+    
     <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       {/* Hero Section */}
       <section class="relative min-h-screen overflow-hidden">
@@ -833,5 +835,6 @@ export default component$(() => {
         </div>
       </section>
     </div>
+    <Footer />
   );
 });
