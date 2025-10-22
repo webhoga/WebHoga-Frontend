@@ -13,8 +13,8 @@ export default component$(() => {
               <img
                 src={WebHogaFooterLogo}
                 alt="WebHoga Logo"
-                width="120"
-                height="48"
+                width={120}
+                height={48}
                 onError$={(e) => {
                   console.error('Footer logo failed to load:', e);
                 }}
@@ -80,7 +80,7 @@ export default component$(() => {
             </div>
           </div>
 
-          {/* Products Section */}
+          {/* Products */}
           <div>
             <h3 class="mb-6 bg-gradient-to-r from-orange-400 to-amber-400 bg-clip-text text-xl font-bold text-transparent">
               Products
@@ -147,7 +147,7 @@ export default component$(() => {
                 <div class="text-xs text-white">SSL Encrypted</div>
               </div>
               <div class="rounded-lg bg-blue-600 p-2 text-center">
-                                <div class="text-xs font-bold text-white">✓</div>
+                <div class="text-xs font-bold text-white">✓</div>
                 <div class="text-xs text-white">Let's Encrypt</div>
               </div>
             </div>
