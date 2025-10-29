@@ -38,11 +38,9 @@ export default component$(() => {
         <div class="container mx-auto flex items-center justify-between">
           <div class="flex items-center gap-6">
             <div class="flex items-center gap-2">
-              <span>📞</span>
               <span class="font-medium">+91 9061156535</span>
             </div>
             <div class="hidden items-center gap-2 md:flex">
-              <span>✉️</span>
               <span>contact@webhoga.com</span>
             </div>
           </div>
