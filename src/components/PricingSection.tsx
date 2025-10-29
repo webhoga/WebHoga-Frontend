@@ -95,7 +95,7 @@ export const PricingSection = component$(() => {
       title: 'SEO & Web Optimization',
       description:
         'SEO and web optimization with technical audits, keyword research, and performance enhancement. Boost your search rankings with data-driven strategies and conversion optimization.',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png',
+      logo: 'https://images.seeklogo.com/logo-png/62/2/google-new-logo-png_seeklogo-622426.png',
       link: '/pricing/seo-and-web-optimization',
       bgClass: 'from-emerald-50 to-green-100'
     },
