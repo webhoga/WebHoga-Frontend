@@ -7,7 +7,7 @@ export const PricingSection = component$(() => {
       title: 'WordPress Website Designing',
       description:
         'Custom WordPress websites with responsive design, CMS integration, and SEO optimization. Perfect for businesses looking for scalable web solutions.',
-      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1DIlYvtaJulsJZag0JnuNVddwTFSonHeeQQ&s',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Wordpress-Logo.svg/2048px-Wordpress-Logo.svg.png',
       link: '/pricing/wordpress',
       bgClass: 'from-orange-50 to-yellow-100'
     },
