@@ -59,7 +59,7 @@ export const PricingSection = component$(() => {
       id: 'hotel-reservation-api',
       title: 'Hotel Reservation API',
       description: 'Powerful API solution for integrating hotel booking functionality into your application. Includes real-time availability, booking management, and payment integration.',
-      logo: 'https://cdn-icons-png.flaticon.com/512/2779/2779770.png',
+      logo: 'https://travelcarma.com/static/media/hotel-booking-engine-clipart.e1471a8464b192c8d64c.png',
       link: '/pricing/hotel-reservation-api',
       bgClass: 'from-emerald-50 to-teal-100'
     },
