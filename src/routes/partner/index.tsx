@@ -196,9 +196,6 @@ export default component$(() => {
                   <div class="absolute -top-4 -right-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-violet-500 text-2xl font-bold text-white shadow-lg">
                     1
                   </div>
-                  <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-500/10 to-violet-500/10 text-4xl">
-                    📝
-                  </div>
                   <h3 class="mb-4 text-2xl font-bold text-slate-800">
                     Sign Up Free
                   </h3>
@@ -214,9 +211,6 @@ export default component$(() => {
                   <div class="absolute -top-4 -right-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-orange-500 to-amber-500 text-2xl font-bold text-white shadow-lg">
                     2
                   </div>
-                  <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500/10 to-amber-500/10 text-4xl">
-                    ✍️
-                  </div>
                   <h3 class="mb-4 text-2xl font-bold text-slate-800">
                     Promote WebHoga
                   </h3>
@@ -231,9 +225,6 @@ export default component$(() => {
                 <div class="group transform overflow-hidden rounded-2xl border border-green-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
                   <div class="absolute -top-4 -right-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-green-500 to-emerald-500 text-2xl font-bold text-white shadow-lg">
                     3
-                  </div>
-                  <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-green-500/10 to-emerald-500/10 text-4xl">
-                    💰
                   </div>
                   <h3 class="mb-4 text-2xl font-bold text-slate-800">
                     Earn Commission
@@ -271,9 +262,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-violet-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-500 to-violet-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  💎
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Generous 5.5% Commission
                 </h3>
@@ -287,9 +275,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-green-500 to-emerald-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🔄
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Recurring Commission
                 </h3>
@@ -303,9 +288,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-amber-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500 to-amber-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🍪
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   30-Day Cookie Duration
                 </h3>
@@ -319,9 +301,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🎨
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Professional Marketing Materials
                 </h3>
@@ -335,9 +314,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-pink-500/5 to-rose-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-pink-500 to-rose-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  📊
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Real-Time Analytics Dashboard
                 </h3>
@@ -351,9 +327,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-purple-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🤝
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Dedicated Affiliate Manager
                 </h3>
@@ -381,7 +354,6 @@ export default component$(() => {
 
           <div class="fade-in-up mx-auto max-w-4xl grid gap-6 md:grid-cols-2">
             <div class="flex gap-4 rounded-xl border border-purple-100 bg-white p-6 shadow-lg">
-              <div class="text-3xl">📝</div>
               <div>
                 <h4 class="mb-2 text-xl font-bold text-slate-800">Bloggers & Content Creators</h4>
                 <p class="text-slate-600">Write about web design, development, or business growth? Share WebHoga with your audience.</p>
@@ -389,7 +361,6 @@ export default component$(() => {
             </div>
 
             <div class="flex gap-4 rounded-xl border border-purple-100 bg-white p-6 shadow-lg">
-              <div class="text-3xl">📱</div>
               <div>
                 <h4 class="mb-2 text-xl font-bold text-slate-800">Social Media Influencers</h4>
                 <p class="text-slate-600">Have an engaged following? Recommend premium web design services and earn commissions.</p>
@@ -397,7 +368,6 @@ export default component$(() => {
             </div>
 
             <div class="flex gap-4 rounded-xl border border-purple-100 bg-white p-6 shadow-lg">
-              <div class="text-3xl">📈</div>
               <div>
                 <h4 class="mb-2 text-xl font-bold text-slate-800">Digital Marketing Agencies</h4>
                 <p class="text-slate-600">Partner with us to offer web design services to your clients without building an in-house team.</p>
@@ -405,7 +375,6 @@ export default component$(() => {
             </div>
 
             <div class="flex gap-4 rounded-xl border border-purple-100 bg-white p-6 shadow-lg">
-              <div class="text-3xl">👥</div>
               <div>
                 <h4 class="mb-2 text-xl font-bold text-slate-800">Business Consultants</h4>
                 <p class="text-slate-600">Help your clients get professional websites while earning passive income on referrals.</p>
@@ -413,7 +382,6 @@ export default component$(() => {
             </div>
 
             <div class="flex gap-4 rounded-xl border border-purple-100 bg-white p-6 shadow-lg">
-              <div class="text-3xl">💻</div>
               <div>
                 <h4 class="mb-2 text-xl font-bold text-slate-800">YouTubers & Video Creators</h4>
                 <p class="text-slate-600">Create content about business websites and include your affiliate links in descriptions.</p>
@@ -421,7 +389,6 @@ export default component$(() => {
             </div>
 
             <div class="flex gap-4 rounded-xl border border-purple-100 bg-white p-6 shadow-lg">
-              <div class="text-3xl">🌐</div>
               <div>
                 <h4 class="mb-2 text-xl font-bold text-slate-800">Website Owners</h4>
                 <p class="text-slate-600">Monetize your website traffic by recommending WebHoga's premium services to visitors.</p>
@@ -447,7 +414,6 @@ export default component$(() => {
 
               <div class="grid gap-8 md:grid-cols-3">
                 <div class="rounded-2xl bg-white p-6 text-center shadow-lg">
-                  <div class="mb-4 text-4xl">🎯</div>
                   <div class="mb-2 text-lg font-semibold text-slate-700">5 Referrals/Month</div>
                   <div class="mb-2 text-sm text-slate-600">Avg. Project: ₹50,000</div>
                   <div class="text-3xl font-bold text-purple-600">₹13,750</div>
@@ -455,7 +421,6 @@ export default component$(() => {
                 </div>
 
                 <div class="rounded-2xl bg-white p-6 text-center shadow-lg border-2 border-purple-300">
-                  <div class="mb-4 text-4xl">🚀</div>
                   <div class="mb-2 text-lg font-semibold text-slate-700">10 Referrals/Month</div>
                   <div class="mb-2 text-sm text-slate-600">Avg. Project: ₹75,000</div>
                   <div class="text-3xl font-bold text-purple-600">₹41,250</div>
@@ -463,7 +428,6 @@ export default component$(() => {
                 </div>
 
                 <div class="rounded-2xl bg-white p-6 text-center shadow-lg">
-                  <div class="mb-4 text-4xl">⭐</div>
                   <div class="mb-2 text-lg font-semibold text-slate-700">20 Referrals/Month</div>
                   <div class="mb-2 text-sm text-slate-600">Avg. Project: ₹1,00,000</div>
                   <div class="text-3xl font-bold text-purple-600">₹1,10,000</div>
@@ -473,7 +437,7 @@ export default component$(() => {
 
               <div class="mt-8 rounded-xl bg-gradient-to-r from-purple-500 to-violet-500 p-6 text-center text-white">
                 <p class="text-lg font-semibold">
-                  💡 Pro Tip: Our average project value is ₹75,000 - ₹2,00,000, which means higher earnings per referral!
+                  Pro Tip: Our average project value is ₹75,000 - ₹2,00,000, which means higher earnings per referral!
                 </p>
               </div>
             </div>
@@ -504,7 +468,7 @@ export default component$(() => {
               class="group relative transform overflow-hidden rounded-xl bg-white px-10 py-5 text-lg font-semibold text-purple-600 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-3xl"
             >
               <span class="relative z-10 flex items-center gap-2">
-                🚀 Join Affiliate Program Now
+                Join Affiliate Program Now
                 <svg
                   class="h-5 w-5 transition-transform group-hover:translate-x-1"
                   fill="none"
@@ -522,7 +486,7 @@ export default component$(() => {
             </button>
 
             <p class="mt-6 text-purple-100">
-              ✨ No signup fees • Instant approval • Start earning today
+              No signup fees • Instant approval • Start earning today
             </p>
           </div>
         </div>
