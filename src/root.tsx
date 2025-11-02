@@ -12,7 +12,7 @@ export default component$(() => {
 
         {!isDev && (
           <>
-            {/* Google Tag Manager Head Script */}
+            {/* ---------------- GOOGLE TAG MANAGER ---------------- */}
             <script
               dangerouslySetInnerHTML={`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -21,7 +21,7 @@ export default component$(() => {
                 })(window,document,'script','dataLayer','GTM-TJXPXH6F');`}
             />
 
-            {/* Hotjar */}
+            {/* ---------------- HOTJAR ---------------- */}
             <script
               dangerouslySetInnerHTML={`(function(h,o,t,j,a,r){
                     h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -33,15 +33,15 @@ export default component$(() => {
                 })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}
             />
 
-            {/* Zoho SalesIQ */}
+            {/* ---------------- ZOHO SALESIQ ---------------- */}
             <script
               dangerouslySetInnerHTML={`
-                window.$zoho=window.$zoho || {};
-                $zoho.salesiq=$zoho.salesiq||{ready:function(){}};
+                window.$zoho = window.$zoho || {};
+                $zoho.salesiq = $zoho.salesiq || { ready: function(){} };
               `}
             />
 
-            {/* Thrive Widget */}
+            {/* ---------------- THRIVE WIDGET ---------------- */}
             <script
               type="text/javascript"
               dangerouslySetInnerHTML={`
@@ -55,19 +55,7 @@ export default component$(() => {
               src="https://thrive.zohopublic.in/thrive/publicpages/thrivewidget"
             ></script>
 
-            {/* Member Opt-in / Affiliate Referral Script */}
-            <script
-              type="text/javascript"
-              dangerouslySetInnerHTML={`
-                var ztUserData = {};
-                ztUserData['za_email_id'] = {{Email Address of Customer}};
-                ztUserData['user_unique_id'] = {{Unique Identifiable System ID}};
-                ztUserData['thrive_digest'] = {{Sever Generated hMAC}};
-                ztUserData['signUpPage'] = {{Signup URL}};
-                ztUserData['signInPage'] = {{Login URL}};
-              `}
-            />
-
+            {/* ---------------- MANIFEST ---------------- */}
             <link
               rel="manifest"
               href={`${import.meta.env.BASE_URL}manifest.json`}
@@ -75,6 +63,7 @@ export default component$(() => {
           </>
         )}
 
+        {/* ---------------- DEFAULT HEAD CONTENT ---------------- */}
         <RouterHead />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <title>WebHoga</title>
@@ -83,7 +72,7 @@ export default component$(() => {
       <body lang="en">
         {!isDev && (
           <>
-            {/* Google Tag Manager NoScript Fallback */}
+            {/* ---------------- GTM NOSCRIPT FALLBACK ---------------- */}
             <noscript>
               <iframe
                 src="https://www.googletagmanager.com/ns.html?id=GTM-TJXPXH6F"
@@ -93,7 +82,7 @@ export default component$(() => {
               />
             </noscript>
 
-            {/* Zoho SalesIQ Script */}
+            {/* ---------------- ZOHO SALESIQ SCRIPT ---------------- */}
             <script
               id="zsiqscript"
               src="https://salesiq.zohopublic.in/widget?wc=siq3804605b74b45dceb25aea7e9526f32463acb44b53eb1573c61a9af787829691218b23454b7839585b93ce03acf271cb"
