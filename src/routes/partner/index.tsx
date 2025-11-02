@@ -693,7 +693,7 @@ export default component$(() => {
                   class="group relative flex-1 transform overflow-hidden rounded-xl bg-gradient-to-r from-purple-500 to-violet-500 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
                 >
                   <span class="relative z-10 flex items-center justify-center gap-2">
-                    🎉 Submit Application
+                    Submit Application
                     <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
@@ -710,7 +710,11 @@ export default component$(() => {
               </div>
 
               <p class="text-center text-sm text-slate-500">
-                📧 You'll receive your affiliate dashboard login details within 24 hours
+                You'll receive your affiliate dashboard login details within 24 hours
+              </p>
+
+               <p class="text-center text-sm text-slate-500">
+                Kindly do note that the affiliate program is only applicable to WebHoga and not its subsidaries
               </p>
             </form>
           </div>
