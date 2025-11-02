@@ -41,6 +41,33 @@ export default component$(() => {
               `}
             />
 
+            {/* Thrive Widget */}
+            <script
+              type="text/javascript"
+              dangerouslySetInnerHTML={`
+                var platformType = 'custom_user_site';
+                var thriveWidgetCode = 'c0ca5b96004382a25ec52c72f8d3d1e515c06cf6c8e13c242f9af9700576078c';
+                var ztUserData = {};
+              `}
+            />
+            <script
+              id="thrive_script"
+              src="https://thrive.zohopublic.in/thrive/publicpages/thrivewidget"
+            ></script>
+
+            {/* Member Opt-in / Affiliate Referral Script */}
+            <script
+              type="text/javascript"
+              dangerouslySetInnerHTML={`
+                var ztUserData = {};
+                ztUserData['za_email_id'] = {{Email Address of Customer}};
+                ztUserData['user_unique_id'] = {{Unique Identifiable System ID}};
+                ztUserData['thrive_digest'] = {{Sever Generated hMAC}};
+                ztUserData['signUpPage'] = {{Signup URL}};
+                ztUserData['signInPage'] = {{Login URL}};
+              `}
+            />
+
             <link
               rel="manifest"
               href={`${import.meta.env.BASE_URL}manifest.json`}
