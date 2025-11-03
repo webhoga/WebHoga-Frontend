@@ -76,9 +76,9 @@ export default component$(() => {
               <a href="/terms-and-conditions" class="block text-slate-300 transition-colors hover:text-orange-400">Terms of Use</a>
               <a href="/privacy-policy" class="block text-slate-300 transition-colors hover:text-orange-400">Privacy Policy</a>
               <a href="/refund-policy" class="block text-slate-300 transition-colors hover:text-orange-400">Refund Policy</a>
+              <a href="/bizassist" class="block font-medium text-emerald-400 transition-colors hover:text-emerald-300">BizAssist</a>
               <a href="/marketing" class="block font-medium text-red-400 transition-colors hover:text-red-300">Marketing</a>
               <a href="/partner" class="block font-medium text-purple-400 transition-colors hover:text-purple-300">Partner</a>
-              <a href="/bizassist" class="block font-medium text-emerald-400 transition-colors hover:text-emerald-300">BizAssist</a>
             </div>
           </div>
 
