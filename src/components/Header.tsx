@@ -126,7 +126,7 @@ export default component$(() => {
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-emerald-500 to-teal-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
 
-            {/* Ads */}
+            {/* Marketing */}
             <a
               href="https://ads.webhoga.com"
               class="group relative font-medium text-slate-700 transition-colors hover:text-red-600"
@@ -137,6 +137,19 @@ export default component$(() => {
                 </span>
               </span>
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-red-500 to-rose-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+
+            {/* Partner */}
+            <a
+              href="/partner"
+              class="group relative font-medium text-slate-700 transition-colors hover:text-purple-600"
+            >
+              <span class="flex items-center gap-1">
+                <span class="bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text font-semibold text-transparent">
+                  Partner
+                </span>
+              </span>
+              <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-purple-500 to-violet-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
 
             <a
@@ -216,12 +229,12 @@ export default component$(() => {
         {/* Mobile Menu */}
         <div
           class={`overflow-hidden transition-all duration-300 lg:hidden ${
-            isMenuOpen.value ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+            isMenuOpen.value ? "max-h-[32rem] opacity-100" : "max-h-0 opacity-0"
           }`}
         >
           <div class="space-y-1 pt-4 pb-2">
             <a
-              href="#home"
+              href="/"
               onClick$={closeMenu}
               class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-orange-50 hover:text-orange-600"
             >
@@ -256,12 +269,33 @@ export default component$(() => {
             </a>
 
             <a
-              href="#contact"
+              href="/partner"
+              onClick$={closeMenu}
+              class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600"
+            >
+              <span class="flex items-center gap-2">
+                <span class="font-semibold text-purple-600">Partner</span>
+              </span>
+            </a>
+
+            <a
+              href="/contact"
               onClick$={closeMenu}
               class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-orange-50 hover:text-orange-600"
             >
               Contact
             </a>
+
+            <a
+              href="https://blog.webhoga.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick$={closeMenu}
+              class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-orange-50 hover:text-orange-600"
+            >
+              Blog
+            </a>
+
             <div class="pt-2">
               <a
                 href="/contact"
