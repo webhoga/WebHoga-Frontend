@@ -1051,7 +1051,115 @@ export default component$(() => {
                 </p>
                 <div class="flex items-center font-semibold text-red-600 transition-all group-hover:gap-3">
                   <span>
-                    <a href="payment-gateway-integration">Learn More</a>
+                    <a href="/payment-gateway-integration">Learn More</a>
+                  </span>
+                  <svg
+                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            {/* Hotel Booking Engine */}
+            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              <div class="absolute inset-0 bg-gradient-to-br from-sky-500/5 to-blue-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
+              <div class="relative z-10">
+                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-sky-500 to-blue-500 text-2xl text-white transition-transform group-hover:scale-110">
+                  🏨
+                </div>
+                <h3 class="mb-4 text-2xl font-bold text-slate-800">
+                  Hotel Booking Engine
+                </h3>
+                <p class="mb-6 leading-relaxed text-slate-600">
+                  Complete hotel booking solutions with real-time availability, 
+                  instant confirmations, and seamless payment integration for your 
+                  hospitality business.
+                </p>
+                <div class="flex items-center font-semibold text-sky-600 transition-all group-hover:gap-3">
+                  <span>
+                    <a href="/hotel-booking-engine">Learn More</a>
+                  </span>
+                  <svg
+                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            {/* Hotel Reservation API */}
+            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              <div class="absolute inset-0 bg-gradient-to-br from-violet-500/5 to-purple-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
+              <div class="relative z-10">
+                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-500 to-purple-500 text-2xl text-white transition-transform group-hover:scale-110">
+                  🔌
+                </div>
+                <h3 class="mb-4 text-2xl font-bold text-slate-800">
+                  Hotel Reservation API
+                </h3>
+                <p class="mb-6 leading-relaxed text-slate-600">
+                  Powerful API integration connecting your platform to global hotel 
+                  inventory. Access millions of properties with competitive rates and 
+                  instant booking capabilities.
+                </p>
+                <div class="flex items-center font-semibold text-violet-600 transition-all group-hover:gap-3">
+                  <span>
+                    <a href="/hotel-reservation-api">Learn More</a>
+                  </span>
+                  <svg
+                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            {/* White-Label Travel Portal Development */}
+            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              <div class="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-teal-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
+              <div class="relative z-10">
+                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 text-2xl text-white transition-transform group-hover:scale-110">
+                  ✈️
+                </div>
+                <h3 class="mb-4 text-2xl font-bold text-slate-800">
+                  White-Label Travel Portal
+                </h3>
+                <p class="mb-6 leading-relaxed text-slate-600">
+                  Launch your own branded travel portal with complete booking 
+                  solutions for flights, hotels, and packages. Fully customizable 
+                  platform ready for your business.
+                </p>
+                <div class="flex items-center font-semibold text-emerald-600 transition-all group-hover:gap-3">
+                  <span>
+                    <a href="/white-label-travel-portal">Learn More</a>
                   </span>
                   <svg
                     class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
@@ -1070,6 +1178,8 @@ export default component$(() => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
 
           {/* Bottom CTA */}
           <div class="fade-in-up mt-16 text-center">
