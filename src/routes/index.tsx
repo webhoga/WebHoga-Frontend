@@ -1177,6 +1177,7 @@ export default component$(() => {
           </div>
         </div>
       </section>
+    </div>
 
           {/* Bottom CTA */}
           <div class="fade-in-up mt-16 text-center">
