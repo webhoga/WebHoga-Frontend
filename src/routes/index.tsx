@@ -19,7 +19,6 @@ export const head: DocumentHead = {
       name: "viewport",
       content: "width=device-width, initial-scale=1",
     },
-
     {
       property: "og:title",
       content: "WebHoga – Premium Web Design Agency in India",
@@ -35,13 +34,12 @@ export const head: DocumentHead = {
     },
     {
       property: "og:url",
-      content: "https://www.webhoga.com", 
+      content: "https://www.webhoga.com",
     },
     {
       property: "og:image",
-      content: "https://webhoga.com/assets/DuEqx7Yt-WebHoga%20Logo.png", 
+      content: "https://webhoga.com/assets/DuEqx7Yt-WebHoga%20Logo.png",
     },
-
     {
       name: "twitter:card",
       content: "summary_large_image",
@@ -57,7 +55,7 @@ export const head: DocumentHead = {
     },
     {
       name: "twitter:image",
-      content: "https://webhoga.com/assets/DuEqx7Yt-WebHoga%20Logo.png", 
+      content: "https://webhoga.com/assets/DuEqx7Yt-WebHoga%20Logo.png",
     },
   ],
   links: [
@@ -72,84 +70,94 @@ export default component$(() => {
   useScrollAnimate('.fade-in-up');
 
   const currentSlide = useSignal(0);
+
   const testimonials = [
     {
       name: "Rajesh Sharma",
       role: "CEO",
       initials: "RS",
       color: "from-blue-500 to-indigo-500",
-      quote: "WebHoga completely transformed our online presence. Our website went from looking outdated to absolutely stunning, and our conversions increased by 300% within the first month!",
+      quote:
+        "WebHoga completely transformed our online presence. Our website went from looking outdated to absolutely stunning, and our conversions increased by 300% within the first month!",
     },
     {
       name: "Priya Patel",
       role: "Founder",
       initials: "PP",
       color: "from-pink-500 to-rose-500",
-      quote: "The team at WebHoga delivered beyond our expectations. Our e-commerce site is not only beautiful but also incredibly fast. Sales have doubled since the redesign!",
+      quote:
+        "The team at WebHoga delivered beyond our expectations. Our e-commerce site is not only beautiful but also incredibly fast. Sales have doubled since the redesign!",
     },
     {
       name: "Amit Kumar",
       role: "Director",
       initials: "AK",
       color: "from-green-500 to-emerald-500",
-      quote: "Best decision we made was hiring WebHoga. Their SEO expertise got us ranking #1 for our main keywords within 3 months. Highly professional and results-driven team!",
+      quote:
+        "Best decision we made was hiring WebHoga. Their SEO expertise got us ranking #1 for our main keywords within 3 months. Highly professional and results-driven team!",
     },
     {
       name: "Sneha Reddy",
       role: "Owner",
       initials: "SR",
       color: "from-orange-500 to-amber-500",
-      quote: "WebHoga understood our vision perfectly. They created a website that truly represents our brand values. The ongoing support has been exceptional. Couldn't ask for better partners!",
+      quote:
+        "WebHoga understood our vision perfectly. They created a website that truly represents our brand values. The ongoing support has been exceptional. Couldn't ask for better partners!",
     },
     {
       name: "Vikram Singh",
       role: "Managing Partner",
       initials: "VS",
       color: "from-purple-500 to-violet-500",
-      quote: "Professional, punctual, and precise. WebHoga delivered our law firm's website on time and within budget. The mobile responsiveness is flawless and we're getting more client inquiries daily.",
+      quote:
+        "Professional, punctual, and precise. WebHoga delivered our law firm's website on time and within budget. The mobile responsiveness is flawless and we're getting more client inquiries daily.",
     },
     {
-  name: "Anjali Mehta",
-  role: "Marketing Head",
-  initials: "AM",
-  color: "from-teal-500 to-cyan-500",
-  quote: "Working with WebHoga was a game-changer. They revamped our landing pages and our ad campaigns started converting like never before. Their UX insights are spot on!"
-   },
-   {
-  name: "Rohan Desai",
-  role: "CTO",
-  initials: "RD",
-  color: "from-red-500 to-rose-600",
-  quote: "The technical expertise WebHoga brought to the table was impressive. Our site’s performance metrics improved across the board, and load times are now under 2 seconds."
-  },
-  {
-  name: "Neha Kapoor",
-  role: "Product Manager",
-  initials: "NK",
-  color: "from-yellow-500 to-lime-500",
-  quote: "WebHoga’s team worked like an extension of ours. They were collaborative, transparent, and always ready with creative solutions. Our product launch went smoother thanks to them!"
-  },
-  {
-  name: "Siddharth Iyer",
-  role: "COO",
-  initials: "SI",
-  color: "from-sky-500 to-blue-600",
-  quote: "From wireframes to deployment, WebHoga handled everything with professionalism and attention to detail. We’ve had zero downtime since launch and the feedback has been phenomenal."
-  },
-  {
-  name: "Antony Rossario",
-  role: "Head of Design",
-  initials: "AR",
-  color: "from-indigo-500 to-purple-600",
-  quote: "Creative, communicative, and committed. WebHoga didn’t just build us a website — they built a digital experience that aligns perfectly with our brand."
-  },
- ];
+      name: "Anjali Mehta",
+      role: "Marketing Head",
+      initials: "AM",
+      color: "from-teal-500 to-cyan-500",
+      quote:
+        "Working with WebHoga was a game-changer. They revamped our landing pages and our ad campaigns started converting like never before. Their UX insights are spot on!",
+    },
+    {
+      name: "Rohan Desai",
+      role: "CTO",
+      initials: "RD",
+      color: "from-red-500 to-rose-600",
+      quote:
+        "The technical expertise WebHoga brought to the table was impressive. Our site’s performance metrics improved across the board, and load times are now under 2 seconds.",
+    },
+    {
+      name: "Neha Kapoor",
+      role: "Product Manager",
+      initials: "NK",
+      color: "from-yellow-500 to-lime-500",
+      quote:
+        "WebHoga’s team worked like an extension of ours. They were collaborative, transparent, and always ready with creative solutions. Our product launch went smoother thanks to them!",
+    },
+    {
+      name: "Siddharth Iyer",
+      role: "COO",
+      initials: "SI",
+      color: "from-sky-500 to-blue-600",
+      quote:
+        "From wireframes to deployment, WebHoga handled everything with professionalism and attention to detail. We’ve had zero downtime since launch and the feedback has been phenomenal.",
+    },
+    {
+      name: "Antony Rossario",
+      role: "Head of Design",
+      initials: "AR",
+      color: "from-indigo-500 to-purple-600",
+      quote:
+        "Creative, communicative, and committed. WebHoga didn’t just build us a website — they built a digital experience that aligns perfectly with our brand.",
+    },
+  ];
 
   useVisibleTask$(() => {
     const interval = setInterval(() => {
       currentSlide.value = (currentSlide.value + 1) % testimonials.length;
     }, 5000);
-
     return () => clearInterval(interval);
   });
 
