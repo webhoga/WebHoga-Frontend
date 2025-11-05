@@ -750,8 +750,6 @@ export default component$(() => {
               guarantee
             </p>
           </div>
-        </div>
-      </section>
 
       {/* Before/After Slider */}
       <BeforeAfterSlider />
