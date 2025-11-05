@@ -707,9 +707,9 @@ export default component$(() => {
         </div>
       </section>
 
-      <ServicesSection />
+<ServicesSection />
 
-      {/* Bottom CTA */}
+{/* Bottom CTA */}
 <div class="fade-in-up mt-16 mb-20 text-center">
   <div class="inline-flex flex-col gap-4 sm:flex-row">
     
@@ -735,6 +735,7 @@ export default component$(() => {
       <div class="absolute inset-0 bg-gradient-to-r from-cyan-600 to-blue-600 opacity-0 transition-opacity group-hover:opacity-100"></div>
     </a>
     
+    
       href="/contact"
       class="group relative inline-block transform overflow-hidden rounded-xl border-2 border-orange-500 bg-white px-8 py-4 text-lg font-semibold text-orange-600 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-orange-500 hover:text-white"
     >
@@ -743,14 +744,15 @@ export default component$(() => {
       </span>
     </a>
   </div>
+  
   <p class="mt-4 mb-8 text-sm text-slate-500">
     Consultation Available • No hidden fees • 100% satisfaction
     guarantee
   </p>
 </div>
-  
-      {/* Before/After Slider */}
-      <BeforeAfterSlider />
+
+{/* Before/After Slider */}
+<BeforeAfterSlider />
 
       {/* Client Testimonials */}
       <div class="fade-in-up py-20">
