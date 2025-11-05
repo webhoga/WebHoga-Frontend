@@ -707,52 +707,46 @@ export default component$(() => {
         </div>
       </section>
 
-<ServicesSection />
-
-{/* Bottom CTA */}
-<div class="fade-in-up mt-16 mb-20 text-center">
-  <div class="inline-flex flex-col gap-4 sm:flex-row">
-    
-      href="/services"
-      class="group relative inline-block transform overflow-hidden rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
-    >
-      <span class="relative z-10 flex items-center gap-2">
-        See All Services
-        <svg
-          class="h-5 w-5 transition-transform group-hover:translate-x-1"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M17 8l4 4m0 0l-4 4m4-4H3"
-          ></path>
-        </svg>
-      </span>
-      <div class="absolute inset-0 bg-gradient-to-r from-cyan-600 to-blue-600 opacity-0 transition-opacity group-hover:opacity-100"></div>
-    </a>
-    
-    
-      href="/contact"
-      class="group relative inline-block transform overflow-hidden rounded-xl border-2 border-orange-500 bg-white px-8 py-4 text-lg font-semibold text-orange-600 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-orange-500 hover:text-white"
-    >
-      <span class="flex items-center gap-2">
-        Get Custom Quote
-      </span>
-    </a>
-  </div>
-  
-  <p class="mt-4 mb-8 text-sm text-slate-500">
-    Consultation Available • No hidden fees • 100% satisfaction
-    guarantee
-  </p>
-</div>
-
-{/* Before/After Slider */}
-<BeforeAfterSlider />
+      <ServicesSection />
+      
+      {/* Bottom CTA */}
+      <div class="fade-in-up mt-16 mb-20 text-center">
+        <div class="inline-flex flex-col gap-4 sm:flex-row">
+          
+          <a href="/services" class="group relative inline-block transform overflow-hidden rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+            <span class="relative z-10 flex items-center gap-2">
+              See All Services
+              <svg
+                class="h-5 w-5 transition-transform group-hover:translate-x-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  ></path>
+              </svg>
+            </span>
+            <div class="absolute inset-0 bg-gradient-to-r from-cyan-600 to-blue-600 opacity-0 transition-opacity group-hover:opacity-100"></div>
+          </a>
+          
+          <a href="/contact" class="group relative inline-block transform overflow-hidden rounded-xl border-2 border-orange-500 bg-white px-8 py-4 text-lg font-semibold text-orange-600 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-orange-500 hover:text-white">
+            <span class="flex items-center gap-2">
+              Get Custom Quote
+            </span>
+          </a>
+        </div>
+        
+        <p class="mt-4 mb-8 text-sm text-slate-500">
+          Consultation Available • No hidden fees • 100% satisfaction guarantee
+        </p>
+      </div>
+      
+      {/* Before/After Slider */}
+      <BeforeAfterSlider />
 
       {/* Client Testimonials */}
       <div class="fade-in-up py-20">
