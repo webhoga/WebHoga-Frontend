@@ -4,6 +4,7 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import { useScrollAnimate } from "~/hooks/useScrollAnimate";
 import Header from "~/components/Header";
 import Footer from "~/components/Footer";
+import ServicesSection from "~/components/ServicesSection";
 import BeforeAfterSlider from "~/components/BeforeAfterSlider";
 import PricingSection from "~/components/PricingSection";
 import { AdsCta } from "~/components/AdsCta";
