@@ -1,3 +1,4 @@
+
 import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { useScrollAnimate } from "~/hooks/useScrollAnimate";
@@ -118,28 +119,28 @@ export default component$(() => {
       role: "CTO",
       initials: "RD",
       color: "from-red-500 to-rose-600",
-      quote: "The technical expertise WebHoga brought to the table was impressive. Our site’s performance metrics improved across the board, and load times are now under 2 seconds."
+      quote: "The technical expertise WebHoga brought to the table was impressive. Our site's performance metrics improved across the board, and load times are now under 2 seconds."
     },
     {
       name: "Neha Kapoor",
       role: "Product Manager",
       initials: "NK",
       color: "from-yellow-500 to-lime-500",
-      quote: "WebHoga’s team worked like an extension of ours. They were collaborative, transparent, and always ready with creative solutions. Our product launch went smoother thanks to them!"
+      quote: "WebHoga's team worked like an extension of ours. They were collaborative, transparent, and always ready with creative solutions. Our product launch went smoother thanks to them!"
     },
     {
       name: "Siddharth Iyer",
       role: "COO",
       initials: "SI",
       color: "from-sky-500 to-blue-600",
-      quote: "From wireframes to deployment, WebHoga handled everything with professionalism and attention to detail. We’ve had zero downtime since launch and the feedback has been phenomenal."
+      quote: "From wireframes to deployment, WebHoga handled everything with professionalism and attention to detail. We've had zero downtime since launch and the feedback has been phenomenal."
     },
     {
       name: "Antony Rossario",
       role: "Head of Design",
       initials: "AR",
       color: "from-indigo-500 to-purple-600",
-      quote: "Creative, communicative, and committed. WebHoga didn’t just build us a website — they built a digital experience that aligns perfectly with our brand."
+      quote: "Creative, communicative, and committed. WebHoga didn't just build us a website — they built a digital experience that aligns perfectly with our brand."
     }
   ];
 
@@ -402,11 +403,11 @@ export default component$(() => {
                                 NEET • JEE • Foundation Courses
                               </div>
                               <div class="mt-1 flex gap-1">
-                                {Array.from({ length: 5 }).map((_, i) => (
-                                  <span key={i} class="text-sm text-yellow-400">
-                                    ⭐
-                                  </span>
-                                ))}
+                                <span class="text-sm text-yellow-400">⭐</span>
+                                <span class="text-sm text-yellow-400">⭐</span>
+                                <span class="text-sm text-yellow-400">⭐</span>
+                                <span class="text-sm text-yellow-400">⭐</span>
+                                <span class="text-sm text-yellow-400">⭐</span>
                                 <span class="ml-1 text-sm text-gray-600">
                                   (4.9/5)
                                 </span>
@@ -468,11 +469,11 @@ export default component$(() => {
                                 Physics • 15 yrs
                               </div>
                               <div class="mt-1 flex justify-center gap-1">
-                                {Array.from({ length: 5 }).map((_, i) => (
-                                  <span key={i} class="text-xs text-yellow-400">
-                                    ⭐
-                                  </span>
-                                ))}
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
                               </div>
                             </div>
                           </div>
@@ -486,11 +487,11 @@ export default component$(() => {
                                 Biology • 12 yrs
                               </div>
                               <div class="mt-1 flex justify-center gap-1">
-                                {Array.from({ length: 5 }).map((_, i) => (
-                                  <span key={i} class="text-xs text-yellow-400">
-                                    ⭐
-                                  </span>
-                                ))}
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
                               </div>
                             </div>
                           </div>
@@ -504,11 +505,11 @@ export default component$(() => {
                                 Math • 18 yrs
                               </div>
                               <div class="mt-1 flex justify-center gap-1">
-                                {Array.from({ length: 5 }).map((_, i) => (
-                                  <span key={i} class="text-xs text-yellow-400">
-                                    ⭐
-                                  </span>
-                                ))}
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
                               </div>
                             </div>
                           </div>
@@ -593,11 +594,11 @@ export default component$(() => {
                                 study material is top-notch."
                               </div>
                               <div class="mt-2 flex gap-1">
-                                {Array.from({ length: 5 }).map((_, i) => (
-                                  <span key={i} class="text-xs text-yellow-400">
-                                    ⭐
-                                  </span>
-                                ))}
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
+                                <span class="text-xs text-yellow-400">⭐</span>
                               </div>
                             </div>
                           </div>
@@ -748,365 +749,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🎨
-                </div>
-                <h3 class="mb-4 text-2xl font-bold text-slate-800">
-                  Web Designing
-                </h3>
-                <p class="mb-6 leading-relaxed text-slate-600">
-                  Custom, responsive websites that captivate visitors and
-                  convert them into customers. Modern designs that work
-                  perfectly on all devices.
-                </p>
-                <div class="flex items-center font-semibold text-blue-600 transition-all group-hover:gap-3">
-                  <span>
-                    <a href="/web-designing">Learn More</a>
-                  </span>
-                  <svg
-                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* Domain + Hosting */}
-            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-              <div class="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
-              <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-green-500 to-emerald-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🌐
-                </div>
-                <h3 class="mb-4 text-2xl font-bold text-slate-800">
-                  Domain + Hosting
-                </h3>
-                <p class="mb-6 leading-relaxed text-slate-600">
-                  Secure, fast hosting solutions with free SSL certificates. We
-                  handle domain registration and management so you can focus on
-                  your business.
-                </p>
-                <div class="flex items-center font-semibold text-green-600 transition-all group-hover:gap-3">
-                  <span>
-                    <a href="/domain-and-hosting">Learn More</a>
-                  </span>
-                  <svg
-                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* Logo & Brand Identity */}
-            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-              <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-violet-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
-              <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-500 to-violet-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🎯
-                </div>
-                <h3 class="mb-4 text-2xl font-bold text-slate-800">
-                  Logo & Brand Identity
-                </h3>
-                <p class="mb-6 leading-relaxed text-slate-600">
-                  Memorable brand identities that stand out from the
-                  competition. Professional logos and complete brand guidelines
-                  for consistent growth.
-                </p>
-                <div class="flex items-center font-semibold text-purple-600 transition-all group-hover:gap-3">
-                  <span>
-                    <a href="/logo-and-brand-identity">Learn More</a>
-                  </span>
-                  <svg
-                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* SEO & Web Optimization */}
-            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-              <div class="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-amber-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
-              <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500 to-amber-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  📈
-                </div>
-                <h3 class="mb-4 text-2xl font-bold text-slate-800">
-                  SEO & Web Optimization
-                </h3>
-                <p class="mb-6 leading-relaxed text-slate-600">
-                  Get found on Google with our proven SEO strategies.
-                  Lightning-fast websites that rank higher and convert better
-                  than your competitors.
-                </p>
-                <div class="flex items-center font-semibold text-orange-600 transition-all group-hover:gap-3">
-                  <span>
-                    <a href="/seo-and-web-optimization">Learn More</a>
-                  </span>
-                  <svg
-                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* Content & Blog Writing */}
-            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-              <div class="absolute inset-0 bg-gradient-to-br from-pink-500/5 to-rose-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
-              <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-pink-500 to-rose-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  ✍️
-                </div>
-                <h3 class="mb-4 text-2xl font-bold text-slate-800">
-                  Content & Blog Writing
-                </h3>
-                <p class="mb-6 leading-relaxed text-slate-600">
-                  Engaging, SEO-optimized content that attracts your ideal
-                  customers. Professional blog posts and website copy that
-                  drives conversions.
-                </p>
-                <div class="flex items-center font-semibold text-pink-600 transition-all group-hover:gap-3">
-                  <span>
-                    <a href="/content-and-blog-writing">Learn More</a>
-                  </span>
-                  <svg
-                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* Ecommerce Web Designing */}
-            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-              <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-blue-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
-              <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🛒
-                </div>
-                <h3 class="mb-4 text-2xl font-bold text-slate-800">
-                  Ecommerce Web Designing
-                </h3>
-                <p class="mb-6 leading-relaxed text-slate-600">
-                  High-converting online stores that maximize sales.
-                  User-friendly shopping experiences with secure checkout and
-                  inventory management.
-                </p>
-                <div class="flex items-center font-semibold text-indigo-600 transition-all group-hover:gap-3">
-                  <span>
-                    <a href="/ecommerce-web-designing">Learn More</a>
-                  </span>
-                  <svg
-                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* Google Analytics & Tracking */}
-            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-              <div class="absolute inset-0 bg-gradient-to-br from-teal-500/5 to-cyan-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
-              <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-teal-500 to-cyan-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  📊
-                </div>
-                <h3 class="mb-4 text-2xl font-bold text-slate-800">
-                  Google Analytics & Tracking
-                </h3>
-                <p class="mb-6 leading-relaxed text-slate-600">
-                  Data-driven insights to grow your business. Complete analytics
-                  setup with detailed reporting and performance tracking.
-                </p>
-                <div class="flex items-center font-semibold text-teal-600 transition-all group-hover:gap-3">
-                  <span>
-                    <a href="/google-analytics-and-tracking/">Learn More</a>
-                  </span>
-                  <svg
-                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* Landing Page Design */}
-            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-              <div class="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-orange-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
-              <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-yellow-500 to-orange-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🎯
-                </div>
-                <h3 class="mb-4 text-2xl font-bold text-slate-800">
-                  Landing Page Design
-                </h3>
-                <p class="mb-6 leading-relaxed text-slate-600">
-                  High-converting landing pages that turn visitors into
-                  customers. Optimized for maximum conversions and lead
-                  generation.
-                </p>
-                <div class="flex items-center font-semibold text-yellow-600 transition-all group-hover:gap-3">
-                  <span>
-                    <a href="/landing-page-development">Learn More</a>
-                  </span>
-                  <svg
-                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* Payment Gateway Integration */}
-            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-              <div class="absolute inset-0 bg-gradient-to-br from-red-500/5 to-pink-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
-              <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-red-500 to-pink-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  💳
-                </div>
-                <h3 class="mb-4 text-2xl font-bold text-slate-800">
-                  Payment Gateway Integration
-                </h3>
-                <p class="mb-6 leading-relaxed text-slate-600">
-                  Secure payment processing for your online business. Multiple
-                  payment options with fraud protection and seamless checkout
-                  experience.
-                </p>
-                <div class="flex items-center font-semibold text-red-600 transition-all group-hover:gap-3">
-                  <span>
-                    <a href="/payment-gateway-integration">Learn More</a>
-                  </span>
-                  <svg
-                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* Hotel Booking Engine */}
-            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-              <div class="absolute inset-0 bg-gradient-to-br from-sky-500/5 to-blue-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
-              <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-sky-500 to-blue-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🏨
-                </div>
-                <h3 class="mb-4 text-2xl font-bold text-slate-800">
-                  Hotel Booking Engine
-                </h3>
-                <p class="mb-6 leading-relaxed text-slate-600">
-                  Complete hotel booking solutions with real-time availability, 
-                  instant confirmations, and seamless payment integration for your 
-                  hospitality business.
-                </p>
-                <div class="flex items-center font-semibold text-sky-600 transition-all group-hover:gap-3">
-                  <span>
-                    <a href="/hotel-booking-engine">Learn More</a>
-                  </span>
-                  <svg
-                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* Hotel Reservation API */}
-            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-              <div class="absolute inset-0 bg-gradient-to-br from-violet-500/5 to-purple-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
-              <div class="relative z-10">
                 <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-500 to-purple-500 text-2xl text-white transition-transform group-hover:scale-110">
                   🔌
                 </div>
@@ -1175,9 +817,6 @@ export default component$(() => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
 
           {/* Bottom CTA */}
           <div class="fade-in-up mt-16 text-center">
@@ -1226,7 +865,7 @@ export default component$(() => {
       {/* Before/After Slider */}
       <BeforeAfterSlider />
 
-     {/* Client Testimonials */}
+      {/* Client Testimonials */}
       <div class="fade-in-up py-20">
         <div class="container mx-auto px-4">
           <div class="mx-auto max-w-4xl">
@@ -1263,11 +902,11 @@ export default component$(() => {
                     <div class="flex h-full flex-col items-center justify-center text-center">
                       {/* Stars */}
                       <div class="mb-6 flex items-center justify-center gap-1">
-                        {[...Array(5)].map((_, i) => (
-                          <span key={i} class="text-2xl text-yellow-400">
-                            ⭐
-                          </span>
-                        ))}
+                        <span class="text-2xl text-yellow-400">⭐</span>
+                        <span class="text-2xl text-yellow-400">⭐</span>
+                        <span class="text-2xl text-yellow-400">⭐</span>
+                        <span class="text-2xl text-yellow-400">⭐</span>
+                        <span class="text-2xl text-yellow-400">⭐</span>
                       </div>
 
                       {/* Quote */}
@@ -1378,4 +1017,3 @@ export default component$(() => {
     </>
   );
 });
-
