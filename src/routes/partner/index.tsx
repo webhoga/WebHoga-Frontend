@@ -760,7 +760,7 @@ export default component$(() => {
                 </svg>
               </summary>
               <p class="mt-4 text-slate-600">
-                Commissions are paid monthly via bank transfer or UPI. There's no minimum payout threshold, so even if you earn ₹100, you'll receive it. Payments are processed within 7 business days of the month end. You can track your earnings in real-time through your affiliate dashboard.
+                Commissions are paid monthly via bank transfer or UPI. There's no minimum payout threshold, so even if you earn ₹100, you'll receive it. Payments are processed by 15th of next month. You can track your earnings in real-time through your affiliate dashboard.
               </p>
             </details>
 
