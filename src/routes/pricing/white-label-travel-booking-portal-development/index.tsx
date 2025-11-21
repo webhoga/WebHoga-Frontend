@@ -134,7 +134,7 @@ export default component$(() => {
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Flight Booking</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Ezulix Flight API Integration</li>
+                                <li>✔ Flight API Integration</li>
                                 <li>✔ Multi-airline Comparison</li>
                                 <li>✔ Fare Rules & Baggage Info</li>
                                 <li>✔ Seat Selection</li>
@@ -150,7 +150,7 @@ export default component$(() => {
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Hotel Booking</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Ezulix Hotel API Integration</li>
+                                <li>✔ Hotel API Integration</li>
                                 <li>✔ 1M+ Properties Worldwide</li>
                                 <li>✔ Room Type Selection</li>
                                 <li>✔ Meal Plans & Amenities</li>
@@ -165,7 +165,7 @@ export default component$(() => {
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Bus Booking</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Ezulix Bus API Integration</li>
+                                <li>✔ Bus API Integration</li>
                                 <li>✔ Interstate & Intercity Routes</li>
                                 <li>✔ Seat Selection & Layout</li>
                                 <li>✔ Live Bus Tracking</li>
@@ -233,9 +233,9 @@ export default component$(() => {
                         <div class="bg-cyan-50 border-l-4 border-cyan-600 p-4 mb-4 text-sm text-gray-700">
                             <p class="font-semibold mb-2">Note:</p>
                             <ul class="space-y-1">
-                                <li>• Flight, Hotel & Bus API integration (Ezulix) covered in this price</li>
+                                <li>• Flight, Hotel & Bus API integration () covered in this price</li>
                                 <li>• Additional modules (Visa, Car Rentals, Insurance, etc.) require separate payments</li>
-                                <li>• Ezulix API annual maintenance charges must be paid to Ezulix from 2nd year onwards</li>
+                                <li>• API annual maintenance charges must be paid to  from 2nd year onwards</li>
                             </ul>
                         </div>
                         
@@ -260,7 +260,7 @@ export default component$(() => {
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Flight Booking</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Ezulix Flight API Integration</li>
+                                <li>✔ Flight API Integration</li>
                                 <li>✔ Multi-GDS Aggregation</li>
                                 <li>✔ Low Fare Calendar</li>
                                 <li>✔ Flexible Date Search</li>
@@ -278,7 +278,7 @@ export default component$(() => {
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Hotel Booking</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Ezulix Hotel API Integration</li>
+                                <li>✔ Hotel API Integration</li>
                                 <li>✔ 2M+ Properties Worldwide</li>
                                 <li>✔ Multi-supplier Aggregation</li>
                                 <li>✔ Dynamic Pricing Engine</li>
@@ -293,7 +293,7 @@ export default component$(() => {
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">Bus Booking</h4>
                             <ul class="text-sm text-gray-700 space-y-1">
-                                <li>✔ Ezulix Bus API Integration</li>
+                                <li>✔ Bus API Integration</li>
                                 <li>✔ Pan-India Route Coverage</li>
                                 <li>✔ Real-time Seat Availability</li>
                                 <li>✔ Dynamic Seat Pricing</li>
@@ -381,9 +381,9 @@ export default component$(() => {
                         <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 mb-4 text-sm text-gray-700">
                             <p class="font-semibold mb-2">Note:</p>
                             <ul class="space-y-1">
-                                <li>• Flight, Hotel & Bus API integration (Ezulix) covered in this price</li>
+                                <li>• Flight, Hotel & Bus API integration () covered in this price</li>
                                 <li>• Additional modules (Train, Car Rentals, Visa, Insurance, Cruise, Activities, etc.) require separate payments</li>
-                                <li>• Ezulix API annual maintenance charges must be paid to Ezulix from 2nd year onwards</li>
+                                <li>• API annual maintenance charges must be paid to  from 2nd year onwards</li>
                             </ul>
                         </div>
                         
