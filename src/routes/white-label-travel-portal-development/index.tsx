@@ -271,7 +271,7 @@ export default component$(() => {
                       <ul class="space-y-2 text-sm text-slate-600">
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
-                          <span>Ezulix Flight API Integration</span>
+                          <span>Flight API Integration</span>
                         </li>
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
@@ -297,7 +297,7 @@ export default component$(() => {
                       <ul class="space-y-2 text-sm text-slate-600">
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
-                          <span>Ezulix Hotel API Integration</span>
+                          <span>Hotel API Integration</span>
                         </li>
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
@@ -319,7 +319,7 @@ export default component$(() => {
                       <ul class="space-y-2 text-sm text-slate-600">
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
-                          <span>Ezulix Bus API Integration</span>
+                          <span>Bus API Integration</span>
                         </li>
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
@@ -369,7 +369,7 @@ export default component$(() => {
 
                   <div class="bg-cyan-50 border-l-4 border-cyan-600 p-4 mb-6 text-sm text-slate-700">
                     <p class="font-semibold mb-2">Note:</p>
-                    <p>Flight, Hotel & Bus API (Ezulix) included. Additional modules require separate payment. API maintenance from year 2.</p>
+                    <p>Flight, Hotel & Bus API included. Additional modules require separate payment. API maintenance from year 2.</p>
                   </div>
 
                   <button class="w-full bg-gradient-to-r from-cyan-600 to-blue-600 text-white py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
@@ -406,7 +406,7 @@ export default component$(() => {
                       <ul class="space-y-2 text-sm text-slate-600">
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
-                          <span>Ezulix Flight API Integration</span>
+                          <span>Flight API Integration</span>
                         </li>
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
@@ -432,7 +432,7 @@ export default component$(() => {
                       <ul class="space-y-2 text-sm text-slate-600">
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
-                          <span>Ezulix Hotel API Integration</span>
+                          <span>Hotel API Integration</span>
                         </li>
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
@@ -454,7 +454,7 @@ export default component$(() => {
                       <ul class="space-y-2 text-sm text-slate-600">
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
-                          <span>Ezulix Bus API Integration</span>
+                          <span>Bus API Integration</span>
                         </li>
                         <li class="flex items-start gap-2">
                           <span class="text-green-500 mt-0.5">✓</span>
@@ -504,7 +504,7 @@ export default component$(() => {
 
                   <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 mb-6 text-sm text-slate-700">
                     <p class="font-semibold mb-2">Note:</p>
-                    <p>Flight, Hotel & Bus API (Ezulix) included. Additional modules require separate payment. API maintenance from year 2.</p>
+                    <p>Flight, Hotel & Bus API included. Additional modules require separate payment. API maintenance from year 2.</p>
                   </div>
 
                   <button class="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
@@ -668,14 +668,14 @@ export default component$(() => {
                   <tr class="hover:bg-slate-50">
                     <td class="p-6 font-semibold text-slate-800">Flight Booking API</td>
                     <td class="p-6 text-center text-slate-600">Affiliate</td>
-                    <td class="p-6 text-center text-slate-600">Ezulix</td>
-                    <td class="p-6 text-center text-slate-600">Ezulix</td>
+                    <td class="p-6 text-center text-slate-600"></td>
+                    <td class="p-6 text-center text-slate-600"></td>
                   </tr>
                   <tr class="hover:bg-slate-50">
                     <td class="p-6 font-semibold text-slate-800">Hotel Booking API</td>
                     <td class="p-6 text-center text-slate-600">Booking.com</td>
-                    <td class="p-6 text-center text-slate-600">Ezulix</td>
-                    <td class="p-6 text-center text-slate-600">Ezulix</td>
+                    <td class="p-6 text-center text-slate-600"></td>
+                    <td class="p-6 text-center text-slate-600"></td>
                   </tr>
                   <tr class="hover:bg-slate-50">
                     <td class="p-6 font-semibold text-slate-800">Bus Booking</td>
@@ -752,11 +752,11 @@ export default component$(() => {
               {[
                 {
                   q: "What is the difference between the three plans?",
-                  a: "WordPress Lite uses affiliate APIs (ideal for startups with minimal upfront costs). Drupal Pro includes Ezulix APIs with full booking capabilities for flights, hotels, and buses. Laravel Enterprise adds mobile apps, AI features, white-label rights, and complete source code ownership."
+                  a: "WordPress Lite uses affiliate APIs (ideal for startups with minimal upfront costs). Drupal Pro includes  APIs with full booking capabilities for flights, hotels, and buses. Laravel Enterprise adds mobile apps, AI features, white-label rights, and complete source code ownership."
                 },
                 {
                   q: "Are there any recurring costs?",
-                  a: "Yes. From the 2nd year onwards, you'll need to pay API maintenance charges directly to Ezulix (for Pro and Enterprise plans). You'll also need to renew hosting, domain, and support after the free period ends."
+                  a: "Yes. From the 2nd year onwards, you'll need to pay API maintenance charges directly to  (for Pro and Enterprise plans). You'll also need to renew hosting, domain, and support after the free period ends."
                 },
                 {
                   q: "Can I add more features later?",
@@ -850,11 +850,11 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "description",
-      content: "Launch your branded travel agency platform with integrated flight, hotel, and bus booking systems. WordPress, Drupal & Laravel solutions starting at ₹1,50,000. Powered by Ezulix APIs with B2B/B2C portals, payment gateways & mobile apps.",
+      content: "Launch your branded travel agency platform with integrated flight, hotel, and bus booking systems. WordPress, Drupal & Laravel solutions starting at ₹1,50,000. Powered by  APIs with B2B/B2C portals, payment gateways & mobile apps.",
     },
     {
       name: "keywords",
-      content: "white label travel portal, travel booking software, flight booking system, hotel booking API, bus booking platform, travel agency software, B2B travel portal, B2C travel website, Ezulix API integration, WordPress travel plugin, Drupal travel module, Laravel travel application, online travel agency software, travel portal development India",
+      content: "white label travel portal, travel booking software, flight booking system, hotel booking API, bus booking platform, travel agency software, B2B travel portal, B2C travel website,  API integration, WordPress travel plugin, Drupal travel module, Laravel travel application, online travel agency software, travel portal development India",
     },
     {
       property: "og:title",
@@ -878,7 +878,7 @@ export const head: DocumentHead = {
     },
     {
       name: "twitter:description",
-      content: "Complete travel booking solution with WordPress, Drupal & Laravel options. Ezulix API, B2B/B2C portals, mobile apps & more.",
+      content: "Complete travel booking solution with WordPress, Drupal & Laravel options.  API, B2B/B2C portals, mobile apps & more.",
     },
     {
       name: "robots",
