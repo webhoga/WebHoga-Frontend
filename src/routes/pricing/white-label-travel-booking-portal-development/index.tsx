@@ -381,7 +381,7 @@ export default component$(() => {
                         <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 mb-4 text-sm text-gray-700">
                             <p class="font-semibold mb-2">Note:</p>
                             <ul class="space-y-1">
-                                <li>• Flight, Hotel & Bus API integration () covered in this price</li>
+                                <li>• Flight, Hotel & Bus API integration (given by the respective API provider) covered in this price</li>
                                 <li>• Additional modules (Train, Car Rentals, Visa, Insurance, Cruise, Activities, etc.) require separate payments</li>
                                 <li>• API annual maintenance charges must be paid to  from 2nd year onwards</li>
                             </ul>
