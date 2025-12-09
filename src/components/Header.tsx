@@ -18,10 +18,10 @@ export default component$(() => {
       isScrolled.value = window.scrollY > 50;
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   });
 
@@ -44,11 +44,14 @@ export default component$(() => {
               <span>contact@webhoga.com</span>
             </div>
           </div>
+
           <div class="flex items-center gap-4">
             <div class="hidden items-center gap-2 md:flex">
               <span class="h-2 w-2 animate-pulse rounded-full bg-green-300"></span>
               <span class="text-sm">Business Consultation Available</span>
             </div>
+
+            {/* Social Icons */}
             <div class="flex items-center gap-2">
               <a
                 href="https://www.youtube.com/@WebHoga"
@@ -58,6 +61,7 @@ export default component$(() => {
                   <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
                 </svg>
               </a>
+
               <a
                 href="https://www.facebook.com/people/WebHoga/61576908121524/"
                 class="transition-colors hover:text-orange-200"
@@ -66,6 +70,7 @@ export default component$(() => {
                   <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                 </svg>
               </a>
+
               <a
                 href="https://in.pinterest.com/webhogaindia/"
                 class="transition-colors hover:text-orange-200"
@@ -84,35 +89,27 @@ export default component$(() => {
         <div class="flex items-center justify-between">
           {/* Logo */}
           <div class="flex items-center">
-            <img src={WebHogaLogo}
+            <img
+              src={WebHogaLogo}
               alt="WebHoga Logo"
               width="120"
               height="48"
               class="h-12 w-auto"
-              onError$={(e) => {
-                console.error("Logo failed to load:", e);
-              }}
             />
           </div>
 
           {/* Desktop Navigation */}
           <div class="hidden items-center gap-8 lg:flex">
-            <a
-              href="/"
-              class="group relative font-medium text-slate-700 transition-colors hover:text-orange-600"
-            >
+            <a href="/" class="group relative font-medium text-slate-700 transition-colors hover:text-orange-600">
               Home
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <div class="group relative">
-              <a
-                href="/services"
-                class="flex items-center gap-1 font-medium text-slate-700 transition-colors hover:text-orange-600"
-              >
-                Services
-              </a>
-            </div>
-{/* 
+
+            <a href="/services" class="group relative font-medium text-slate-700 transition-colors hover:text-orange-600">
+              Services
+              <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+
             {/* BizAssist */}
             <a
               href="/bizassist"
@@ -124,7 +121,7 @@ export default component$(() => {
                 </span>
               </span>
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-emerald-500 to-teal-500 transition-all duration-300 group-hover:w-full"></span>
-            </a> */}
+            </a>
 
             {/* Marketing */}
             <a
@@ -159,6 +156,7 @@ export default component$(() => {
               Contact
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
+
             <a
               href="https://blog.webhoga.com/"
               target="_blank"
@@ -170,11 +168,11 @@ export default component$(() => {
             </a>
           </div>
 
-          {/* CTA Button & Mobile Menu */}
+          {/* CTA + Mobile */}
           <div class="flex items-center gap-4">
             <a
               href="/contact"
-              class="group relative hidden transform overflow-hidden rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 px-6 py-3 font-semibold text-white no-underline shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl md:block"
+              class="group relative hidden transform overflow-hidden rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 px-6 py-3 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl md:block"
             >
               <span class="relative z-10 flex items-center gap-2">
                 Get Quote
@@ -184,12 +182,7 @@ export default component$(() => {
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  ></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </span>
               <div class="absolute inset-0 bg-gradient-to-r from-amber-500 to-orange-500 opacity-0 transition-opacity group-hover:opacity-100"></div>
@@ -207,19 +200,9 @@ export default component$(() => {
                 viewBox="0 0 24 24"
               >
                 {isMenuOpen.value ? (
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  ></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 ) : (
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  ></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 )}
               </svg>
             </button>
@@ -233,56 +216,39 @@ export default component$(() => {
           }`}
         >
           <div class="space-y-1 pt-4 pb-2">
-            <a
-              href="/"
-              onClick$={closeMenu}
-              class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-orange-50 hover:text-orange-600"
-            >
+            <a href="/" onClick$={closeMenu} class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">
               Home
             </a>
-            <a
-              href="/services"
-              onClick$={closeMenu}
-              class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-orange-50 hover:text-orange-600"
-            >
+
+            <a href="/services" onClick$={closeMenu} class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">
               Services
             </a>
 
             <a
               href="/bizassist"
               onClick$={closeMenu}
-              class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-emerald-50 hover:text-emerald-600"
+              class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-emerald-50 hover:text-emerald-600"
             >
-              <span class="flex items-center gap-2">
-                <span class="font-semibold text-emerald-600">BizAssist</span>
-              </span>
+              <span class="font-semibold text-emerald-600">BizAssist</span>
             </a>
 
             <a
               href="https://ads.webhoga.com"
               onClick$={closeMenu}
-              class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-red-50 hover:text-red-600"
+              class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-red-50 hover:text-red-600"
             >
-              <span class="flex items-center gap-2">
-                <span class="font-semibold text-red-600">Marketing</span>
-              </span>
+              <span class="font-semibold text-red-600">Marketing</span>
             </a>
 
             <a
               href="/partner"
               onClick$={closeMenu}
-              class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-purple-50 hover:text-purple-600"
+              class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-purple-50 hover:text-purple-600"
             >
-              <span class="flex items-center gap-2">
-                <span class="font-semibold text-purple-600">Partner</span>
-              </span>
+              <span class="font-semibold text-purple-600">Partner</span>
             </a>
 
-            <a
-              href="/contact"
-              onClick$={closeMenu}
-              class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-orange-50 hover:text-orange-600"
-            >
+            <a href="/contact" onClick$={closeMenu} class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">
               Contact
             </a>
 
@@ -291,7 +257,7 @@ export default component$(() => {
               target="_blank"
               rel="noopener noreferrer"
               onClick$={closeMenu}
-              class="block rounded-lg px-4 py-3 font-medium text-slate-700 transition-colors hover:bg-orange-50 hover:text-orange-600"
+              class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600"
             >
               Blog
             </a>
@@ -299,7 +265,7 @@ export default component$(() => {
             <div class="pt-2">
               <a
                 href="/contact"
-                class="flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 px-6 py-3 font-semibold text-white no-underline shadow-lg transition-all duration-300 hover:from-orange-600 hover:to-amber-600"
+                class="flex w-full items-center justify-center rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 px-6 py-3 font-semibold text-white shadow-lg hover:from-orange-600 hover:to-amber-600"
               >
                 Get Free Quote
               </a>
