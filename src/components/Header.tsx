@@ -112,7 +112,7 @@ export default component$(() => {
                 Services
               </a>
             </div>
-
+{/* 
             {/* BizAssist */}
             <a
               href="/bizassist"
@@ -124,7 +124,7 @@ export default component$(() => {
                 </span>
               </span>
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-emerald-500 to-teal-500 transition-all duration-300 group-hover:w-full"></span>
-            </a>
+            </a> */}
 
             {/* Marketing */}
             <a
