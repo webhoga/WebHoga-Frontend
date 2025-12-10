@@ -76,7 +76,7 @@ export default component$(() => {
                 class="transition-colors hover:text-orange-200"
               >
                 <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.135-1.507-.703-2.448-2.909-2.448-4.68 0-3.123 2.498-8.766 8.998-8.766C17.92 2.587 21.17 6.024 21.17 10.532c0 5.405-3.409 9.747-8.148 9.747-1.587 0-3.081-.828-3.593-1.814l-.978 3.726c-.353 1.372-1.31 3.086-1.95 4.144 1.462.213 2.99.32 4.546.32 6.624 0 11.99-5.367 11.99-11.99C24.007 5.367 18.641.001 12.017.001z" />
+                  <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.53.225-.172.271-.402.135-1.507-.703-2.448-2.909-2.448-4.68 0-3.123 2.498-8.766 8.998-8.766C17.92 2.587 21.17 6.024 21.17 10.532c0 5.405-3.409 9.747-8.148 9.747-1.587 0-3.081-.828-3.593-1.814l-.978 3.726c-.353 1.372-1.31 3.086-1.95 4.144 1.462.213 2.99.32 4.546.32 6.624 0 11.99-5.367 11.99-11.99C24.007 5.367 18.641.001 12.017.001z" />
                 </svg>
               </a>
             </div>
@@ -111,6 +111,7 @@ export default component$(() => {
             </a>
 
             {/* BizAssist */}
+            {/*
             <a
               href="/bizassist"
               class="group relative font-medium text-slate-700 transition-colors hover:text-emerald-600"
@@ -122,8 +123,8 @@ export default component$(() => {
               </span>
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-emerald-500 to-teal-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
+            */}
 
-            {/* Marketing */}
             <a
               href="https://ads.webhoga.com"
               class="group relative font-medium text-slate-700 transition-colors hover:text-red-600"
@@ -136,7 +137,6 @@ export default component$(() => {
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-red-500 to-rose-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
 
-            {/* Partner */}
             <a
               href="/partner"
               class="group relative font-medium text-slate-700 transition-colors hover:text-purple-600"
@@ -149,10 +149,7 @@ export default component$(() => {
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-purple-500 to-violet-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
 
-            <a
-              href="/contact"
-              class="group relative font-medium text-slate-700 transition-colors hover:text-orange-600"
-            >
+            <a href="/contact" class="group relative font-medium text-slate-700 transition-colors hover:text-orange-600">
               Contact
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
@@ -224,6 +221,8 @@ export default component$(() => {
               Services
             </a>
 
+            {/* BizAssist */}
+            {/*
             <a
               href="/bizassist"
               onClick$={closeMenu}
@@ -231,6 +230,7 @@ export default component$(() => {
             >
               <span class="font-semibold text-emerald-600">BizAssist</span>
             </a>
+            */}
 
             <a
               href="https://ads.webhoga.com"
