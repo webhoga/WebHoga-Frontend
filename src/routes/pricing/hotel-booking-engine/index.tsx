@@ -73,7 +73,7 @@ export default component$(() => {
                             <li>✔ Backup & Restore Features</li>
                             <li>✔ Custom User Access Levels</li>
                         </ul>
-                        <div class="text-3xl font-bold text-cyan-700 mb-4">₹1,25,000</div>
+                        <div class="text-3xl font-bold text-cyan-700 mb-4">₹1,23,000</div>
                         <button
                             onClick$={() => nav("/contact")}
                             class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-xl font-semibold transition-all"
