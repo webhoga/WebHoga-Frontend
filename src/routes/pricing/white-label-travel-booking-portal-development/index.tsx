@@ -376,7 +376,7 @@ export default component$(() => {
                             </ul>
                         </div>
 
-                        <div class="text-3xl font-bold text-indigo-600 mb-4 mt-auto">₹4,50,000</div>
+                        <div class="text-3xl font-bold text-indigo-600 mb-4 mt-auto">₹4,37,000</div>
                         
                         <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 mb-4 text-sm text-gray-700">
                             <p class="font-semibold mb-2">Note:</p>
