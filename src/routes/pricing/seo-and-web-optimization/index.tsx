@@ -42,7 +42,7 @@ export default component$(() => {
               <li>✔ Content Optimization Guidelines</li>
               <li>✔ Monthly Performance Report</li>
             </ul>
-            <div class="text-3xl font-bold text-emerald-600 mb-4">₹18,999</div>
+            <div class="text-3xl font-bold text-emerald-600 mb-4">₹18,941</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-emerald-500 hover:bg-emerald-600 text-white py-3 rounded-xl font-semibold transition-all"
@@ -71,7 +71,7 @@ export default component$(() => {
               <li>✔ SEO Content Strategy</li>
               <li>✔ Bi-weekly Performance Reports</li>
             </ul>
-            <div class="text-3xl font-bold text-cyan-700 mb-4">₹42,999</div>
+            <div class="text-3xl font-bold text-cyan-700 mb-4">₹42,000</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-xl font-semibold transition-all"
@@ -100,7 +100,7 @@ export default component$(() => {
               <li>✔ Dedicated SEO Team</li>
               <li>✔ Weekly Strategy Sessions</li>
             </ul>
-            <div class="text-3xl font-bold text-indigo-600 mb-4">₹94,999</div>
+            <div class="text-3xl font-bold text-indigo-600 mb-4">₹94,100</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-xl font-semibold transition-all"
