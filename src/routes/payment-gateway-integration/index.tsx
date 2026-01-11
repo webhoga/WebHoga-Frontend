@@ -168,7 +168,7 @@ export default component$(() => {
                 <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 rounded-xl mb-6 border border-blue-100">
                   <div class="text-center">
                     <div class="text-sm text-blue-600 font-medium">Starting from</div>
-                    <div class="text-3xl font-bold text-blue-700 mb-1">₹6,999</div>
+                    <div class="text-3xl font-bold text-blue-700 mb-1">₹6,915</div>
                     <div class="text-sm text-slate-600">Complete payment setup</div>
                   </div>
                 </div>
@@ -234,7 +234,7 @@ export default component$(() => {
                 <div class="bg-gradient-to-r from-purple-50 to-pink-50 p-4 rounded-xl mb-6 border border-purple-100">
                   <div class="text-center">
                     <div class="text-sm text-purple-600 font-medium">Starting from</div>
-                    <div class="text-3xl font-bold text-purple-700 mb-1">₹12,999</div>
+                    <div class="text-3xl font-bold text-purple-700 mb-1">₹12,340</div>
                     <div class="text-sm text-slate-600">Advanced payment setup</div>
                   </div>
                 </div>
