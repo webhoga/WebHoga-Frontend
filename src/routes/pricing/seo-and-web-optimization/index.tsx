@@ -100,7 +100,7 @@ export default component$(() => {
               <li>✔ Dedicated SEO Team</li>
               <li>✔ Weekly Strategy Sessions</li>
             </ul>
-            <div class="text-3xl font-bold text-indigo-600 mb-4">₹94,100</div>
+            <div class="text-3xl font-bold text-indigo-600 mb-4">₹91,500</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-xl font-semibold transition-all"
