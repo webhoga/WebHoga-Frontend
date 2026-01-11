@@ -42,7 +42,7 @@ export default component$(() => {
               <li>✔ 2 Rounds of Revisions</li>
               <li>✔ Delivery in 3-5 Days</li>
             </ul>
-            <div class="text-3xl font-bold text-orange-600 mb-4">₹8,999</div>
+            <div class="text-3xl font-bold text-orange-600 mb-4">₹8,933</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-xl font-semibold transition-all"
@@ -71,7 +71,7 @@ export default component$(() => {
               <li>✔ CRM Integration</li>
               <li>✔ Delivery in 5-7 Days</li>
             </ul>
-            <div class="text-3xl font-bold text-cyan-700 mb-4">₹18,999</div>
+            <div class="text-3xl font-bold text-cyan-700 mb-4">₹18,905</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-xl font-semibold transition-all"
@@ -100,7 +100,7 @@ export default component$(() => {
               <li>✔ CRM + Payment Integration</li>
               <li>✔ Delivery in 7-10 Days</li>
             </ul>
-            <div class="text-3xl font-bold text-indigo-600 mb-4">₹34,999</div>
+            <div class="text-3xl font-bold text-indigo-600 mb-4">₹33,900</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-xl font-semibold transition-all"
