@@ -83,7 +83,7 @@ export default component$(() => {
               <li>✔ Mobile-Responsive Design</li>
               <li>✔ Delivery in 98 Working Hours</li>
             </ul>
-            <div class="mb-4 text-3xl font-bold text-blue-600">₹17,860</div>
+            <div class="mb-4 text-3xl font-bold text-blue-600">₹17,520</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full rounded-xl bg-blue-500 py-3 font-semibold text-white transition-all hover:bg-blue-600"
