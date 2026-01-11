@@ -234,7 +234,7 @@ export default component$(() => {
                 <div class="bg-gradient-to-r from-purple-50 to-pink-50 p-4 rounded-xl mb-6 border border-purple-100">
                   <div class="text-center">
                     <div class="text-sm text-purple-600 font-medium">Starting from</div>
-                    <div class="text-3xl font-bold text-purple-700 mb-1">₹12,340</div>
+                    <div class="text-3xl font-bold text-purple-700 mb-1">₹12,155</div>
                     <div class="text-sm text-slate-600">Advanced payment setup</div>
                   </div>
                 </div>
@@ -277,27 +277,18 @@ export default component$(() => {
           <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto fade-in-up">
             {/* Feature 1 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                🔒
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Bank-Level Security</h3>
               <p class="text-slate-600">PCI DSS compliant integrations with advanced fraud protection and secure data handling.</p>
             </div>
 
             {/* Feature 2 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                ⚡
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Lightning Fast</h3>
               <p class="text-slate-600">Optimized checkout flows that reduce cart abandonment and increase conversion rates.</p>
             </div>
 
             {/* Feature 3 */}
             <div class="text-center p-6">
-              <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                🌍
-              </div>
               <h3 class="text-xl font-bold text-slate-800 mb-3">Global Support</h3>
               <p class="text-slate-600">Multi-currency support with international payment methods and local banking integration.</p>
             </div>
@@ -385,17 +376,13 @@ export default component$(() => {
                   </div>
                 </div>
                 <div class="text-center">
-                  <div
-                    class="w-32 h-32 bg-gradient-to-br from-blue-400 to-indigo-400 rounded-full flex items-center justify-center text-white text-4xl mx-auto mb-6">
-                    💳
-                  </div>
                   <a
                     href="https://bizassist.webhoga.com/business-consultation-2/"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="group relative overflow-hidden bg-gradient-to-r from-orange-500 to-amber-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 no-underline inline-block">
                     <span class="relative z-10 flex items-center gap-2">
-                      📞 Book Consultation
+                      Book Consultation
                       <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none"
                            stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
