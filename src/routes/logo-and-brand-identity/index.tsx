@@ -262,7 +262,7 @@ export default component$(() => {
                       Starting from
                     </div>
                     <div class="text-3xl font-bold text-indigo-700">
-                      ₹34,999
+                      ₹33,315
                     </div>
                     <div class="text-sm text-slate-600">
                       Complete brand identity
