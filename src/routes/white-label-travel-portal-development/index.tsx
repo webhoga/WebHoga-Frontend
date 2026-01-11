@@ -76,7 +76,7 @@ export default component$(() => {
                   rel="noopener noreferrer"
                   class="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
                 >
-                  📞 Book Consultation
+                  Book Consultation
                 </a>
               </div>
             </div>
@@ -239,7 +239,7 @@ export default component$(() => {
                 </div>
               </div>
 
-              {/* Drupal Plan - Featured */}
+              {/* React Plan - Featured */}
               <div class="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-cyan-500 transform hover:-translate-y-2 transition-all duration-500 relative">
                 <div class="absolute top-0 right-0 bg-gradient-to-r from-amber-400 to-orange-500 text-white px-6 py-2 rounded-bl-2xl font-bold text-sm">
                   MOST POPULAR
@@ -250,7 +250,7 @@ export default component$(() => {
                     <span class="w-2 h-2 bg-white rounded-full"></span>
                     Most Comprehensive
                   </div>
-                  <h3 class="text-3xl font-bold mb-2">Drupal Travel Pro</h3>
+                  <h3 class="text-3xl font-bold mb-2">React Travel Pro</h3>
                   <p class="text-white/90">Advanced solution for established agencies</p>
                 </div>
 
@@ -263,7 +263,7 @@ export default component$(() => {
                   <div class="space-y-6 mb-8">
                     <div>
                       <h4 class="font-bold text-slate-800 mb-3 text-lg">Platform</h4>
-                      <p class="text-slate-600">Drupal 10 with Custom Travel Module</p>
+                      <p class="text-slate-600">React.js with Custom Travel Module</p>
                     </div>
 
                     <div>
@@ -391,7 +391,7 @@ export default component$(() => {
 
                 <div class="p-8">
                   <div class="text-center mb-8">
-                    <div class="text-5xl font-bold text-indigo-600 mb-2">₹4,50,000</div>
+                    <div class="text-5xl font-bold text-indigo-600 mb-2">₹4,37,000</div>
                     <div class="text-slate-600">One-time payment</div>
                   </div>
 
@@ -654,7 +654,7 @@ export default component$(() => {
                   <tr>
                     <th class="p-6 text-left text-lg font-bold">Feature</th>
                     <th class="p-6 text-center text-lg font-bold">WordPress Lite</th>
-                    <th class="p-6 text-center text-lg font-bold">Drupal Pro</th>
+                    <th class="p-6 text-center text-lg font-bold">React Pro</th>
                     <th class="p-6 text-center text-lg font-bold">Laravel Enterprise</th>
                   </tr>
                 </thead>
@@ -662,7 +662,7 @@ export default component$(() => {
                   <tr class="hover:bg-slate-50">
                     <td class="p-6 font-semibold text-slate-800">Platform</td>
                     <td class="p-6 text-center text-slate-600">WordPress</td>
-                    <td class="p-6 text-center text-slate-600">Drupal 10</td>
+                    <td class="p-6 text-center text-slate-600">React.js</td>
                     <td class="p-6 text-center text-slate-600">Laravel 11 + Vue.js</td>
                   </tr>
                   <tr class="hover:bg-slate-50">
@@ -729,7 +729,7 @@ export default component$(() => {
                     <td class="p-6 font-bold text-slate-800 text-lg">Price</td>
                     <td class="p-6 text-center font-bold text-orange-600 text-2xl">₹1,50,000</td>
                     <td class="p-6 text-center font-bold text-cyan-600 text-2xl">₹2,75,000</td>
-                    <td class="p-6 text-center font-bold text-indigo-600 text-2xl">₹4,50,000</td>
+                    <td class="p-6 text-center font-bold text-indigo-600 text-2xl">₹4,37,000</td>
                   </tr>
                 </tbody>
               </table>
@@ -807,7 +807,7 @@ export default component$(() => {
                   rel="noopener noreferrer"
                   class="bg-white text-blue-600 px-10 py-5 rounded-xl font-bold text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 transition-all duration-300 inline-flex items-center gap-3"
                 >
-                  📞 Book Free Consultation
+                  Book Free Consultation
                   <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                   </svg>
