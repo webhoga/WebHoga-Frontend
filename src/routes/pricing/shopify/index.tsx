@@ -100,7 +100,7 @@ export default component$(() => {
               <li>✔ 5 Staff Accounts</li>
               <li>✔ Delivery In 3 Working Weeks</li>
             </ul>
-            <div class="text-3xl font-bold text-indigo-600 mb-4">₹89,999</div>
+            <div class="text-3xl font-bold text-indigo-600 mb-4">₹89,150</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-xl font-semibold transition-all">
