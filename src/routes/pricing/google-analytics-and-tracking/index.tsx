@@ -42,7 +42,7 @@ export default component$(() => {
               <li>✔ Standard Event Tracking</li>
               <li>✔ Basic Reporting Templates</li>
             </ul>
-            <div class="text-3xl font-bold text-emerald-600 mb-4">₹8,999</div>
+            <div class="text-3xl font-bold text-emerald-600 mb-4">₹8,920</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-emerald-500 hover:bg-emerald-600 text-white py-3 rounded-xl font-semibold transition-all">
@@ -69,7 +69,7 @@ export default component$(() => {
               <li>✔ A/B Testing Integration</li>
               <li>✔ Advanced Event Tracking</li>
             </ul>
-            <div class="text-3xl font-bold text-cyan-700 mb-4">₹18,999</div>
+            <div class="text-3xl font-bold text-cyan-700 mb-4">₹18,410</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-xl font-semibold transition-all">
@@ -96,7 +96,7 @@ export default component$(() => {
               <li>✔ Unlimited Website Integration</li>
               <li>✔ Advanced Conversion Modeling</li>
             </ul>
-            <div class="text-3xl font-bold text-indigo-600 mb-4">₹35,999</div>
+            <div class="text-3xl font-bold text-indigo-600 mb-4">₹35,600</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-xl font-semibold transition-all">
