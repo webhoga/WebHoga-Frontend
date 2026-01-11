@@ -44,7 +44,7 @@ export default component$(() => {
               <li>✔ Order Management</li>
               <li>✔ Delivery in 1 Working Week</li>
             </ul>
-            <div class="text-3xl font-bold text-orange-600 mb-4">₹18,999</div>
+            <div class="text-3xl font-bold text-orange-600 mb-4">₹18,500</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-xl font-semibold transition-all"
@@ -75,7 +75,7 @@ export default component$(() => {
               <li>✔ Inventory Management</li>
               <li>✔ Delivery In 2 Working Weeks</li>
             </ul>
-            <div class="text-3xl font-bold text-cyan-700 mb-4">₹34,999</div>
+            <div class="text-3xl font-bold text-cyan-700 mb-4">₹34,111</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-xl font-semibold transition-all"
@@ -106,7 +106,7 @@ export default component$(() => {
               <li>✔ Multi-location Inventory</li>
               <li>✔ Delivery In 3 Working Weeks</li>
             </ul>
-            <div class="text-3xl font-bold text-indigo-600 mb-4">₹74,999</div>
+            <div class="text-3xl font-bold text-indigo-600 mb-4">₹74,900</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-xl font-semibold transition-all"
