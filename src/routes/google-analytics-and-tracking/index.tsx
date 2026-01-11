@@ -168,7 +168,7 @@ export default component$(() => {
                 <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-xl mb-6 border border-green-100">
                   <div class="text-center">
                     <div class="text-sm text-green-600 font-medium">Starting from</div>
-                    <div class="text-3xl font-bold text-green-700 mb-1">₹8,999</div>
+                    <div class="text-3xl font-bold text-green-700 mb-1">₹8,920</div>
                     <div class="text-sm text-slate-600">Complete analytics setup</div>
                   </div>
                 </div>
@@ -382,9 +382,6 @@ export default component$(() => {
                   </div>
                 </div>
                 <div class="text-center">
-                  <div
-                    class="w-32 h-32 bg-gradient-to-br from-green-400 to-emerald-400 rounded-full flex items-center justify-center text-white text-4xl mx-auto mb-6">
-                    📊
                   </div>
                   <a
                     href="https://bizassist.webhoga.com/business-consultation-2/"
@@ -392,7 +389,7 @@ export default component$(() => {
                     rel="noopener noreferrer"
                     class="group relative overflow-hidden bg-gradient-to-r from-orange-500 to-amber-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 no-underline inline-block">
                     <span class="relative z-10 flex items-center gap-2">
-                      📞 Book Consultation
+                      Book Consultation
                       <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none"
                            stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
