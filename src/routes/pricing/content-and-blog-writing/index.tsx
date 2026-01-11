@@ -42,7 +42,7 @@ export default component$(() => {
               <li>✔ 2 Rounds of Revisions</li>
               <li>✔ Delivery in 2-3 Weeks</li>
             </ul>
-            <div class="text-3xl font-bold text-emerald-600 mb-4">₹15,999</div>
+            <div class="text-3xl font-bold text-emerald-600 mb-4">₹15,100</div>
             <button
               onClick$={() => nav('/contact')}
               class="w-full bg-emerald-500 hover:bg-emerald-600 text-white py-3 rounded-xl font-semibold transition-all"
@@ -100,7 +100,7 @@ export default component$(() => {
               <li>✔ Unlimited Revisions</li>
               <li>✔ Delivery in 4-6 Weeks</li>
             </ul>
-            <div class="text-3xl font-bold text-indigo-600 mb-4">₹87,999</div>
+            <div class="text-3xl font-bold text-indigo-600 mb-4">₹87,800</div>
             <button
               onClick$={() => nav('/contact')}
               class="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-xl font-semibold transition-all"
