@@ -13,7 +13,7 @@ export const CustomApps = component$(() => {
       logo: 'https://cdn-icons-png.flaticon.com/512/921/921595.png',
       link: '/contact',
       bgClass: 'from-orange-50 to-yellow-100',
-      startingPrice: '₹35,000'
+      startingPrice: '₹34,300'
     },
     {
       id: 'reactjs',
