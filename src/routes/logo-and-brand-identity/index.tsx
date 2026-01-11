@@ -177,7 +177,7 @@ export default component$(() => {
                     <div class="text-sm font-medium text-purple-600">
                       Starting from
                     </div>
-                    <div class="text-3xl font-bold text-purple-700">₹9,999</div>
+                    <div class="text-3xl font-bold text-purple-700">₹9,100</div>
                     <div class="text-sm text-slate-600">
                       Professional logo design
                     </div>
