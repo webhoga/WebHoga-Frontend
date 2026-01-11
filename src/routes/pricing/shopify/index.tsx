@@ -42,7 +42,7 @@ export default component$(() => {
               <li>✔ WhatsApp Integration</li>
               <li>✔ Delivery in 1 Working Week</li>
             </ul>
-            <div class="text-3xl font-bold text-orange-600 mb-4">₹15,999</div>
+            <div class="text-3xl font-bold text-orange-600 mb-4">₹15,900</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-xl font-semibold transition-all"
@@ -71,7 +71,7 @@ export default component$(() => {
               <li>✔ 10 Inventory Locations</li>
               <li>✔ Delivery In 2 Working Weeks</li>
             </ul>
-            <div class="text-3xl font-bold text-cyan-700 mb-4">₹29,749</div>
+            <div class="text-3xl font-bold text-cyan-700 mb-4">₹29,710</div>
             <button
               onClick$={() => nav("/contact")}
               class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-xl font-semibold transition-all"
