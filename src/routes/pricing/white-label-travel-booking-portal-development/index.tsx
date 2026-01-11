@@ -121,14 +121,14 @@ export default component$(() => {
                         </button>
                     </div>
 
-                    {/* Professional Plan - Drupal */}
+                    {/* Professional Plan - React */}
                     <div class="bg-gradient-to-br from-blue-50 to-cyan-100 p-8 rounded-3xl shadow-xl text-left flex flex-col">
-                        <h3 class="text-2xl font-bold mb-4 text-gray-800">Drupal Travel Pro</h3>
+                        <h3 class="text-2xl font-bold mb-4 text-gray-800">React Travel Pro</h3>
                         <p class="text-gray-600 mb-4">Advanced solution for established travel agencies requiring comprehensive booking capabilities.</p>
                         
                         <div class="mb-4">
                             <h4 class="font-bold text-gray-800 mb-2">CMS Platform</h4>
-                            <p class="text-sm text-gray-700">Drupal 10 with Custom Travel Module</p>
+                            <p class="text-sm text-gray-700">React.js with Custom Travel Module</p>
                         </div>
 
                         <div class="mb-4">
