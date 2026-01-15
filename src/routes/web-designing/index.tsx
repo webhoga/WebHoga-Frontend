@@ -170,7 +170,7 @@ export default component$(() => {
                 <div class="bg-gradient-to-r from-blue-50 to-cyan-50 p-4 rounded-xl mb-6 border border-blue-100">
                   <div class="text-center">
                     <div class="text-sm text-blue-600 font-medium">Starting from</div>
-                    <div class="text-3xl font-bold text-blue-700">₹35,000</div>
+                    <div class="text-3xl font-bold text-blue-700">₹34,300</div>
                     <div class="text-sm text-slate-600">Complete custom solution</div>
                   </div>
                 </div>
