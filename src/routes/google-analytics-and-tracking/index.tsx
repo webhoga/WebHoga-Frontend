@@ -23,7 +23,7 @@ export default component$(() => {
     <>
       <Header />
 
-      {/* HERO */}
+      {/* Hero */}
       <section class="relative min-h-screen bg-gradient-to-br from-green-50 via-white to-emerald-50">
         <div class="container mx-auto px-4 py-20 min-h-[80vh] flex items-center">
           <div class="text-center max-w-4xl mx-auto">
@@ -46,7 +46,7 @@ export default component$(() => {
         </div>
       </section>
 
-      {/* SERVICES */}
+      {/* Services */}
       <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
           <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto fade-in-up">
@@ -78,7 +78,7 @@ export default component$(() => {
                 Facebook Pixel, Ads & GTM events.
               </p>
               <div class="text-center text-3xl font-bold text-teal-600 mb-6">
-                ₹14,999
+                ₹14,900
               </div>
               <a
                 href="/contact"
@@ -91,7 +91,7 @@ export default component$(() => {
         </div>
       </section>
 
-      {/* FEATURES */}
+      {/* Features */}
       <section class="py-20 bg-slate-50">
         <div class="container mx-auto px-4">
           <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto fade-in-up">
@@ -117,7 +117,7 @@ export default component$(() => {
         </div>
       </section>
 
-      {/* CONSULTATION — FIXED */}
+      {/* Consultation */}
       <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
           <div class="max-w-4xl mx-auto fade-in-up">
