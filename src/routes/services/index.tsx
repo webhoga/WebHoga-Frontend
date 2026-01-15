@@ -183,56 +183,7 @@ const ServicesPage = component$(() => {
               padding: '0 1rem',
             }}
           >
-            {/* Section Header */}
-            <div
-              style={{
-                textAlign: 'center',
-                maxWidth: '48rem',
-                margin: '3rem auto 4rem auto',
-                paddingTop: '2rem',
-              }}
-            >
-              <h2
-                style={{
-                  fontSize: '3rem',
-                  fontWeight: 'bold',
-                  lineHeight: '1.2',
-                  marginBottom: '1.5rem',
-                }}
-              >
-                <span style={{ color: '#1e293b' }}>
-                  Everything You Need to
-                </span>
-                <br />
-                <span
-                  style={{
-                    background:
-                      'linear-gradient(to right, #ea580c, #d97706, #ea580c)',
-                    WebkitBackgroundClip: 'text',
-                    WebkitTextFillColor: 'transparent',
-                    backgroundClip: 'text',
-                  }}
-                >
-                  Dominate Online
-                </span>
-              </h2>
-
-              <p
-                style={{
-                  fontSize: '1.25rem',
-                  color: '#64748b',
-                  lineHeight: '1.6',
-                }}
-              >
-                From stunning web designs to powerful SEO strategies, we provide
-                <span style={{ color: '#2563eb', fontWeight: '600' }}>
-                  {' '}
-                  end-to-end digital solutions{' '}
-                </span>
-                that drive real business growth.
-              </p>
-            </div>
-
+            
             <ServicesSection />
           </div>
         </section>
