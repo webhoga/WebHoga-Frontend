@@ -354,17 +354,13 @@ export default component$(() => {
                   </div>
                 </div>
                 <div class="text-center">
-                  <div
-                    class="mx-auto mb-6 flex h-32 w-32 items-center justify-center rounded-full bg-gradient-to-br from-orange-400 to-amber-400 text-4xl text-white">
-                    🎨
-                  </div>
                   <a
                     href="https://bizassist.webhoga.com/business-consultation-2/"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="group relative overflow-hidden bg-gradient-to-r from-orange-500 to-amber-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 no-underline inline-block">
                     <span class="relative z-10 flex items-center gap-2">
-                      📞 Book Consultation
+                      Book Consultation
                       <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none"
                            stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
