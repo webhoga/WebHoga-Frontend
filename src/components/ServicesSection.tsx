@@ -46,9 +46,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🎨
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Web Designing
                 </h3>
@@ -82,9 +79,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-green-500 to-emerald-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🌐
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Domain + Hosting
                 </h3>
@@ -118,9 +112,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-violet-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-500 to-violet-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🎯
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Logo & Brand Identity
                 </h3>
@@ -154,9 +145,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-amber-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500 to-amber-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  📈
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   SEO & Web Optimization
                 </h3>
@@ -190,9 +178,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-pink-500/5 to-rose-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-pink-500 to-rose-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  ✍️
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Content & Blog Writing
                 </h3>
@@ -226,9 +211,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-blue-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🛒
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Ecommerce Web Designing
                 </h3>
@@ -262,9 +244,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-teal-500/5 to-cyan-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-teal-500 to-cyan-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  📊
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Google Analytics & Tracking
                 </h3>
@@ -297,9 +276,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-orange-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-yellow-500 to-orange-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🎯
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Landing Page Design
                 </h3>
@@ -333,9 +309,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-red-500/5 to-pink-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-red-500 to-pink-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  💳
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Payment Gateway Integration
                 </h3>
@@ -369,9 +342,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-sky-500/5 to-blue-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-sky-500 to-blue-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🏨
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Hotel Booking Engine
                 </h3>
@@ -405,9 +375,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-violet-500/5 to-purple-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-500 to-purple-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  🔌
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   Hotel Reservation API
                 </h3>
@@ -441,9 +408,6 @@ export default component$(() => {
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-teal-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div class="relative z-10">
-                <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 text-2xl text-white transition-transform group-hover:scale-110">
-                  ✈️
-                </div>
                 <h3 class="mb-4 text-2xl font-bold text-slate-800">
                   White-Label Travel Portal
                 </h3>
