@@ -461,17 +461,13 @@ export default component$(() => {
                   </div>
                 </div>
                 <div class="text-center">
-                  <div
-                    class="w-32 h-32 bg-gradient-to-br from-orange-400 to-amber-400 rounded-full flex items-center justify-center text-white text-4xl mx-auto mb-6">
-                    <span role="img" aria-label="magnifying glass">🔍</span>
-                  </div>
                   <a
                     href="https://bizassist.webhoga.com/business-consultation-2/"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="group relative overflow-hidden bg-gradient-to-r from-orange-500 to-amber-500 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 no-underline inline-block">
                     <span class="relative z-10 flex items-center gap-2">
-                      📞 Book Consultation
+                      Book Consultation
                       <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none"
                            stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
