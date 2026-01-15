@@ -1,8 +1,11 @@
-import Header from "~/components/Header";
-import Footer from "~/components/Footer";
-import ServicesSection from "~/components/ServicesSection";
+import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 
+import Header from '~/components/Header';
+import Footer from '~/components/Footer';
+import ServicesSection from '~/components/ServicesSection';
+
+const ServicesPage = component$(() => {
   return (
     <>
       <style>{`
@@ -16,11 +19,11 @@ import type { DocumentHead } from '@builder.io/qwik-city';
             transform: translateY(0);
           }
         }
-        
+
         .animate-fade-in-up {
           animation: fadeInUp 0.7s ease-out forwards;
         }
-        
+
         .fade-in-observer.animate-fade-in-up {
           opacity: 1 !important;
           transform: translateY(0) !important;
@@ -50,7 +53,11 @@ import type { DocumentHead } from '@builder.io/qwik-city';
           left: 5rem;
           width: 16rem;
           height: 16rem;
-          background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(6, 182, 212, 0.1));
+          background: linear-gradient(
+            135deg,
+            rgba(59, 130, 246, 0.1),
+            rgba(6, 182, 212, 0.1)
+          );
           border-radius: 50%;
           filter: blur(3rem);
           animation: pulse 2s infinite;
@@ -62,7 +69,11 @@ import type { DocumentHead } from '@builder.io/qwik-city';
           right: 5rem;
           width: 20rem;
           height: 20rem;
-          background: linear-gradient(45deg, rgba(251, 146, 60, 0.1), rgba(245, 158, 11, 0.1));
+          background: linear-gradient(
+            45deg,
+            rgba(251, 146, 60, 0.1),
+            rgba(245, 158, 11, 0.1)
+          );
           border-radius: 50%;
           filter: blur(3rem);
           animation: pulse 2s infinite;
@@ -163,34 +174,74 @@ import type { DocumentHead } from '@builder.io/qwik-city';
             <div class="bg-blur-2"></div>
           </div>
 
-          <div style={{ position: 'relative', zIndex: 10, maxWidth: '80rem', margin: '0 auto', padding: '0 1rem' }}>
+          <div
+            style={{
+              position: 'relative',
+              zIndex: 10,
+              maxWidth: '80rem',
+              margin: '0 auto',
+              padding: '0 1rem',
+            }}
+          >
             {/* Section Header */}
-            <div style={{ textAlign: 'center', maxWidth: '48rem', margin: '3rem auto 4rem auto', paddingTop: '2rem' }}>
-              <h2 style={{ fontSize: '3rem', fontWeight: 'bold', lineHeight: '1.2', marginBottom: '1.5rem' }}>
-                <span style={{ color: '#1e293b' }}>Everything You Need to</span>
+            <div
+              style={{
+                textAlign: 'center',
+                maxWidth: '48rem',
+                margin: '3rem auto 4rem auto',
+                paddingTop: '2rem',
+              }}
+            >
+              <h2
+                style={{
+                  fontSize: '3rem',
+                  fontWeight: 'bold',
+                  lineHeight: '1.2',
+                  marginBottom: '1.5rem',
+                }}
+              >
+                <span style={{ color: '#1e293b' }}>
+                  Everything You Need to
+                </span>
                 <br />
-                <span style={{
-                  background: 'linear-gradient(to right, #ea580c, #d97706, #ea580c)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                  backgroundClip: 'text'
-                }}>
+                <span
+                  style={{
+                    background:
+                      'linear-gradient(to right, #ea580c, #d97706, #ea580c)',
+                    WebkitBackgroundClip: 'text',
+                    WebkitTextFillColor: 'transparent',
+                    backgroundClip: 'text',
+                  }}
+                >
                   Dominate Online
                 </span>
               </h2>
 
-              <p style={{ fontSize: '1.25rem', color: '#64748b', lineHeight: '1.6' }}>
+              <p
+                style={{
+                  fontSize: '1.25rem',
+                  color: '#64748b',
+                  lineHeight: '1.6',
+                }}
+              >
                 From stunning web designs to powerful SEO strategies, we provide
-                <span style={{ color: '#2563eb', fontWeight: '600' }}> end-to-end digital solutions </span>
+                <span style={{ color: '#2563eb', fontWeight: '600' }}>
+                  {' '}
+                  end-to-end digital solutions{' '}
+                </span>
                 that drive real business growth.
               </p>
             </div>
 
             <ServicesSection />
+          </div>
+        </section>
+      </div>
+
       <Footer />
     </>
   );
-};
+});
 
 export default ServicesPage;
 
