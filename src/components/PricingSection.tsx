@@ -6,7 +6,7 @@ export const PricingSection = component$(() => {
       id: 'ai-consultation',
       title: 'AI Tool & Agent Consultation',
       description: 'Expert consultation to identify and implement the best AI tools and custom agents for your organization. We analyze your needs, recommend solutions, and build tailored AI systems to transform your business.',
-      logo: 'https://clipart-library.com/clipart/ai-clipart_30.html',
+      logo: 'https://png.pngtree.com/png-vector/20251210/ourlarge/pngtree-cute-friendly-ai-robot-waving-with-glowing-digital-face-display-png-image_18146770.webp',
       link: '/pricing/ai',
       bgClass: 'from-purple-50 to-pink-100'
     },
