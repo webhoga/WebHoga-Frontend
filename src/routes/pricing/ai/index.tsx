@@ -10,7 +10,6 @@ export const AIConsultation = component$(() => {
       title: 'AI Tools & Platforms Audit',
       description:
         'We analyze your current workflow and organizational needs to identify the best AI tools and platforms. From ChatGPT and Claude to specialized AI solutions, we recommend the perfect fit for your business.',
-      logo: 'https://cdn-icons-png.flaticon.com/512/3143/3143615.png',
       features: [
         'Current workflow assessment',
         'AI tool landscape analysis',
@@ -23,7 +22,6 @@ export const AIConsultation = component$(() => {
       title: 'Custom AI Agent Design',
       description:
         'Based on consultation findings, we design and build custom AI agents tailored to your organization. Automate tasks, improve customer service, or streamline internal processes with intelligent automation.',
-      logo: 'https://cdn-icons-png.flaticon.com/512/4436/4436481.png',
       features: [
         'Custom agent architecture',
         'Workflow automation design',
@@ -36,7 +34,6 @@ export const AIConsultation = component$(() => {
       title: 'Implementation & Training',
       description:
         'We handle the deployment of your AI tools and agents, then train your team to maximize their potential. Ensure smooth adoption and continuous improvement of your AI solutions.',
-      logo: 'https://cdn-icons-png.flaticon.com/512/4436/4436514.png',
       features: [
         'System deployment & setup',
         'Team training sessions',
@@ -111,39 +108,27 @@ export const AIConsultation = component$(() => {
             {consultationServices.map((service) => (
               <div
                 key={service.id}
-                class="bg-gradient-to-br from-slate-50 to-gray-100 rounded-3xl shadow-xl p-10 flex flex-col lg:flex-row items-center gap-10"
+                class="bg-gradient-to-br from-slate-50 to-gray-100 rounded-3xl shadow-xl p-10"
               >
-                <div class="flex-1 space-y-6">
-                  <h3 class="text-3xl font-bold text-gray-900">
-                    {service.title}
-                  </h3>
-                  <p class="text-lg text-gray-700 leading-relaxed">
-                    {service.description}
+                <h3 class="text-3xl font-bold text-gray-900 mb-6">
+                  {service.title}
+                </h3>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                  {service.description}
+                </p>
+                
+                <div class="space-y-3">
+                  <p class="text-sm font-semibold text-gray-600 uppercase tracking-wide">
+                    What's Included:
                   </p>
-                  
-                  <div class="space-y-3">
-                    <p class="text-sm font-semibold text-gray-600 uppercase tracking-wide">
-                      What's Included:
-                    </p>
-                    <ul class="space-y-2">
-                      {service.features.map((feature, idx) => (
-                        <li key={idx} class="flex items-start gap-3">
-                          <span class="inline-block w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></span>
-                          <span class="text-gray-700">{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="w-40 h-40 flex-shrink-0">
-                  <img
-                    src={service.logo}
-                    alt={`${service.title} icon`}
-                    width="200"
-                    height="200"
-                    class="w-full h-full object-contain"
-                  />
+                  <ul class="space-y-2">
+                    {service.features.map((feature, idx) => (
+                      <li key={idx} class="flex items-start gap-3">
+                        <span class="inline-block w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></span>
+                        <span class="text-gray-700">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             ))}
