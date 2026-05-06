@@ -110,6 +110,15 @@ export default component$(() => {
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
 
+            <a href="/ai" class="group relative font-medium text-slate-700 transition-colors hover:text-emerald-600">
+              <span class="flex items-center gap-1">
+                <span class="bg-gradient-to-r from-emerald-600 to-green-600 bg-clip-text font-semibold text-transparent">
+                  AI Solutions
+                </span>
+              </span>
+              <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-emerald-500 to-green-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+
             {/* BizAssist */}
             {/*
             <a
@@ -219,6 +228,10 @@ export default component$(() => {
 
             <a href="/services" onClick$={closeMenu} class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">
               Services
+            </a>
+
+            <a href="/ai" onClick$={closeMenu} class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-emerald-50 hover:text-emerald-600">
+              <span class="font-semibold text-emerald-600">AI Solutions</span>
             </a>
 
             {/* BizAssist */}
