@@ -57,7 +57,7 @@ export default component$(() => {
                 </p>
                 <div class="flex items-center font-semibold text-purple-600 transition-all group-hover:gap-3">
                   <span>
-                    <a href="/pricing/ai-consultation">Learn More</a>
+                    <a href="/ai">Learn More</a>
                   </span>
                   <svg
                     class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
