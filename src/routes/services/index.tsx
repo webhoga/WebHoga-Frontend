@@ -197,17 +197,17 @@ const ServicesPage = component$(() => {
 export default ServicesPage;
 
 export const head: DocumentHead = {
-  title: 'Our Digital Services | Web Design, SEO, Branding & More',
+  title: 'Our Digital Services | Web Design, SEO, AI Solutions & More',
   meta: [
     {
       name: 'description',
       content:
-        'Discover our full suite of digital services including web design, SEO, branding, content writing, and more. Everything you need to grow your business online.',
+        'Discover our full suite of digital services including AI consulting, web design, SEO, branding, content writing, ecommerce, and more. Everything you need to grow your business online.',
     },
     {
       name: 'keywords',
       content:
-        'web design, SEO services, branding, digital marketing, content writing, ecommerce, landing pages, analytics, payment integration',
+        'AI consulting, AI tools, web design, SEO services, branding, digital marketing, content writing, ecommerce, landing pages, analytics, payment integration, hotel booking engine, travel portal',
     },
     {
       name: 'robots',
@@ -215,12 +215,12 @@ export const head: DocumentHead = {
     },
     {
       property: 'og:title',
-      content: 'Our Digital Services | Web Design, SEO, Branding & More',
+      content: 'Our Digital Services | Web Design, SEO, AI Solutions & More',
     },
     {
       property: 'og:description',
       content:
-        'Explore our professional services crafted to boost your online presence. From SEO to ecommerce, we help your business succeed online.',
+        'Explore our professional services including AI consulting, web design, SEO, branding, and ecommerce solutions crafted to boost your online presence and grow your business.',
     },
     {
       property: 'og:type',
