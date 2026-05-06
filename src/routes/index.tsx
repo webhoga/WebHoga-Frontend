@@ -1,4 +1,3 @@
-
 import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { useScrollAnimate } from "~/hooks/useScrollAnimate";
@@ -10,12 +9,12 @@ import PricingSection from "~/components/PricingSection";
 import { AdsCta } from "~/components/AdsCta";
 
 export const head: DocumentHead = {
-  title: "WebHoga – Premium Web Design Agency in India",
+  title: "WebHoga – Premium Web Design & AI Solutions Agency in India",
   meta: [
     {
       name: "description",
       content:
-        "WebHoga delivers SEO-optimized, high-performance websites for Indian and global businesses — including custom-coded platforms, WordPress sites, and eCommerce solutions.",
+        "WebHoga delivers cutting-edge AI solutions and SEO-optimized, high-performance websites for Indian and global businesses — including custom-coded platforms, WordPress sites, AI consulting, and eCommerce solutions.",
     },
     {
       name: "viewport",
@@ -23,12 +22,12 @@ export const head: DocumentHead = {
     },
     {
       property: "og:title",
-      content: "WebHoga – Premium Web Design Agency in India",
+      content: "WebHoga – Premium Web Design & AI Solutions Agency in India",
     },
     {
       property: "og:description",
       content:
-        "SEO-ready, high-performance websites — custom-coded, WordPress, and eCommerce — for Indian and global businesses.",
+        "AI-powered, SEO-ready, high-performance websites — custom-coded, WordPress, eCommerce, and custom AI agents — for Indian and global businesses.",
     },
     {
       property: "og:type",
@@ -48,12 +47,12 @@ export const head: DocumentHead = {
     },
     {
       name: "twitter:title",
-      content: "WebHoga – Premium Web Design Agency in India",
+      content: "WebHoga – Premium Web Design & AI Solutions Agency in India",
     },
     {
       name: "twitter:description",
       content:
-        "SEO-ready, high-performance websites — custom-coded, WordPress, and eCommerce — for Indian and global businesses.",
+        "AI-powered websites and custom AI consulting — fast, SEO-optimized solutions for Indian and global businesses.",
     },
     {
       name: "twitter:image",
@@ -194,7 +193,7 @@ export default component$(() => {
               {/* Premium Badge */}
               <div class="mt-12 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 px-4 py-2 text-sm font-medium text-white shadow-lg">
                 <span class="h-2 w-2 animate-pulse rounded-full bg-white"></span>
-                India's Premium Web Design Agency
+                India's Premium Web Design & AI Solutions Agency
               </div>
 
               {/* Main Headline */}
@@ -204,10 +203,10 @@ export default component$(() => {
                     WebHoga
                   </span>
                   <br />
-                  <span class="text-slate-800">Designs That</span>
+                  <span class="text-slate-800">AI-Powered Web Design &</span>
                   <br />
                   <span class="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                    Win Clients
+                    Custom AI Solutions
                   </span>
                 </h1>
               </div>
@@ -218,10 +217,11 @@ export default component$(() => {
                 <span class="font-semibold text-orange-600">blazing-fast</span>,
                 <span class="font-semibold text-blue-600"> mobile-first</span>,
                 <span class="font-semibold text-amber-600"> SEO-optimized</span>{" "}
-                websites that deliver measurable ROI through increased
+                websites and implement{" "}
+                <span class="font-semibold text-emerald-600">custom AI solutions</span> that deliver measurable ROI through increased
                 <span class="font-semibold text-green-600">
                   {" "}
-                  traffic, leads, and sales
+                  traffic, leads, sales, and automation
                 </span>
                 .
               </p>
