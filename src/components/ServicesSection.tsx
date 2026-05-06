@@ -42,6 +42,40 @@ export default component$(() => {
 
           {/* Services Grid */}
           <div class="fade-in-up grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            
+            {/* AI Tool & Agent Consultation */}
+            <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
+              <div class="relative z-10">
+                <h3 class="mb-4 text-2xl font-bold text-slate-800">
+                  AI Tool & Agent Consultation
+                </h3>
+                <p class="mb-6 leading-relaxed text-slate-600">
+                  Expert consultation to identify and implement the best AI tools 
+                  for your organization. We design custom AI agents that automate 
+                  workflows and drive growth.
+                </p>
+                <div class="flex items-center font-semibold text-purple-600 transition-all group-hover:gap-3">
+                  <span>
+                    <a href="/pricing/ai-consultation">Learn More</a>
+                  </span>
+                  <svg
+                    class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
             {/* Web Designing */}
             <div class="group relative transform overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
               <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 transition-opacity group-hover:opacity-100"></div>
