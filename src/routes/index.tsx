@@ -186,7 +186,7 @@ export default component$(() => {
           </svg>
         </div>
 
-        <div class="relative z-10 container mx-auto px-4 py-20">
+        <div class="relative z-10 container mx-auto px-4 py-20 pt-40">
           <div class="grid min-h-[80vh] items-center gap-12 lg:grid-cols-2">
             {/* Left Content Block - Headings */}
             <div class="fade-in-up space-y-8">
@@ -226,8 +226,8 @@ export default component$(() => {
                 .
               </p>
 
-              {/* Trust Indicators */}
-              <div class="flex flex-col gap-4 text-sm text-slate-600">
+              {/* Trust Indicators - Hidden on first view, visible on scroll */}
+              <div class="fade-in-up flex flex-col gap-4 text-sm text-slate-600">
                 <div class="flex items-center gap-2">
                   <div class="h-3 w-3 rounded-full bg-green-500"></div>
                   <span>Trusted by 100+ Growing Indian Businesses</span>
