@@ -187,11 +187,11 @@ export default component$(() => {
         </div>
 
         <div class="relative z-10 container mx-auto px-4 py-20">
-          <div class="flex min-h-[80vh] items-center justify-center">
-            {/* Centered Content Block */}
-            <div class="fade-in-up space-y-8 max-w-3xl text-center">
+          <div class="grid min-h-[80vh] items-center gap-12 lg:grid-cols-2">
+            {/* Left Content Block - Headings */}
+            <div class="fade-in-up space-y-8">
               {/* Premium Badge */}
-              <div class="mt-12 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 px-4 py-2 text-sm font-medium text-white shadow-lg justify-center mx-auto">
+              <div class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 px-4 py-2 text-sm font-medium text-white shadow-lg">
                 <span class="h-2 w-2 animate-pulse rounded-full bg-white"></span>
                 India's Premium Web Design & AI Solutions Agency
               </div>
@@ -212,7 +212,7 @@ export default component$(() => {
               </div>
 
               {/* Subheading */}
-              <p class="max-w-2xl text-xl leading-relaxed text-slate-600 lg:text-2xl mx-auto">
+              <p class="max-w-2xl text-xl leading-relaxed text-slate-600 lg:text-2xl">
                 We craft{" "}
                 <span class="font-semibold text-orange-600">blazing-fast</span>,
                 <span class="font-semibold text-blue-600"> mobile-first</span>,
@@ -227,7 +227,7 @@ export default component$(() => {
               </p>
 
               {/* Trust Indicators */}
-              <div class="flex flex-col items-center gap-4 text-sm text-slate-600 justify-center">
+              <div class="flex flex-col gap-4 text-sm text-slate-600">
                 <div class="flex items-center gap-2">
                   <div class="h-3 w-3 rounded-full bg-green-500"></div>
                   <span>Trusted by 100+ Growing Indian Businesses</span>
@@ -237,14 +237,44 @@ export default component$(() => {
                   <span>99% Client Retention Rate</span>
                 </div>
               </div>
+            </div>
 
-              {/* CTA Buttons */}
-              <div class="flex flex-col gap-4 pt-4 sm:flex-row justify-center">
+            {/* Right Content Block - Stats & CTA */}
+            <div class="fade-in-up space-y-8">
+              {/* Quick Stats */}
+              <div class="space-y-4">
+                <div class="rounded-2xl border border-orange-100 bg-gradient-to-br from-orange-50 to-amber-50 p-6">
+                  <div class="text-center">
+                    <div class="text-5xl font-bold text-orange-600">100+</div>
+                    <div class="mt-2 text-lg font-semibold text-slate-800">Projects Delivered</div>
+                    <p class="mt-1 text-sm text-slate-600">Successful websites built for growing businesses</p>
+                  </div>
+                </div>
+
+                <div class="rounded-2xl border border-blue-100 bg-gradient-to-br from-blue-50 to-cyan-50 p-6">
+                  <div class="text-center">
+                    <div class="text-5xl font-bold text-blue-600">48hr</div>
+                    <div class="mt-2 text-lg font-semibold text-slate-800">Quick Turnaround</div>
+                    <p class="mt-1 text-sm text-slate-600">Fast delivery without compromising quality</p>
+                  </div>
+                </div>
+
+                <div class="rounded-2xl border border-amber-100 bg-gradient-to-br from-amber-50 to-orange-50 p-6">
+                  <div class="text-center">
+                    <div class="text-5xl font-bold text-amber-600">24/7</div>
+                    <div class="mt-2 text-lg font-semibold text-slate-800">Support Available</div>
+                    <p class="mt-1 text-sm text-slate-600">Always here when you need us</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* CTA Button */}
+              <div class="flex flex-col gap-4 pt-4">
                 <a
                   href="/contact"
-                  class="group relative inline-block transform overflow-hidden rounded-xl border-2 border-blue-500 bg-white px-8 py-4 text-lg font-semibold text-blue-600 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-blue-500 hover:text-white"
+                  class="group relative inline-block w-full transform overflow-hidden rounded-xl border-2 border-blue-500 bg-white px-8 py-4 text-center text-lg font-semibold text-blue-600 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-blue-500 hover:text-white"
                 >
-                  <span class="flex items-center gap-2">
+                  <span class="flex items-center justify-center gap-2">
                     Get Free Proposal
                     <svg
                       class="h-5 w-5 transition-transform group-hover:rotate-12"
@@ -261,22 +291,6 @@ export default component$(() => {
                     </svg>
                   </span>
                 </a>
-              </div>
-
-              {/* Quick Stats */}
-              <div class="grid grid-cols-3 gap-6 border-t border-slate-200 pt-8 mx-auto max-w-2xl">
-                <div class="text-center">
-                  <div class="text-3xl font-bold text-orange-600">100+</div>
-                  <div class="text-sm text-slate-600">Projects Delivered</div>
-                </div>
-                <div class="text-center">
-                  <div class="text-3xl font-bold text-blue-600">48hr</div>
-                  <div class="text-sm text-slate-600">Quick Turnaround</div>
-                </div>
-                <div class="text-center">
-                  <div class="text-3xl font-bold text-amber-600">24/7</div>
-                  <div class="text-sm text-slate-600">Support Available</div>
-                </div>
               </div>
             </div>
           </div>
