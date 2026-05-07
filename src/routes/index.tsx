@@ -187,11 +187,11 @@ export default component$(() => {
         </div>
 
         <div class="relative z-10 container mx-auto px-4 py-20">
-          <div class="grid min-h-[80vh] items-center gap-12 lg:grid-cols-2">
-            {/* Left Content Block */}
-            <div class="fade-in-up space-y-8">
+          <div class="flex min-h-[80vh] items-center justify-center">
+            {/* Centered Content Block */}
+            <div class="fade-in-up space-y-8 max-w-3xl text-center">
               {/* Premium Badge */}
-              <div class="mt-12 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 px-4 py-2 text-sm font-medium text-white shadow-lg">
+              <div class="mt-12 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 px-4 py-2 text-sm font-medium text-white shadow-lg justify-center mx-auto">
                 <span class="h-2 w-2 animate-pulse rounded-full bg-white"></span>
                 India's Premium Web Design & AI Solutions Agency
               </div>
@@ -212,7 +212,7 @@ export default component$(() => {
               </div>
 
               {/* Subheading */}
-              <p class="max-w-2xl text-xl leading-relaxed text-slate-600 lg:text-2xl">
+              <p class="max-w-2xl text-xl leading-relaxed text-slate-600 lg:text-2xl mx-auto">
                 We craft{" "}
                 <span class="font-semibold text-orange-600">blazing-fast</span>,
                 <span class="font-semibold text-blue-600"> mobile-first</span>,
@@ -227,7 +227,7 @@ export default component$(() => {
               </p>
 
               {/* Trust Indicators */}
-              <div class="flex items-center gap-6 text-sm text-slate-600">
+              <div class="flex flex-col items-center gap-4 text-sm text-slate-600 justify-center">
                 <div class="flex items-center gap-2">
                   <div class="h-3 w-3 rounded-full bg-green-500"></div>
                   <span>Trusted by 100+ Growing Indian Businesses</span>
@@ -239,7 +239,7 @@ export default component$(() => {
               </div>
 
               {/* CTA Buttons */}
-              <div class="flex flex-col gap-4 pt-4 sm:flex-row">
+              <div class="flex flex-col gap-4 pt-4 sm:flex-row justify-center">
                 <a
                   href="/contact"
                   class="group relative inline-block transform overflow-hidden rounded-xl border-2 border-blue-500 bg-white px-8 py-4 text-lg font-semibold text-blue-600 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-blue-500 hover:text-white"
@@ -264,7 +264,7 @@ export default component$(() => {
               </div>
 
               {/* Quick Stats */}
-              <div class="grid grid-cols-3 gap-6 border-t border-slate-200 pt-8">
+              <div class="grid grid-cols-3 gap-6 border-t border-slate-200 pt-8 mx-auto max-w-2xl">
                 <div class="text-center">
                   <div class="text-3xl font-bold text-orange-600">100+</div>
                   <div class="text-sm text-slate-600">Projects Delivered</div>
@@ -276,430 +276,6 @@ export default component$(() => {
                 <div class="text-center">
                   <div class="text-3xl font-bold text-amber-600">24/7</div>
                   <div class="text-sm text-slate-600">Support Available</div>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Visual Block - Enhanced Dynamic Mockup */}
-            <div class="fade-in-up relative">
-              {/* Main Image Container */}
-              <div class="relative z-10">
-                <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-white to-gray-50 p-6 shadow-2xl">
-                  {/* Mock Website Preview - Enhanced Iyers Academy */}
-                  <div class="space-y-4">
-                    {/* Browser Bar */}
-                    <div class="flex items-center gap-2 rounded-lg bg-gray-100 p-3">
-                      <div class="flex gap-2">
-                        <div class="h-3 w-3 rounded-full bg-red-400"></div>
-                        <div class="h-3 w-3 rounded-full bg-yellow-400"></div>
-                        <div class="h-3 w-3 rounded-full bg-green-400"></div>
-                      </div>
-                      <div class="flex-1 rounded bg-white px-3 py-1 text-sm text-gray-500">
-                        🔒 iyersacademy.in
-                      </div>
-                      <div class="text-gray-400">
-                        <svg
-                          class="h-4 w-4"
-                          fill="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <circle cx="5" cy="12" r="2" />
-                          <circle cx="12" cy="12" r="2" />
-                          <circle cx="19" cy="12" r="2" />
-                        </svg>
-                      </div>
-                    </div>
-
-                    {/* Website Content - Enhanced with Images */}
-                    <div class="custom-scrollbar max-h-96 space-y-4 overflow-hidden overflow-y-auto rounded-lg bg-white">
-                      {/* Header with Hero Image */}
-                      <div class="relative">
-                        {/* Background Hero Image */}
-                        <div class="relative h-32 overflow-hidden bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900">
-                          {/* Overlay pattern */}
-                          <div class="absolute inset-0 bg-black/20"></div>
-                          <div class="absolute inset-0 bg-gradient-to-r from-blue-600/90 to-indigo-700/90"></div>
-                          {/* Abstract education pattern */}
-                          <div class="absolute inset-0 opacity-10">
-                            <svg class="h-full w-full" viewBox="0 0 100 100">
-                              <circle cx="20" cy="20" r="2" fill="white" />
-                              <circle cx="80" cy="30" r="1.5" fill="white" />
-                              <circle cx="60" cy="70" r="1" fill="white" />
-                              <circle cx="30" cy="80" r="2.5" fill="white" />
-                              <circle cx="90" cy="60" r="1" fill="white" />
-                              <circle cx="10" cy="60" r="1.5" fill="white" />
-                            </svg>
-                          </div>
-                        </div>
-
-                        {/* Header Content */}
-                        <div class="absolute inset-0 flex items-center justify-between p-4 text-white">
-                          <div class="flex items-center gap-3">
-                            <div class="flex h-12 w-12 items-center justify-center rounded-full border border-white/30 bg-white/20 text-lg font-bold backdrop-blur-sm">
-                              <span class="text-orange-300">🎓</span>
-                            </div>
-                            <div>
-                              <div class="text-xl font-bold">Iyers Academy</div>
-                              <div class="text-sm text-blue-100">
-                                Excellence in Medical & Engineering Education
-                              </div>
-                            </div>
-                          </div>
-                          <div class="rounded-full border border-orange-400/50 bg-orange-500/90 px-3 py-2 text-sm backdrop-blur-sm">
-                            📞 Contact Now
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Navigation */}
-                      <div class="flex gap-4 border-b border-gray-100 px-4 pb-2 text-sm">
-                        <div class="border-b-2 border-blue-600 pb-2 font-semibold text-blue-600">
-                          🏠 Home
-                        </div>
-                        <div class="pb-2 text-gray-600 hover:text-blue-600">
-                          📚 Courses
-                        </div>
-                        <div class="pb-2 text-gray-600 hover:text-blue-600">
-                          👨‍🏫 Faculty
-                        </div>
-                        <div class="pb-2 text-gray-600 hover:text-blue-600">
-                          🏆 Results
-                        </div>
-                        <div class="pb-2 text-gray-600 hover:text-blue-600">
-                          ℹ️ About
-                        </div>
-                      </div>
-
-                      {/* Announcement Banner */}
-                      <div class="px-4">
-                        <div class="relative overflow-hidden rounded-lg bg-gradient-to-r from-red-500 to-pink-600 p-4 text-white">
-                          <div class="absolute inset-0 bg-gradient-to-r from-red-600/50 to-pink-700/50"></div>
-                          <div class="relative z-10">
-                            <div class="flex items-center gap-2 text-lg font-bold">
-                              <span class="animate-pulse">🎯</span>
-                              <span>NEET 2024 Results Out!</span>
-                              <span class="animate-bounce">🎉</span>
-                            </div>
-                            <div class="mt-1 text-sm text-red-100">
-                              89% Students Cleared with Top Ranks • View Results
-                              →
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Hero Section with Student Image */}
-                      <div class="space-y-3 px-4">
-                        <div class="rounded-xl border border-blue-100 bg-gradient-to-br from-blue-50 to-indigo-50 p-4">
-                          <div class="flex items-center gap-4">
-                            {/* Student Success Image Placeholder */}
-                            <div class="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-green-400 to-emerald-500 text-2xl text-white">
-                              👨‍🎓
-                            </div>
-                            <div class="flex-1">
-                              <div class="text-lg font-bold text-blue-900">
-                                Join 5000+ Successful Students
-                              </div>
-                              <div class="text-sm text-blue-700">
-                                NEET • JEE • Foundation Courses
-                              </div>
-                              <div class="mt-1 flex gap-1">
-                                <span class="text-sm text-yellow-400">⭐</span>
-                                <span class="text-sm text-yellow-400">⭐</span>
-                                <span class="text-sm text-yellow-400">⭐</span>
-                                <span class="text-sm text-yellow-400">⭐</span>
-                                <span class="text-sm text-yellow-400">⭐</span>
-                                <span class="ml-1 text-sm text-gray-600">
-                                  (4.9/5)
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Live Stats Cards */}
-                      <div class="grid grid-cols-3 gap-2 px-4">
-                        <div class="rounded-lg border border-green-100 bg-gradient-to-br from-green-50 to-emerald-50 p-3 text-center">
-                          <div class="flex items-center justify-center gap-1 text-xl font-bold text-green-600">
-                            <span class="animate-pulse">📈</span>
-                            <span>98%</span>
-                          </div>
-                          <div class="text-xs font-medium text-green-700">
-                            Success Rate
-                          </div>
-                        </div>
-                        <div class="rounded-lg border border-blue-100 bg-gradient-to-br from-blue-50 to-cyan-50 p-3 text-center">
-                          <div class="flex items-center justify-center gap-1 text-xl font-bold text-blue-600">
-                            <span>🎯</span>
-                            <span>AIR 1</span>
-                          </div>
-                          <div class="text-xs font-medium text-blue-700">
-                            Top Rank
-                          </div>
-                        </div>
-                        <div class="rounded-lg border border-purple-100 bg-gradient-to-br from-purple-50 to-violet-50 p-3 text-center">
-                          <div class="flex items-center justify-center gap-1 text-xl font-bold text-purple-600">
-                            <span>👥</span>
-                            <span>5000+</span>
-                          </div>
-                          <div class="text-xs font-medium text-purple-700">
-                            Alumni
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Faculty Section with Images */}
-                      <div class="space-y-3 px-4">
-                        <div class="flex items-center justify-between">
-                          <div class="flex items-center gap-2 font-semibold text-gray-800">
-                            <span>👨‍🏫</span>
-                            <span>Expert Faculty</span>
-                          </div>
-                          <div class="text-sm text-blue-600">View All →</div>
-                        </div>
-                        <div class="flex gap-3 overflow-x-auto">
-                          {/* Faculty Cards */}
-                          <div class="w-32 flex-shrink-0 rounded-lg border border-gray-200 bg-white p-3">
-                            <div class="mx-auto mb-2 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 text-xl text-white">
-                              👨‍🔬
-                            </div>
-                            <div class="text-center">
-                              <div class="text-xs font-medium">Dr. Sharma</div>
-                              <div class="text-xs text-gray-500">
-                                Physics • 15 yrs
-                              </div>
-                              <div class="mt-1 flex justify-center gap-1">
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="w-32 flex-shrink-0 rounded-lg border border-gray-200 bg-white p-3">
-                            <div class="mx-auto mb-2 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-green-500 to-emerald-600 text-xl text-white">
-                              🧬
-                            </div>
-                            <div class="text-center">
-                              <div class="text-xs font-medium">Dr. Priya</div>
-                              <div class="text-xs text-gray-500">
-                                Biology • 12 yrs
-                              </div>
-                              <div class="mt-1 flex justify-center gap-1">
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="w-32 flex-shrink-0 rounded-lg border border-gray-200 bg-white p-3">
-                            <div class="mx-auto mb-2 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-violet-600 text-xl text-white">
-                              🧮
-                            </div>
-                            <div class="text-center">
-                              <div class="text-xs font-medium">Prof. Kumar</div>
-                              <div class="text-xs text-gray-500">
-                                Math • 18 yrs
-                              </div>
-                              <div class="mt-1 flex justify-center gap-1">
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Courses Section Enhanced */}
-                      <div class="space-y-3 px-4">
-                        <div class="flex items-center gap-2 font-semibold text-gray-800">
-                          <span>📚</span>
-                          <span>Popular Courses</span>
-                          <span class="ml-auto animate-pulse text-xs text-red-500">
-                            🔥 Hot
-                          </span>
-                        </div>
-                        <div class="space-y-2">
-                          <div class="flex items-center gap-3 rounded-lg border border-blue-100 bg-gradient-to-r from-blue-50 to-cyan-50 p-3 transition-shadow hover:shadow-md">
-                            <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 text-lg text-white">
-                              🏥
-                            </div>
-                            <div class="flex-1">
-                              <div class="flex items-center gap-2 text-sm font-medium">
-                                <span>NEET Foundation</span>
-                                <span class="rounded-full bg-green-100 px-2 py-1 text-xs text-green-700">
-                                  98% Success
-                                </span>
-                              </div>
-                              <div class="text-xs text-gray-500">
-                                Class 11-12 • Medical Entrance • Live Classes
-                              </div>
-                              <div class="text-xs font-medium text-blue-600">
-                                ₹15,000/year • EMI Available
-                              </div>
-                            </div>
-                            <div class="text-sm text-blue-600">→</div>
-                          </div>
-                          <div class="flex items-center gap-3 rounded-lg border border-green-100 bg-gradient-to-r from-green-50 to-emerald-50 p-3 transition-shadow hover:shadow-md">
-                            <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-green-500 to-emerald-500 text-lg text-white">
-                              ⚙️
-                            </div>
-                            <div class="flex-1">
-                              <div class="flex items-center gap-2 text-sm font-medium">
-                                <span>JEE Advanced</span>
-                                <span class="rounded-full bg-orange-100 px-2 py-1 text-xs text-orange-700">
-                                  AIR 1 Record
-                                </span>
-                              </div>
-                              <div class="text-xs text-gray-500">
-                                Engineering • IIT Preparation • Doubt Solving
-                              </div>
-                              <div class="text-xs font-medium text-green-600">
-                                ₹18,000/year • Scholarship Available
-                              </div>
-                            </div>
-                            <div class="text-sm text-green-600">→</div>
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Student Testimonials */}
-                      <div class="space-y-3 px-4">
-                        <div class="flex items-center gap-2 font-semibold text-gray-800">
-                          <span>💬</span>
-                          <span>Student Reviews</span>
-                        </div>
-                        <div class="rounded-lg border border-yellow-100 bg-gradient-to-r from-yellow-50 to-orange-50 p-3">
-                          <div class="flex items-start gap-3">
-                            <div class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-yellow-400 to-orange-500 text-sm text-white">
-                              👨‍🎓
-                            </div>
-                            <div class="flex-1">
-                              <div class="mb-1 flex items-center gap-2">
-                                <div class="text-sm font-medium">
-                                  Arjun Patel
-                                </div>
-                                <div class="rounded-full bg-green-100 px-2 py-1 text-xs text-green-700">
-                                  NEET AIR 47
-                                </div>
-                              </div>
-                              <div class="text-xs text-gray-600 italic">
-                                "Best coaching in Kerala! Faculty is amazing and
-                                study material is top-notch."
-                              </div>
-                              <div class="mt-2 flex gap-1">
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                                <span class="text-xs text-yellow-400">⭐</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* CTA Section Enhanced */}
-                      <div class="px-4 pb-4">
-                        <div class="relative overflow-hidden rounded-xl bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 p-4 text-center text-white">
-                          <div class="absolute inset-0 bg-gradient-to-r from-orange-600/50 to-pink-600/50"></div>
-                          <div class="relative z-10">
-                            <div class="mb-2 flex items-center justify-center gap-2 text-lg font-bold">
-                              <span class="animate-bounce">🚀</span>
-                              <span>Start Your Dream Journey</span>
-                              <span class="animate-bounce">🎯</span>
-                            </div>
-                            <div class="text-sm text-orange-100">
-                              Free Demo Class • Career Counseling • Study
-                              Material
-                            </div>
-                            <div class="mt-3 inline-block rounded-full bg-white/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
-                              📞 Call Now: +91-9876543210
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Footer Credit */}
-                      <div class="px-4 pb-4">
-                        <div class="border-t border-gray-100 pt-3 text-center text-xs text-gray-400">
-                          <div class="flex items-center justify-center gap-2">
-                            <span>Designed with</span>
-                            <span class="animate-pulse text-red-500">❤️</span>
-                            <span>by</span>
-                            <span class="font-semibold text-orange-500">
-                              WebHoga
-                            </span>
-                            <span class="text-green-500">✨</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Floating Achievement Badges */}
-                  <div class="absolute -top-4 -right-4 flex h-20 w-20 animate-bounce items-center justify-center rounded-full bg-gradient-to-br from-orange-400 to-amber-400 text-2xl text-white shadow-lg">
-                    🏆
-                  </div>
-                  <div class="absolute -bottom-4 -left-4 flex h-16 w-16 animate-pulse items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-cyan-400 text-xl text-white shadow-lg">
-                    ⚡
-                  </div>
-                </div>
-
-                {/* Background Decorative Elements */}
-                <div class="absolute -top-6 -right-6 h-32 w-32 rounded-full bg-gradient-to-br from-orange-300/30 to-amber-300/30 blur-xl"></div>
-                <div class="absolute -bottom-6 -left-6 h-24 w-24 rounded-full bg-gradient-to-br from-blue-300/30 to-cyan-300/30 blur-xl"></div>
-              </div>
-
-              {/* Enhanced Side Floating Cards */}
-              <div class="animate-float absolute top-10 -left-10 rounded-xl border border-green-100 bg-white p-4 shadow-lg">
-                <div class="flex items-center gap-3">
-                  <div class="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-green-500 to-emerald-500 text-white">
-                    🎯
-                  </div>
-                  <div>
-                    <div class="text-sm font-semibold">SEO Optimized</div>
-                    <div class="text-xs text-gray-500">Rank #1 on Google</div>
-                    <div class="text-xs font-medium text-green-600">
-                      +300% Traffic
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="animate-float absolute -right-10 bottom-10 rounded-xl border border-blue-100 bg-white p-4 shadow-lg delay-500">
-                <div class="flex items-center gap-3">
-                  <div class="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 text-white">
-                    📱
-                  </div>
-                  <div>
-                    <div class="text-sm font-semibold">Mobile First</div>
-                    <div class="text-xs text-gray-500">
-                      Perfect on all devices
-                    </div>
-                    <div class="text-xs font-medium text-blue-600">
-                      100% Responsive
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="animate-float absolute top-1/2 -right-16 rounded-xl border border-purple-100 bg-white p-3 shadow-lg delay-1000">
-                <div class="flex items-center gap-2">
-                  <div class="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-violet-500 text-sm text-white">
-                    ⚡
-                  </div>
-                  <div>
-                    <div class="text-xs font-semibold">Lightning Fast</div>
-                    <div class="text-xs text-gray-500">0.8s Load Time</div>
-                  </div>
                 </div>
               </div>
             </div>
