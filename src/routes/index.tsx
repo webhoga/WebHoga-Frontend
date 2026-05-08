@@ -247,7 +247,6 @@ export default component$(() => {
                   <div class="text-center">
                     <div class="text-5xl font-bold text-orange-600">100+</div>
                     <div class="mt-2 text-lg font-semibold text-slate-800">Projects Delivered</div>
-                    <p class="mt-1 text-sm text-slate-600">Successful websites built for growing businesses</p>
                   </div>
                 </div>
 
@@ -255,7 +254,6 @@ export default component$(() => {
                   <div class="text-center">
                     <div class="text-5xl font-bold text-blue-600">48hr</div>
                     <div class="mt-2 text-lg font-semibold text-slate-800">Quick Turnaround</div>
-                    <p class="mt-1 text-sm text-slate-600">Fast delivery without compromising quality</p>
                   </div>
                 </div>
 
@@ -263,7 +261,6 @@ export default component$(() => {
                   <div class="text-center">
                     <div class="text-5xl font-bold text-amber-600">24/7</div>
                     <div class="mt-2 text-lg font-semibold text-slate-800">Support Available</div>
-                    <p class="mt-1 text-sm text-slate-600">Always here when you need us</p>
                   </div>
                 </div>
               </div>
