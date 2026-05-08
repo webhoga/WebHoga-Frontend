@@ -21,7 +21,7 @@ export default component$(() => {
               />
             </div>
             <p class="mb-6 leading-relaxed text-slate-300">
-              Innovative web solutions designed to elevate your business online.
+              Innovative web solutions and AI technologies designed to elevate your business online.
             </p>
             <p class="mb-6 text-sm text-slate-400">
               Crafted in India, Loved Globally
@@ -88,6 +88,7 @@ export default component$(() => {
               Products
             </h3>
             <div class="space-y-4">
+              <a href="/ai" class="block font-medium text-orange-400 transition-colors hover:text-orange-300">🤖 AI Solutions & Consultation</a>
               <a href="/seo-and-web-optimization" class="block text-slate-300 transition-colors hover:text-orange-400">SEO & Web Optimization</a>
               <a href="/web-designing" class="block text-slate-300 transition-colors hover:text-orange-400">Website Designing</a>
               <a href="/logo-and-brand-identity" class="block text-slate-300 transition-colors hover:text-orange-400">Logo & Brand Identity</a>
